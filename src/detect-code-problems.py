@@ -7,10 +7,10 @@ from classes.cd import cd
 def compute_problems(sha, REPO_PATH):
   with cd(REPO_PATH):
     with cd(".git/"):
-      call(["rm", "index.lock"])
-    check_output(["git", "clean", "-d", "-fx", ""])
+      call(["rm", "-f", "index.lock"])
+    check_output(["git", "clean", "-d", "-fx"])
     check_output(["git", "checkout", sha])
-    check_output(["../../../tools/pmd-bin-6.2.0/bin/run.sh", "pmd", "-d", "./", "-f", "csv", "-R", "tools/pmd-bin-6.2.0/java-all.xml", "-version", "1.7", "-language", "java", ">", "../../pmd/%s-pmd.csv" % sha])
+    check_output(["../../../../tools/pmd-bin-6.2.0/bin/run.sh", "pmd", "-d", "./", "-f", "csv", "-R", "../../../../tools/pmd-bin-6.2.0/ruleset.xml", "-version", "1.7", "-language", "java", "-r", "../../pmd/%s-pmd.csv" % sha])
 
 def main(argv):
   PROJECT_NAME = argv[1]

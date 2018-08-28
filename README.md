@@ -24,7 +24,7 @@ TABELA 1: Estrutura do armazenamento de refatorações.
 | 36287f7c3b09eff78395267a3ac0d7da067863fd | 4 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 4c3bed414f5a1f712409010518429f02de220b7d | 10 | 0 | 0 | 2 | 5 | 1 | 0 | 0 | 0 | 2 | 0 | 0 |
 
-## Sentiment analysis
+### Sentiment analysis
 
 - Primeiro, baixe os dados de sentistrength: http://sentistrength.wlv.ac.uk/
 - Baixe a ferramenta Java do sentistrength: http://gateway.path.berkeley.edu:8080/artifactory/list/release-local/com/sentistrength/sentistrength/0.1/sentistrength-0.1.jar
@@ -32,16 +32,16 @@ TABELA 1: Estrutura do armazenamento de refatorações.
 - Renomear `tools/sentistrength/sentistrength_data/EmotionLookupTable.txt` para `tools/sentistrength/sentistrength_data/EmotionLookupTable-old.txt`.
 - Copiar o arquivo de palavras neutras para `tools/sentistrength/words-neutral.txt`
 
-### Passos de execução
+#### Passos de execução
 
 1. remover as palavras que são específicas do contexto (alterar o dicionário).
 2. `src/compute-sentiment.py PROJECT_NAME`: para computar os sentimentos nas partes.
 
-## Analizar commits sem refatorações a partir do log gerado pelo _RefactoringMiner_
+### Analizar commits sem refatorações a partir do log gerado pelo _RefactoringMiner_
 
 1. `src/from-log-to-db.py PROJECT_NAME`: para transformar os commits do LOG para um SQLITE file.
 
-## Exportar o CSV
+### Exportar o CSV
 
 - Commits com refatorações: `SELECT S.sha, S.Positive, S.Negative, R.total FROM sentiment S INNER JOIN refactorings R  ON S.sha = R.sha WHERE (S.Positive > 1 OR S.Negative < -1)`
 - Commits sem refatorações: `SELECT S.sha, S.Positive, S.Negative FROM sentiment S LEFT JOIN refactorings R  ON S.sha = R.sha WHERE R.sha is null and (S.Positive > 1 OR S.Negative < -1)`

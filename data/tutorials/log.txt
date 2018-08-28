@@ -1,22 +1,18 @@
 No refactorings found in commit 460a317e6ac767716d9f6cf518e259548e4567b8
-No refactorings found in commit b267a2d5a275f11c8ea16bfbfc2e27f53fd4af66
 No refactorings found in commit 5a44224fd98cbc5741b610b88c458a4fecb6eccb
-No refactorings found in commit f4785f320767dd6f8e27e1e9cd964e1816ca0af7
 No refactorings found in commit 0bf46b81a2c72a623f35f4129aef75b584b10846
 No refactorings found in commit 266c285533417e968f36a2c61fff750618e4c733
-3 refactorings found in commit 2e1949b898898c5664057f6ca1b1024091caa9b5
+6 refactorings found in commit 2e1949b898898c5664057f6ca1b1024091caa9b5
 No refactorings found in commit 1a443a6c63a049185bb3e4db40948d77fb2e124d
-No refactorings found in commit 90e6d2e19b987a9e34c845a70aba67fd774f9d1f
-9 refactorings found in commit 8572fa32135fbf3fe05507e78085aa99ca7021cd
+1 refactorings found in commit 90e6d2e19b987a9e34c845a70aba67fd774f9d1f
+10 refactorings found in commit 8572fa32135fbf3fe05507e78085aa99ca7021cd
 No refactorings found in commit ad40040852bf47baf73412d0a6850d4fa75fa122
 No refactorings found in commit 5a8e4a755e111342d17bed87157a986c901d41ce
 No refactorings found in commit 6fadb8bdefec048898d151cd12fbf99e45457d28
-No refactorings found in commit 2a90488a3fe0bf5b4a4b12f97d65c325806232e5
 No refactorings found in commit 19fb7ef5a2158f80110403a68bbd9dab054a1a01
 No refactorings found in commit b34473ebbb7a86fd59eb8a70828405ac3d9912c1
 No refactorings found in commit 2ed8ad2e00a632f6fbfca4ee0b7320733431d36f
 No refactorings found in commit 5ce4bd458a1d6b69e1f2d868d18ccfe2f74f931c
-No refactorings found in commit e28060857971b81b976981e230d366c5561a9dfd
 No refactorings found in commit b3064e448e46032415549621954a3603b31b5044
 No refactorings found in commit 323f5bf370ee2f13a18a5808956500be8d72fd22
 No refactorings found in commit 75a6a413566af4f8acd99c8ca8589b7c927c6347
@@ -35,7 +31,6 @@ No refactorings found in commit e0a9e4faf4f361d1d7c43bc08f208062a4c32549
 No refactorings found in commit c8ad201cf212dea90b3872ecc261f3c43e519080
 No refactorings found in commit 43365351c3265c28182ff37ca757bd268115fb2d
 No refactorings found in commit 489e3186bc671b297f83a2fdfc4174dba6a2d571
-No refactorings found in commit a62db1d4333f6d7e2640c17fe30d73e4624dfbaa
 No refactorings found in commit 5f90412f7cf7e345f26a1c1a8bdf8eea388ad207
 No refactorings found in commit 1a81c450e00cbe32aeb296b9409ab91ae2b9bcf9
 No refactorings found in commit 329bc976bfab180002cafa84fbc7c0ab8b1b0a19
@@ -60,17 +55,7 @@ No refactorings found in commit b07e50f46f4596ab2954ed3bacccb38bfd23b7e4
 No refactorings found in commit c45474954408111f00f0ab7c7fb4d206b52c70e3
 No refactorings found in commit b8d9a18626082b338b915363a30b5b0e84f0d00d
 No refactorings found in commit b194c15579a1c2bec7639fff39c282b86bc13db2
-Error processing commit 606bc36bf470b872b5ef50099e1f7ee98abd96d1
-java.lang.StringIndexOutOfBoundsException: String index out of range: 63
-        at java.lang.String.substring(String.java:1963)
-        at gr.uom.java.xmi.diff.MovedClassToAnotherSourceFolder.getRenamePattern(MovedClassToAnotherSourceFolder.java:16)
-        at gr.uom.java.xmi.diff.UMLModelDiff.getMoveClassRefactorings(UMLModelDiff.java:671)
-        at gr.uom.java.xmi.diff.UMLModelDiff.getRefactorings(UMLModelDiff.java:722)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detectRefactorings(GitHistoryRefactoringMinerImpl.java:123)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detect(GitHistoryRefactoringMinerImpl.java:82)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detectAll(GitHistoryRefactoringMinerImpl.java:230)
-        at org.refactoringminer.RefactoringMiner.detectAll(RefactoringMiner.java:63)
-        at org.refactoringminer.RefactoringMiner.main(RefactoringMiner.java:33)
+1 refactorings found in commit 606bc36bf470b872b5ef50099e1f7ee98abd96d1
 No refactorings found in commit b52e90861a657bbd23706c89441fe9911934775d
 No refactorings found in commit e87a37911f8b3355c93b458a9962114bba5e16ac
 No refactorings found in commit 0cc8aed5094a262dbc4f73a50ed496d3fa43529b
@@ -81,7 +66,6 @@ No refactorings found in commit d3a12858a9de67ce285a0a1a9e3b45b371c4d4dc
 No refactorings found in commit 94fc6997fe7d1fcc899b226ee8ace04824d92692
 2 refactorings found in commit d70fbdc27342f45275ee74a9a27168a5639b6e18
 No refactorings found in commit 53ec7a8313b2bf8871e957f9e9b0f682960b0b8f
-No refactorings found in commit 92db23d6d9db0762c647ab418ec69a4d6b3f6652
 No refactorings found in commit b2eaf0af582cc64661a662005dfbf8550974859b
 No refactorings found in commit 6491dc0b1f3976418d6a6f1f129abb700ae3ebe8
 No refactorings found in commit 5ce09eb2ebc20d02d96339d7f41a43b7da2442d1
@@ -119,7 +103,7 @@ No refactorings found in commit 69cd5cf49f4e61557d1be951edb4020877fcb6f7
 No refactorings found in commit bda9a7afd0c2a38e425fbe249c8f53074f9557e1
 No refactorings found in commit 1791013061bcdbfd67e4954b982bc366b4830b6f
 No refactorings found in commit b5086898156d4e3b716de7b1f235038db3b728a9
-1 refactorings found in commit 46e41130426559777c6bf75ba8618455f4cd021c
+2 refactorings found in commit 46e41130426559777c6bf75ba8618455f4cd021c
 No refactorings found in commit a526bed5c299685dfedc3f3f30d36dfe4db3b92c
 No refactorings found in commit f17b02911b674001c940de16a9ad1dcb46206dd7
 No refactorings found in commit 24acf35bce82bf5a6b37d06668d6fa76b4c3a734
@@ -147,13 +131,13 @@ No refactorings found in commit c5fadb51916d2890ad6fd5d25a0ddbd4484f2f42
 No refactorings found in commit bce01cfff54e2e081d90277c30db6945585b6dd7
 No refactorings found in commit 9667f061abd89f880f6b7e9dca4142394c3c63d2
 No refactorings found in commit af7f39371641ff574c6e3193ad4ded31c831e74f
-5 refactorings found in commit 84080c9e955fafc9b56ab8079a520995c669af44
+6 refactorings found in commit 84080c9e955fafc9b56ab8079a520995c669af44
 No refactorings found in commit 24cc2e05bfaa7b5b7ead7809b5b0a43f0ef8598f
-3 refactorings found in commit 42d3de85ba0eeb70465f1a5e95eae9ea4234dd3b
+4 refactorings found in commit 42d3de85ba0eeb70465f1a5e95eae9ea4234dd3b
 No refactorings found in commit 00b3a5148e7194a2d02bb3fe3866e76125a63162
 No refactorings found in commit 71ec77b6d50cb14189a03269f2e880b3b1853c1f
 No refactorings found in commit 36a7ed48af932270f820049aca5b5ba8a6b9cfdb
-4 refactorings found in commit 00c022388fcc884c18cf068e17afdbaaf1d9c757
+8 refactorings found in commit 00c022388fcc884c18cf068e17afdbaaf1d9c757
 No refactorings found in commit 67092ccc494ce985e78f047a2ca8af133255e282
 No refactorings found in commit 4526bb6addba3a4c957dd9a027ca6e6f78440cd7
 No refactorings found in commit 201092c2632c626e4c8655fc8da4ad1a949ba1f9
@@ -186,7 +170,6 @@ No refactorings found in commit 358f836ecf9eb666f990d8b18f319a2509a04ee4
 1 refactorings found in commit 535656eeb5b7ad044e70ddfdec69ffb1691a66c2
 No refactorings found in commit 84a9b2e0d8453ab885baa9a77a7d5bee73c4396b
 No refactorings found in commit 09bb65a846d41f885a99bc753bad67ada1c85de3
-No refactorings found in commit fa4b47e2e41987f642d9b9e26db55228658f8e83
 No refactorings found in commit 37223104c43d5920abc592e0c3f1114c18244437
 No refactorings found in commit 25a118deb3ce44f7b8957d212350f4284446bb39
 No refactorings found in commit 11def8541132152fd824225f22e07b99f4755883
@@ -209,7 +192,6 @@ No refactorings found in commit 9801a08599022643177a5e45b92da7e2f15f4fae
 1 refactorings found in commit c7e08524496ef1e5ce84f7373981e9fea652c76c
 No refactorings found in commit ef1b033b7846bd9071f1ede9a0c57996f24d32c5
 No refactorings found in commit 30285c1c186b526345239cace0ddeed9a2b2dea4
-No refactorings found in commit 2537e2374ed1a8aeaa3c6f434284af5af8f3cc5f
 No refactorings found in commit d1c884c9f11262e94ece53dd03cb4a8d8fba0c50
 No refactorings found in commit 8e0cececdb3a3823c665f4363427c7217cc03cf8
 4 refactorings found in commit bb7f7a0588eb6b72d403683d9cd46bd851ea9018
@@ -223,7 +205,7 @@ No refactorings found in commit 5a0932dff54b4dab3fa77b6743eafebc0cab0683
 No refactorings found in commit 46e446683a4fc56ac5e8fe5b832a848a8fe35005
 No refactorings found in commit e789eaa9ae0f895fd555f2a9cf52e0215e2d2bd0
 No refactorings found in commit dffe5cb81dc8abda7dc96bfdd88f81762777b017
-No refactorings found in commit 73f248ffddfb7e101e99a1e1b27d182c894fe52b
+1 refactorings found in commit 73f248ffddfb7e101e99a1e1b27d182c894fe52b
 No refactorings found in commit 95f0340318a6f411d115e34571cd7db97c54ea40
 No refactorings found in commit a6d3ddd38f7ceec337c9d12c4a85017485bb8566
 No refactorings found in commit c404d780813c199c6ca9e7cdf6ffde4d15e6f218
@@ -235,7 +217,7 @@ No refactorings found in commit 93717943707f4c12c0429cb9e04ad20ab6e2ce38
 No refactorings found in commit 0094a87f9a373df0bfcebf6574de7e137a305fef
 No refactorings found in commit bfdc1713a72fe0606c16a23b3d866947be3835f0
 No refactorings found in commit d7aecc83de2e85e4973e5ff655358198ed44e06d
-No refactorings found in commit 2399b4d817b188d13f3a8ef28c26d2d53e361182
+2 refactorings found in commit 2399b4d817b188d13f3a8ef28c26d2d53e361182
 No refactorings found in commit 53627ae439af9f1083c7136e0c21d85e1dfac846
 No refactorings found in commit e21dac0f1301dc9058033691f8aca2f00d8933cb
 1 refactorings found in commit 70fd753e481613d22584452ec67418402778360e
@@ -271,7 +253,6 @@ No refactorings found in commit 75b3301cc345e3370492b36263709d16c1667832
 1 refactorings found in commit 12a311083c13a24ba263ef3f8ce12331b0f18a61
 No refactorings found in commit 76dbe454f5370e56a827aa527fd6b0cda7986f04
 No refactorings found in commit 476ed301f638b1b6f65e827934c384db17044a91
-No refactorings found in commit 4f92c3849ca60de37bc49b305d185bf898f504c1
 No refactorings found in commit 5aa81d9be38c6f9398ff54406e9b953cfd3b8b51
 No refactorings found in commit 7debccf695d29cbdae221bd8b8795cc9073588cf
 21 refactorings found in commit c1787cc07a3943885c3064fb08a7782c251b05d5
@@ -290,8 +271,6 @@ No refactorings found in commit 3148bebd72ff18eeda2cec17f4d2708a60b1a90a
 No refactorings found in commit c0220b2a3404340462eaf0381f529ca125e00a57
 No refactorings found in commit 1b18720fb3394179707a9087cf6308b808b3a66a
 No refactorings found in commit 77735a57fd196e683dfb49c0c8deedab652d2bcf
-No refactorings found in commit 50d8f6f36e1262b8bf5943f1258ca4551386b995
-No refactorings found in commit 89529b079c99736675195ca4c549422c6b81cf2e
 27 refactorings found in commit 08d53a2cbb9685611a3969dba15786723e222510
 No refactorings found in commit b219245e5b22110d555ec44b9db2da5c4d4ca12e
 1 refactorings found in commit 414d805f6b854cc772a8232cba882eac4d3deae9
@@ -302,7 +281,7 @@ No refactorings found in commit 1372a565e2fba6a8a03e5fb427007fdb45488183
 No refactorings found in commit 8af29e8df5729ae1d4b9c3eb3b3d306741427f2a
 1 refactorings found in commit 53529f0c50e1d56af366b972bc75cb65e4f903f6
 No refactorings found in commit 666c07c7bee789f5f4c07c56f3b3172645879644
-No refactorings found in commit a27e73a57f909a3add358121f7fdb9a1da1de3d7
+7 refactorings found in commit a27e73a57f909a3add358121f7fdb9a1da1de3d7
 No refactorings found in commit 7d0efdb67d0b32f3da5890ed21b5329ec62311e3
 2 refactorings found in commit d09a828a58ea258dc30bda6deded16829553d5d7
 No refactorings found in commit 443e990fd128dbb52d98e6916465bb41ee923eb7
@@ -311,17 +290,17 @@ No refactorings found in commit a67d99a09a774a67dc16ec6dfd24c5bff5a56eef
 No refactorings found in commit 9376e8ce692612b0269b446bf48f19d15c233520
 No refactorings found in commit b8f433859ef3f4f73637de5ff575a35ca331bb5e
 No refactorings found in commit 4f6988b134ac47087cbcb9fc9d152d76bcfb01e7
-No refactorings found in commit 83bc46ee228db8c44a5b36e37c676a064fc472a5
+6 refactorings found in commit 83bc46ee228db8c44a5b36e37c676a064fc472a5
 No refactorings found in commit bcc3b6ed95d0d3d5e330299c51efe63190a9c632
 No refactorings found in commit 5842c877f3c77141d6da6f5167ac18bafe3d4323
-No refactorings found in commit 0c6aff4c8b60f148634fe644f4a560d8a2eacae5
-No refactorings found in commit 4760816cfb2c6bde7375f5190dde90d7eb7159c0
+3 refactorings found in commit 0c6aff4c8b60f148634fe644f4a560d8a2eacae5
+4 refactorings found in commit 4760816cfb2c6bde7375f5190dde90d7eb7159c0
 No refactorings found in commit 3d4a179ca3483ac0deb889fc6e3efe10f99d2b08
 No refactorings found in commit 42ffe6cb7c3da4c13dec442477c26615c23f4b31
 No refactorings found in commit dc6c89efbeb5f956c3a1921b8a02a4886651e823
 No refactorings found in commit a18ce8a3803dd4d5a384a5018f67c8e909acf59f
 No refactorings found in commit 97f56f33f69c95d25d1d57d64087e62a7a6afe71
-No refactorings found in commit 4d64a122710d4c6de532c7afc4d4f3e849862684
+2 refactorings found in commit 4d64a122710d4c6de532c7afc4d4f3e849862684
 No refactorings found in commit 45b4ccf8f6c397fe7a010c3d639ac558eaa51a9c
 No refactorings found in commit 9cc582e66a26df4359f0d527d740c9392f54a29b
 No refactorings found in commit 0b5a301c7c356a89fe36bd4cdd5c821f22029e51
@@ -355,7 +334,6 @@ No refactorings found in commit 6887bc10d1a3aa1d8b5778917c77c9047ef97dee
 No refactorings found in commit b2372b50061766aa27e203d6a1f84a2e04fb4198
 No refactorings found in commit 596efe3042c68eb91cc048356ab71a9ae95ce1d7
 No refactorings found in commit 62d9eed9fd95910b17bcf7c3e35b48c0093ebf8a
-3 refactorings found in commit c6c054bc1129d7a1342fe96d2ab024e68c1d3de3
 No refactorings found in commit efb66e300108383c5c72b304dc81429dba1a7acf
 No refactorings found in commit 5a34de448edd30514b3454dddcb30f9ce5ea749e
 No refactorings found in commit 56316fd029ff941e39e5bdf7dc3f5cca170946b0
@@ -385,7 +363,7 @@ No refactorings found in commit 145db059499a055bb1eba4677d6e3215701bb270
 No refactorings found in commit 53bb9276100b3714cdf08cc49de91e17dc172a7e
 No refactorings found in commit 5a31640528ac3e7fce5314b06e194077b0cccd4b
 No refactorings found in commit e15f2fc7dd347b42dbf414747cac8aa11e3c0b86
-No refactorings found in commit b9ac0dc78b8e51e0bda526b420746227ab53eff3
+1 refactorings found in commit b9ac0dc78b8e51e0bda526b420746227ab53eff3
 No refactorings found in commit 710c25fb010068882767bccaaa8c73a70922adcd
 No refactorings found in commit 4344479d7a724932efb897b279d040d3f157abb3
 No refactorings found in commit ff76cbc1fe12379b6e28ff63fb4ae80daa8a678e
@@ -400,7 +378,7 @@ No refactorings found in commit 15f18bbb83a7472328225851f527db78f938c771
 No refactorings found in commit 3e4b6df194059c0fc95c22e7fe2bcf07ea6c1224
 No refactorings found in commit 6e23e8f4fdc8bf1b1e37570c6d69fad80cef781d
 No refactorings found in commit 43a4d08c363242fd565f2f5cc3c03456b8a1b95d
-2 refactorings found in commit bd9a87c137477b26047f9e033e5fa6f049a534ba
+4 refactorings found in commit bd9a87c137477b26047f9e033e5fa6f049a534ba
 1 refactorings found in commit 5f87ceb1ffcdaf64f9d4ecf8ee468511c22a9f92
 No refactorings found in commit 950434a87341b4a6f1085b8feb8bb33eb95447f2
 No refactorings found in commit eb99ad575377f17e81e0cb480bcd4d48e234204c
@@ -447,17 +425,17 @@ No refactorings found in commit 0585764866cc01bba4adb07a0c91d16d6038116b
 No refactorings found in commit 689083a090caf9095d886b21e42f6f1e803614cf
 No refactorings found in commit 9f1429b067ccbc26204d950e8baa1e653f8f7fdb
 No refactorings found in commit af3edc477d195e444db28cffbdb9c254bfd0e4a3
-5 refactorings found in commit 3459d3ad47d52e41c58431dc4bc0acacc8d73e3b
+11 refactorings found in commit 3459d3ad47d52e41c58431dc4bc0acacc8d73e3b
 No refactorings found in commit db903618f3f55d93c9d6de07266834e83573524f
 No refactorings found in commit c38de161c68e0b327b5f27e26ed01d328882a8f3
 No refactorings found in commit 3e5ac1de94aa9c139ecc433898265bc29dd69abe
 No refactorings found in commit 692f12636f79be0be58fd86b6d527ba28be690f6
-2 refactorings found in commit b1266c833b4a458bfa0c09cd0604013ba60170d8
+3 refactorings found in commit b1266c833b4a458bfa0c09cd0604013ba60170d8
 No refactorings found in commit 7000fca1971ce2c87f7d5222cd5b3b786033ceec
 1 refactorings found in commit 25f449ad38749311959d7c82cc1f89e82a8450e7
 No refactorings found in commit 8e321ce2779943c88a466b17b11b9916cde3b326
 No refactorings found in commit 30321eb8018ef6ced42df32e1532e38ef87a88c2
-5 refactorings found in commit a20a4c9c23a4ef5636c4dca1862321d98a865cdb
+11 refactorings found in commit a20a4c9c23a4ef5636c4dca1862321d98a865cdb
 No refactorings found in commit 6923d3accd1a9c4a235e1dc1fa73281c0227d35a
 No refactorings found in commit 740073b6ad52550ee0f799a913d46f9ba5d17d94
 1 refactorings found in commit 7bd1fbf7349426fe730c8f483a2f996399736d7d
@@ -466,33 +444,26 @@ No refactorings found in commit 99040c49f15daf4ee416094db71d783d47bf112a
 No refactorings found in commit d64468eddcb36a88c57fff01b2c09029ef27d762
 No refactorings found in commit b1520c93fd73be57276c419a37c2713de6a1c974
 No refactorings found in commit 0293c65f7744e95b4fb9937be61fd8c35293960e
-2 refactorings found in commit d6e1679105d374760a6ee9fe6d2372d341557482
 No refactorings found in commit 7e7ccc7eb391bf9ac2b99f904a5c90a4a15abff4
 No refactorings found in commit 33b93d18f64f83f1c46ecf07f1f351fa49f27b13
-2 refactorings found in commit 39af5c76358a87f2b7b44caad169e3779aef2c37
-No refactorings found in commit 1b8c2f1eb3a759973d61c94ba5837db4cb02e62a
 No refactorings found in commit b6f6e9dbc41ac9e07a744cfa510985b6f2f6dec9
 No refactorings found in commit 16fe0c8eca150e8d6d2abe8984d069f326176021
 No refactorings found in commit 369ec4e181bee2df90e96b4edac5b26a6c6cc04b
-No refactorings found in commit 30bd13e11215dc528373db85580b1a161bb041d4
-No refactorings found in commit d5605937d647c41726e3f7c9db15a4070aaf5b2e
 No refactorings found in commit a25ea6372a080c56cc49cc2ea0be73a7a801c605
-3 refactorings found in commit fe1105a526a2bc3326244dc00004936034e63b3f
+4 refactorings found in commit fe1105a526a2bc3326244dc00004936034e63b3f
 No refactorings found in commit 3a5804aaa846d2f41501eab538d3f7fa6ed1676c
-No refactorings found in commit 6ef60909cd9deea0d68d841b05a79eb0f2a79543
 No refactorings found in commit 1d29f9be8be57954a598ddb007ff8ec3d155ba48
-No refactorings found in commit 115a8cfef4f2bf85f861fb9fcf8fdfd93090a983
 No refactorings found in commit bff1f7ba12c62f79180854a1e39c87fc40b67bf4
 No refactorings found in commit a8f6c9f9fb36e3479546948d7aa50e766e4dd0a2
 No refactorings found in commit aa0785ca16d22fea0e459ea797f53309afe9220c
-8 refactorings found in commit 1cb252d05232eb866ccac4915d62e49da41b5a13
+9 refactorings found in commit 1cb252d05232eb866ccac4915d62e49da41b5a13
 No refactorings found in commit c3e8ba4a7063a77870375c354ed46a30e1bad544
 No refactorings found in commit 6089ef64abe521e6f8259fb441fccc49b8ed7ec5
 No refactorings found in commit 88b009b485799615f1922cc56ce9b9a60db891e6
 No refactorings found in commit 9f49641606d527c565363e1dc816e79efb39cbd3
 No refactorings found in commit 83c71dd524d346c229efcd7b5d4a27e28c215bbb
 1 refactorings found in commit bc8caf3266848c6c6530cfbf2f754d1c0bc395a6
-4 refactorings found in commit 71abd78dff6065b5ceb6c96ce8eae0a857141355
+7 refactorings found in commit 71abd78dff6065b5ceb6c96ce8eae0a857141355
 No refactorings found in commit 29abf338f0aec14770562204fa558088f7b213d0
 No refactorings found in commit 5a0899ff25c1f54f890566e84840f668d660b444
 1 refactorings found in commit 99887d2f1b2a2ef5257b3a3dbe06eb7dd195c939
@@ -533,15 +504,9 @@ No refactorings found in commit b360955e67813a91373ddc810cfd730bde9e1598
 No refactorings found in commit 08594451789b2b5a91a7bdeb775e015a3da1b3da
 No refactorings found in commit f7edd9b5945b652fdc6892f8434001cdc8dc7c39
 No refactorings found in commit ade2a3ef97132bd18036b9bb1576b6af8c703cf4
-3 refactorings found in commit 9fcfb4c1330d89163419a26a4a4e2cd5536fe3bb
-No refactorings found in commit a0131ce0f1d364903f45264dbcc56597c393ea38
 No refactorings found in commit 08f58c5f456d6d902f9874e93bbe8217ccb19c29
 No refactorings found in commit 298225c6bd1aeb891feb96976497e99b20618506
 No refactorings found in commit c18ed68935b113b5cc87fb34592cb53d252a755b
-No refactorings found in commit 2a73e8c6c0fd0d67c261520adabf274e7b0a8980
-No refactorings found in commit e8efb5833e78f04e9feeebe46e2a62e09f44f40d
-No refactorings found in commit 1b60bd4c7b0af9ce97a706c09f78197adb57db5f
-No refactorings found in commit eac887890b7523433e457cd9b1aac5d1cc33c555
 No refactorings found in commit 8aa6842c73f660a3aa36dfc80b72ac3319a531a2
 No refactorings found in commit 92e8b0b8b0e595eeb3358bb9a9b289b9c58926d2
 No refactorings found in commit cafee5736f33378a842dff350b68ebaf0316f94b
@@ -562,14 +527,10 @@ No refactorings found in commit 09cbc1c6eeafc18249cfa32ed1d442c0b9fb5969
 No refactorings found in commit 1f3099731b124d82e28d1edcea20f10574ec7237
 No refactorings found in commit b0d331f2ddea55aad2a6bb22095a02ba04e53d0c
 No refactorings found in commit 44380f6bd9a7175cb47f60cb071050d5b1563343
-No refactorings found in commit faf2a240b04918b86f4049719521474765a6feeb
-No refactorings found in commit 45b84bb22452a6a8907a90d50530d5630f744ee3
 No refactorings found in commit 3d233f5ede85e00163dbfa6ff1dd7e7d5009d101
 No refactorings found in commit 630acd7959ff8e3d94b64e7518bd39d7a4894992
 1 refactorings found in commit 50743f20c07ec78f69398c1c6d83497e0d38f0b9
 No refactorings found in commit f59f7b21235d9d4e963755158a32ff008200e47a
-No refactorings found in commit b424b02b8d787fac17cb9f95f36d47eb1c8c4c71
-No refactorings found in commit cfad13c9af9e7972e86daa38c91db3df45b1204e
 No refactorings found in commit 477e8cfef488de917bc2c87c40533502e0f5ecef
 No refactorings found in commit fa92d1db3d3fb1b0ddd4573c41717f909466b244
 No refactorings found in commit 81088757230d885be7d13cc5376120eb7c7730be
@@ -587,20 +548,15 @@ No refactorings found in commit 3db819c8423d8c8024a9fd07188a5f9b38e7d62d
 No refactorings found in commit e039960365ce3455c8b0733328b8816efc0833af
 No refactorings found in commit e99619dcdc1c7173d7b6e0f09249e6a5001983b7
 1 refactorings found in commit da4bd50cdb472461849602a8151d5605569c0454
-No refactorings found in commit 2afc7dc62353433c1d1b4cde2ab17b153a7b441c
+2 refactorings found in commit 2afc7dc62353433c1d1b4cde2ab17b153a7b441c
 No refactorings found in commit b54440ddb398ad78390aa29e3b6470c5d5ddb3f2
 No refactorings found in commit 02b0c1d2933ee636241ae1446773af770f68dd13
-No refactorings found in commit 43f6067cf63d5b45cdacdeee89a51c8b819d8add
-No refactorings found in commit 8973bd57b8733390911a4088ed55fdc590172b0d
 No refactorings found in commit 5459445826d51522be7377b9d6ee3ecdfa124d9d
 No refactorings found in commit 2ded3d36d96cff64bf0b0067d72436374dfac9ce
-No refactorings found in commit 147d428e84a62cf422fba37a7148bcd80b49b71e
 No refactorings found in commit 12a1924cb372026cd7ea7532209fd4c4b7266515
 No refactorings found in commit 036fabc9f7e8920c4c18240e4157d7ec0ee5a670
 No refactorings found in commit 4331871e09966b5521600c9076617c7ad465b4b9
 4 refactorings found in commit f6f8f8debe151b41b49aed5c6720fad38d3f3fad
-No refactorings found in commit 146760b7b6d3ec9eecfec6388b8240b8a138cc79
-No refactorings found in commit d1026def4388d8a59decdf0bc248532ed601b6ce
 No refactorings found in commit ccf1f4ed27c1781a2565b95582f8c4c741135105
 No refactorings found in commit 23f7f658e48ae921787039adde5a289ac9270a2e
 1 refactorings found in commit 2bac6f88e71615c714f9a740c94bd98c44386533
@@ -614,10 +570,8 @@ No refactorings found in commit ff2cf57772a8317f857d9d250986475660d310a9
 No refactorings found in commit b5c7ffeb19aaa9ca36b67df8cb655689ff1b3e51
 1 refactorings found in commit 91be3244f231028cfb4b1dca862ad32a112662ed
 No refactorings found in commit c52b2a4ff3d12d427c9fdb08f06ff9c38f02f96b
-No refactorings found in commit 14e72dc95fc4e0e5a741cc43cf9adf8eec2798d8
-No refactorings found in commit f25191497a5d127dae603dc77fd4b66122f4b275
 No refactorings found in commit 0ef4a4a7e252e8896d27121cf4702d59bcee18d6
-1 refactorings found in commit 0d84b1f0c1f29ed35628a5f3c2bf4546251e3269
+2 refactorings found in commit 0d84b1f0c1f29ed35628a5f3c2bf4546251e3269
 No refactorings found in commit 962dfd228f832c47ac5c5bbd50c854b95d9d5c9e
 No refactorings found in commit 7b797ff97ae5e4bdb81b43d959874d67dbc745cf
 No refactorings found in commit 5e25e2c3eae0038c3533534086cb0ab178d28502
@@ -648,22 +602,8 @@ No refactorings found in commit a1afa983d3e61ece28aa716732a4ebfccb9e929f
 No refactorings found in commit 7e241630c75a89869dfed7f50e426a2a9be7e5c0
 No refactorings found in commit 2ef351434ebb83470c753ddc963fef2cf08c9f92
 No refactorings found in commit 3d993073655fb8f45b147fb662aabec6f54077ad
-No refactorings found in commit 85f12cd2541d235254324b0ddced3bde0aaecbea
+1 refactorings found in commit 85f12cd2541d235254324b0ddced3bde0aaecbea
 No refactorings found in commit b18c4deb3fe960988b64988a64325f54dd2955c4
-No refactorings found in commit 7cb228c9fee45da173c66d1811c4d44e29d0f562
-No refactorings found in commit beaf6c413a4b3257462de01d8d16741b75e4d4bd
-No refactorings found in commit 4fbfbb365c556835ee555cbbe7cb6292d576a767
-No refactorings found in commit ea11c7c9856d04fd01c4dd48e3aaeb6bcfe54017
-No refactorings found in commit 72c1edbe8a637219714755d1769b6a0b6fbaf745
-No refactorings found in commit ed6dfe2bac7f02fe5a9776acb8a5a1fce9b21588
-No refactorings found in commit c33a6073995dc964831f0b487dccf318223380de
-No refactorings found in commit 86df88b80e2a778b2120ade13d5987b4cb254d44
-No refactorings found in commit 68aeabeab0a3cbee7b3712f6a01712381d60f305
-No refactorings found in commit edc26a8df9678db1f04c7d7079ae7639c844be0d
-No refactorings found in commit c1e53d68c835dc79f6a031b1d7e56e5f1dde03fc
-No refactorings found in commit 74b6c10bb975914beda5a523a1b81c8afd59908c
-No refactorings found in commit 7edab56106f3c6c0f6b951ee1eb5f65b8d5c6c60
-No refactorings found in commit 66b4f3c8e3555a539e101057f30f244754d5e2d3
 No refactorings found in commit 314e2148b2b72fb6dffa627918a558a6d622964a
 No refactorings found in commit d76d39fb87892a38da04105836facefbc7face5c
 No refactorings found in commit 52edd46c0a74d1da9fc81d3f91b0c6507c03b324
@@ -693,7 +633,7 @@ No refactorings found in commit 7acbc7902d109fb3252fa8518c96e53a1ac8af66
 1 refactorings found in commit f7c32aabb179a8b888fa33a21611f5031cee57bf
 No refactorings found in commit e20d477733e5563afd006b91b835a5ea408ad54c
 2 refactorings found in commit 970de8173442a4aef7aaff10b7484c3b55844cf0
-No refactorings found in commit 9ead70be1bbab8515d4abdf7205b1eea79f5f11b
+1 refactorings found in commit 9ead70be1bbab8515d4abdf7205b1eea79f5f11b
 1 refactorings found in commit 15bc3244303470a77481cf338ce3c73f2557475e
 No refactorings found in commit 6809155a9195fa539071f3593f3c304ec89cfe89
 No refactorings found in commit ae109dfb7cf220cc1deffb010a226bf55acc81f7
@@ -707,7 +647,6 @@ No refactorings found in commit ef4b5609653138d7d0d1654737087fd3f334312f
 No refactorings found in commit 778177333f5d319cac1fef3e78f72e43169b424b
 No refactorings found in commit 0d07e421ff2564c63923c9be1b80519b618787bc
 No refactorings found in commit 07efbf9c01baf275cc34a595af9ac9c9357c1757
-No refactorings found in commit 48fb850dba494620c48512afc098ca5245b639ed
 No refactorings found in commit 18c8747c98d0c89c64e1a7db8df80413737a4ef7
 No refactorings found in commit b1323faaf37adb8c1416e99c96fa27d4e98d4f04
 No refactorings found in commit 3210112a451ca39ed997a4d418f5508e8a666126
@@ -719,10 +658,7 @@ No refactorings found in commit f54fb92864fed96e9c4670439d457a138114182c
 1 refactorings found in commit df8b6bea54252e476327480cd769799d47abf710
 No refactorings found in commit 443dc05f53c972d7871b7b32693a0083bacab9e4
 No refactorings found in commit cee5dcf7b26ee7a7125c0c36e129deca19470c92
-1 refactorings found in commit e88eddd9922f8cd21f13bd237f4eff031efc8286
 7 refactorings found in commit 112f33acb9a0fd45fc640091ab836d9a0bbdfae0
-6 refactorings found in commit c723140a890caf2f20d1686af66c8515ae909f35
-1 refactorings found in commit 004a21339f71eb09d4f9f18b974a749a166bfd51
 No refactorings found in commit c194284dddd5f79bd444b03e986a43aabe6d93f1
 No refactorings found in commit 9eb7a54316856c56ec0b3c6d2f980039774e746c
 1 refactorings found in commit e5c9d8144b1a49107c49c8a7d165c41b1af81c02
@@ -737,41 +673,13 @@ No refactorings found in commit 080d1a942542a0d90d0f4b1d4f8217fd7e9c52ce
 7 refactorings found in commit 72d162ddc99ca2f3d660d4d6be12e1c8e3e4bcac
 No refactorings found in commit 5014f5088ec9f68c7ea17d68d3bbebbbbc18f88a
 No refactorings found in commit f9f5a82cf483748316feb45c4fc6e7e77d653f5f
-No refactorings found in commit 6e588551924a561e05dfbec4d6f9634c1b296855
-No refactorings found in commit 1443d9e02d4190cd05923e59c7a2c3be9af7186a
-No refactorings found in commit c5b1d023f440f87b0901937ee2c1d623b69bc683
-No refactorings found in commit 95e772cec0be3e1b137cafab1e008a77e1883c32
-No refactorings found in commit f1cf843244f6855f0c768df01892da248b0a8559
-No refactorings found in commit 58032bb6bdf7eba158c0c8f072763bc193bf3b5d
-No refactorings found in commit 1ef36597edd1a2abba777901b856ef666fa117ad
-No refactorings found in commit da6c9c71fe3c33c7f9e7dc9657ff88a394a233e0
 2 refactorings found in commit 7c82545377566c177690b86f401cbdada1adc9c7
 No refactorings found in commit b49844c3d8089d054155959a070f0079ace1f2eb
 No refactorings found in commit dc334432e4b90322d5f643546c0b8cc0c61738c8
 No refactorings found in commit 4b0a98f6b0fc59bd7ff8aff2fd9cace14791d5e1
 No refactorings found in commit bb5a1697ddeb97578f2b9f8eb8339371950e300c
 No refactorings found in commit f5a5c02053781c2a0a2aaf708993ec935e76e919
-No refactorings found in commit 209edb7e97152c1cb3221c2c4167addf11e18121
-No refactorings found in commit f6f150b5006998b0a01946723fc23f2351c85f10
-No refactorings found in commit 3d3c2e0e5d306fdb7cd40ec82e47835b8c6133c4
-No refactorings found in commit a16dad182a49c81abe51dd80682a27e852662f2c
-No refactorings found in commit 6352019a153721a735ae67201b6142950b93b477
-No refactorings found in commit 86f39287ba07a7c249d680ebf05231492b913ba6
-No refactorings found in commit e7984fd42c9b895fb4d357ae250cf90d2f506ddc
-No refactorings found in commit 62969f3d2ed2ad6d48b3e7f9e60bee80ece0938f
-No refactorings found in commit a8ece003339e1dd8cc32ec232960b14418503d49
-No refactorings found in commit 688a4c8f63f17dd3e1e2e05c2d0257a3d7c791ff
-No refactorings found in commit 9abee79861d3257b697ca0ebc737dd04b4eb7799
-No refactorings found in commit 1096e1a556da6053a828d9432c74c96b413ae0aa
-No refactorings found in commit a7cd65303d849e33b6226eea32d272c5af196802
-No refactorings found in commit 374b34ad699a5e5dd32da500a04b6e876a30f7a9
-No refactorings found in commit 471da4c399fbcb63a0bda8c89ec51b1a667fc337
-No refactorings found in commit 0e9bc2b91c7473c79e878bbe5037b698080ceed9
-No refactorings found in commit 53cdd31b2bf5bc1db91e2a948f1bab3499acc552
 No refactorings found in commit 2ed8da65c1b9e7e1127d0927f23b9e1d58fb5f5a
-No refactorings found in commit 0c4ba7648bb2ad40c24e7b280827804ad330d9a2
-No refactorings found in commit 5ea224ce3fda66302834f0659bf36233dc8dacb0
-No refactorings found in commit a16fe1de47124fd1fdbc7dc30937cd64ceca9353
 No refactorings found in commit a391ecf04fe7b3bf38f79d8ce5abf149e111de5f
 No refactorings found in commit 694dbe983d2ddfddd6e4152702973e51677be661
 No refactorings found in commit c0a730a3ac5fcd51d1ce732e633bae1f3cb89a18
@@ -786,19 +694,14 @@ No refactorings found in commit 0d37e8831602fadff7816174f5a4bbc11f262514
 No refactorings found in commit b05e035814f8938ae5816e2a1d7e8a1ac77ebe55
 No refactorings found in commit 1e0f0c1849036b6403629911e1e21212950079ba
 No refactorings found in commit c067162a5676a59fb8f2b9520111e6fb14a15991
-No refactorings found in commit c7e8e117619202b5420e65b11140c2c016011bcd
 No refactorings found in commit c2575d3b642185ad9f8e201796d0527389cdf14d
 No refactorings found in commit d562f429a1b0caba463e90e83ee8f9d3e82e1a21
 9 refactorings found in commit 059e66da30976ea19b8cb52030a7743d239b0f6f
 No refactorings found in commit 7f23c45ef4e747f460f1d1e2f6890be11d4e7da5
-No refactorings found in commit ab1cbac9c941e3e4242789d1c0a48b33b1fb3e42
 2 refactorings found in commit ebc28dbe980fe490d7bb6837d4ed3b802836a0f4
 No refactorings found in commit a523437dc05e7858075ea05f87093678cf85ce97
 No refactorings found in commit 63d4e7d0143404684fec3b27db4931100a7c929c
 1 refactorings found in commit cbf7bcbbbf8ba18d88a5c7af34e11c361102dc07
-1 refactorings found in commit 2b76927cdaa924634ef000fc9e73ac7bd0cc21dd
-No refactorings found in commit bf1b5cd0381bc592d2aba274ff7552e3e5d12659
-No refactorings found in commit 1be39af18c8c1d29df69eed3db03e927951641a4
 No refactorings found in commit c01c2266b839a8791c8a9cc62e3670655bb83a90
 No refactorings found in commit e75a143e9f386ec7f5916b7cfe7506d23adeafca
 No refactorings found in commit 867e8ef3bec6dee4c4f77e591f64fbc3cf8b77ad
@@ -812,7 +715,7 @@ No refactorings found in commit c2e8eb2ccccb744e8d6cd9c0f1c490dfc66c032b
 No refactorings found in commit 79cf459013a258294192a0b96af5b66e2407c977
 No refactorings found in commit 3d0e68b4a9bcc50f286ae9afbb224c38fb9233b7
 No refactorings found in commit 2c7481c35fd171afd19be602793ca143c04bb521
-No refactorings found in commit 89ab473651138ae2cf2f07881cd7e2550bd64232
+9 refactorings found in commit 89ab473651138ae2cf2f07881cd7e2550bd64232
 No refactorings found in commit e4d301e81dfbfca03d385975eed121160302939c
 No refactorings found in commit b7a86b1b5644c4fa648d6a99a06d6b7cadc5ce31
 No refactorings found in commit 39fb51e63d1471dde1d89b0c0ecb045545b17a6f
@@ -823,18 +726,17 @@ No refactorings found in commit c728e9d4a89b00695aeeac6203b4e291d4a3c198
 No refactorings found in commit 4e61c381e3fdcc67fb9f59efd50d7b359f4ce72b
 No refactorings found in commit 69fc1a02f4482639e991d20bb277b626b4c0e150
 No refactorings found in commit cd14a791d120c1c7cebc1f575ce4027bd45ed37d
-4 refactorings found in commit 5aa0b890d1fcb90bb3d0bf43bb1689ff27dee252
+5 refactorings found in commit 5aa0b890d1fcb90bb3d0bf43bb1689ff27dee252
 1 refactorings found in commit a94f98b63194deb3e204bd454b9eb829c18ab4bb
 No refactorings found in commit 978d5e630a68a40ca1e1cf92436fb77cc3604143
 No refactorings found in commit b6b3c476a749430b1bf4c6d7532b96909a50f732
 No refactorings found in commit 37d13ac4f5d8fa44edd33862b258bd3df05d4fd0
 No refactorings found in commit 2ad2d4d820a806d46bba6d1f9aebac7e618ed142
 No refactorings found in commit f84dbbbb45aa29caddef58b77de2388a90abd302
-3 refactorings found in commit 42c894e7f96748c25427fc73e13372c6a2a06d4b
+5 refactorings found in commit 42c894e7f96748c25427fc73e13372c6a2a06d4b
 1 refactorings found in commit 235ea3eb782e2bc2ba3587cbc836268263d7d294
 1 refactorings found in commit d51b1b4f20b98fbc30a42477103ab8b477872faa
 No refactorings found in commit d45a891d4c2b6e295eb8d6324b0d6493c897b786
-No refactorings found in commit 9f09c029c54ad40d68a8159dd5a39d70eb42f3ae
 No refactorings found in commit 58f8e6163fc0bfc6c6ddbfb8d712fc930b11a0a4
 No refactorings found in commit a8bbb67c53226b522ef7ec32e4646e562474dd76
 No refactorings found in commit 882ccae19096c2a871b4f683afa5fed8959a00bc
@@ -842,15 +744,11 @@ No refactorings found in commit b14dfbe4f0cd1b4d209730ffa3ba0c2ac7adb7f4
 No refactorings found in commit 138e7fd492bbd611603ef2423c272a260563a2e8
 No refactorings found in commit 3d49c4a4b6d5c7eeeab9f5203701b19e198873b4
 No refactorings found in commit ba566a81cb6dd26afd258b9ebf6640a99e052ead
-No refactorings found in commit 3898410962908deced19978113169189f46de67f
 No refactorings found in commit d26adf690b615d5194b5f1650b092c68139445c3
 No refactorings found in commit 67c9b1e86f5fff5fe03f04e44135a8018bd813d6
 No refactorings found in commit 064ea79490bc1c8e53c6d62c43ee2330a97c7f2e
 No refactorings found in commit d433add90d978bdf1d77dec4c9745a0cf2e9e942
-No refactorings found in commit 94c79bf4df56ccd3e457d281a613613dfbb3ef67
-3 refactorings found in commit 339552010ebf0aace41af80b59d0f6ea64cb2429
-No refactorings found in commit f83785d6a994f377a3a395953771da10cfc39c0b
-No refactorings found in commit 4313622017dd0891063cc23c84d298394eef040d
+5 refactorings found in commit 339552010ebf0aace41af80b59d0f6ea64cb2429
 No refactorings found in commit 9f42f62187d9d87d823fe622aa8f9eca6cfd1d2c
 1 refactorings found in commit 8af39bf73021cd19aca167cef7e0cbf477ce316a
 No refactorings found in commit fb8f07c852e2eb0027854f97cf38e36188f3e6f8
@@ -861,12 +759,6 @@ No refactorings found in commit eb33074a0ee4a31c538e4523367a80a9c3c63cc6
 No refactorings found in commit 4bf7fb23f665f4b29883ad0df53e0c86bb540fc0
 No refactorings found in commit 1854175cb9b0ba85685abb88bed4de6b8fdd8587
 1 refactorings found in commit 5f57a6cb4bfb7aecd3bba2245f6caf472015279d
-No refactorings found in commit 2c636461b8b921620d4f2d065f48d890b7668183
-No refactorings found in commit 7f092062cf62eed8f4a8f3dc07547c6ffd759980
-No refactorings found in commit 622d18900177d443c608aaab1e7e39a73bc6a4f8
-No refactorings found in commit 8a7c9fa6ecf405e2bb15027d10ad8782c9f4b249
-No refactorings found in commit 714b721201c5a3b0cbc474604e0a73a174fd2eac
-No refactorings found in commit de85c3b07db420f8853adae9863aa2e2dbdec59a
 4 refactorings found in commit 7f2ace0da913567513f9c4d6a2da15639054be86
 No refactorings found in commit 68eae8ebf414194419123d2e9a28e5f18517fd13
 No refactorings found in commit bac574a7c22d2a20730ebbce70b51a7c90d46f47
@@ -893,7 +785,6 @@ No refactorings found in commit cfac0b12f59c83480be5d7722aeaf49f497c9861
 No refactorings found in commit 57f6077f2a788179391b00d4da2bede09b72cfd8
 No refactorings found in commit 7a8bb6c6772eb2894ee6e4aafd2dc9a565d98180
 No refactorings found in commit 69613f8e536107d11e7aa17bd261b4c87b901153
-No refactorings found in commit 7547e9e457f344e4a2f20c9999128a488fa6c4bb
 No refactorings found in commit 4e8b83721b04f92daffc9c3f7c9284b1387a3014
 No refactorings found in commit 668f1f1bb38180622337dc184fde3474e1b5df4d
 No refactorings found in commit 4d3e73063769660b1d8b9002769c0bf3fe2be677
@@ -916,9 +807,6 @@ No refactorings found in commit 449c107ef224dad82f7814c0965b69f632c7b894
 No refactorings found in commit 5b25c39f08f963c89416c81696e0776b6bb12bdb
 No refactorings found in commit 2061f5b7eb84fce002f924a4862059f6dca35a3a
 No refactorings found in commit dd91ef722bf3b1a8968a1ad719f2bd4b29f4818e
-No refactorings found in commit 2602d0499cfc37113613ea9b562afc7032d1e46a
-No refactorings found in commit fb768d0d5c6671b6dae25758a64c2251f9620f8a
-No refactorings found in commit 6573bf3213348d9a50d39100a885067199785bc7
 No refactorings found in commit dba132f7deb446353a869af4e483fd439b3fcc8c
 No refactorings found in commit cf7c96b469b22c7bc446d3992e51487019041e33
 No refactorings found in commit 621115406298bf2e647595046c1b24d96823b8d0
@@ -928,7 +816,7 @@ No refactorings found in commit 232d2d8e81a8f08b1008de8c78cc1818d193a6cf
 No refactorings found in commit d9608d20a22907ac4ccd49c7b9e6465ed7916709
 No refactorings found in commit 81aecd936da674af1dbcf83e92407c229b4f1899
 1 refactorings found in commit 375d7373ea64de4785acf06525b395c7198064e6
-No refactorings found in commit 8b2d647eeccade082df78c5f517b10163b62873f
+1 refactorings found in commit 8b2d647eeccade082df78c5f517b10163b62873f
 No refactorings found in commit f7e92e326f5d80bad152d8ebe3ff2bd3650a9ce3
 No refactorings found in commit f8fa52a6c747ac46e2c38ae96d1556730dd7c2a8
 No refactorings found in commit 511c32f3b0ec95bf8f7b21be2e55651dd6590e6e
@@ -940,7 +828,6 @@ No refactorings found in commit d0bf73ff6da10674fe9cbcfb7fd18c6deeaec570
 No refactorings found in commit 7a21f5ee858e1cdc53155791731d2c8310445a8c
 No refactorings found in commit b30097b5814bc90aa435761ab9a2bf21aac08da0
 9 refactorings found in commit 34ad3ad29b1eba478618bafe43ed393efd366c9a
-No refactorings found in commit ab7b6af291944288d72c9901b8872122a7f197fb
 No refactorings found in commit ff3001386e066b7db58872db9298628b3a9ab965
 2 refactorings found in commit bdbee879af049ea73b38c70e66bbb64b662fea9b
 No refactorings found in commit 656e89f0893a150d1ff9e88d856f4a511b404976
@@ -975,21 +862,21 @@ No refactorings found in commit d954258a809078b84ea6c16d7c68bf7fdf40f6a9
 No refactorings found in commit 3351d50a5adf25f82ab58bacb547ba78ef5128d4
 No refactorings found in commit e5ce748b165301b0fe9dcbd66a7c429afb35e4d1
 No refactorings found in commit b7b5543cf95028577f289ea40cc3d0144f1f86ad
-2 refactorings found in commit 503fd2d24f09b2b5fbc7759f71d0f69a1f79fdd3
+3 refactorings found in commit 503fd2d24f09b2b5fbc7759f71d0f69a1f79fdd3
 No refactorings found in commit 1c36955757ef39332307702196667f22b59294b1
 No refactorings found in commit 416bd4a9d5b32585bb9f968f481a266ff0c97df4
 1 refactorings found in commit 00282dd43e29a907cc63ce2c5cc57a79d9c50f43
-2 refactorings found in commit 25fe85d849980ed941917a4fb82c41783bef3303
+5 refactorings found in commit 25fe85d849980ed941917a4fb82c41783bef3303
 9 refactorings found in commit 2e5531edd04ce4fdc16876e11bb61b221ea06f55
 No refactorings found in commit 40ceddea2bdc3cf46caa622b19ba1350bd52f055
 No refactorings found in commit 06985d5b0ec30ff9cb0a06c15188898387d6a963
 No refactorings found in commit 7cf3a763aab143410c5b1c0c80de51f974bc6bad
 No refactorings found in commit 82337c59cf3e43e38015b09cdbf2a21dc2f6eb52
-2 refactorings found in commit 10ea5fa78459d078066f6568980fa33890d5c843
+3 refactorings found in commit 10ea5fa78459d078066f6568980fa33890d5c843
 No refactorings found in commit 294a055ce56bf61abc8697c624aef38aba79c7fb
 2 refactorings found in commit 7d41efdab1092d2141c30d6af64d759038d537ab
 1 refactorings found in commit 2c8205f5caef328baeb82b7d8486a4873c4cf42e
-1 refactorings found in commit 8e50444ba6a3161f3c18e5ba45764664a91539e7
+2 refactorings found in commit 8e50444ba6a3161f3c18e5ba45764664a91539e7
 No refactorings found in commit 7c227841d62934b3c9452baa1fc114bc04857d7c
 No refactorings found in commit 179f545f0996855f379facce3fec38e728610da8
 No refactorings found in commit 94f4dd1d77e534f9098b5f9e8e1b42c20a06ba46
@@ -1068,12 +955,11 @@ No refactorings found in commit 5a961c52f838e8b50204a1e2433fc253942bd6e9
 No refactorings found in commit 73bfdda38d48c1f5c817a7a9d0243caff0b71b71
 No refactorings found in commit 6eb586a8c6aa0bf2ed4c0d220657ef90aa29d873
 13 refactorings found in commit 26c50909be189443efea6fad78c11201aa1065d7
-No refactorings found in commit dbeb5f8ba461cfb12309b0cf2d9e6ad816de8297
+2 refactorings found in commit dbeb5f8ba461cfb12309b0cf2d9e6ad816de8297
 No refactorings found in commit 2f060a8f28f519dda9ee40568696786b4fa4eb37
-2 refactorings found in commit 95cf16de281a362a94f191bec3b0f675548707f1
+3 refactorings found in commit 95cf16de281a362a94f191bec3b0f675548707f1
 No refactorings found in commit 7c2b4e6f881da4a6296183b456be99a39157df48
 No refactorings found in commit 729c392019658fad952734acd0faf2a5ec0c58c6
-2 refactorings found in commit 8a6273e14b3aac48b69d3b04e8d685bded00a997
 1 refactorings found in commit 7ee0ac104de0afdd308151f619428ea80891d6e4
 No refactorings found in commit 9fee77a9d94a3547f6198647bd94f97612fb6aaa
 No refactorings found in commit e56da99216d9e63bc8b7c9b61569f9fe35e0fc63
@@ -1094,9 +980,9 @@ No refactorings found in commit 7489cf6effece4e08ddc2bb2dc274278766472e5
 No refactorings found in commit 5a23a6908198a709bd24edf987b8e2bd6c0cbc77
 No refactorings found in commit dc349c17a89e56f4ea0f516cb172ac8966eba4d0
 No refactorings found in commit b1219990ec45c540c23a2d9ac502450a5ac2400a
-No refactorings found in commit c389f56da5b7c74584771b80692e73775c7e6c86
+1 refactorings found in commit c389f56da5b7c74584771b80692e73775c7e6c86
 No refactorings found in commit ef4ee45a18de65b0c81bbe8da16c0b063b2201a5
-No refactorings found in commit ead7528c9c2bddfcee98b526bfc951d5410eb9a5
+2 refactorings found in commit ead7528c9c2bddfcee98b526bfc951d5410eb9a5
 No refactorings found in commit 814aff30317f4b58196686626000defabe03eddf
 No refactorings found in commit 6ac536861e5912bfbd70d7ebca8ca3ae200a1413
 No refactorings found in commit 080af1cb45f2a17d4e8834f3773a406e62da5f71
@@ -1111,12 +997,11 @@ No refactorings found in commit 864c2e21901e8dd433320a663fd05a312d0a5982
 No refactorings found in commit 1757625dba68416e150cf74e3b707f40d23d97f2
 No refactorings found in commit 261a16988da2ecf2cd762dbb9ef8c76dda249adf
 No refactorings found in commit a5e2357033cd5f14f31a226139dd2becd2628219
-No refactorings found in commit d43a9a764374ed5a66c05d5fd4cae9711a824366
 No refactorings found in commit 65d6e0127fa31ae92f0aaa25a96ee9b6c4f2972e
 No refactorings found in commit 5d39af398fbf50777948741ca1a12951d492d381
 4 refactorings found in commit f4c346935295cd6365c11112f919ce8c1eef43e8
 No refactorings found in commit 1c896ec494ec84a1565ee3c748657ec258cb215a
-1 refactorings found in commit 7c7a6d4407c728e1790896e54f5d9ed1483d30ff
+2 refactorings found in commit 7c7a6d4407c728e1790896e54f5d9ed1483d30ff
 1 refactorings found in commit d14411e2b471f2d6987bfd040be730a222d0659a
 No refactorings found in commit 3085db7b3047f446a3039e9461c6bf13f0658beb
 No refactorings found in commit 4ebeb99911eeec2f02b5ad40a3f243a1e7c20bf4
@@ -1205,7 +1090,6 @@ No refactorings found in commit 3096362fa2e9c4d2d714eb9901b01f399476d9e3
 No refactorings found in commit aed9c8bfa8dafdc25349c0712d33fbf3ebfcbbf1
 No refactorings found in commit 01406f1c8ba6817b7419f0c492a2804356e58fd9
 No refactorings found in commit fc0ed8fe3d5fc9be981d2c2e546461892f2504ad
-No refactorings found in commit 051cb1f0bfa63a297b1798f2a5ae7fa309b5392f
 No refactorings found in commit e6d82e8cedc0b9df2e9929abcf573dfabc5cea4c
 No refactorings found in commit 325ba1f1475a66d96609e93e685048c3ad6d05da
 No refactorings found in commit 1a4812d722d7c4f065b71864d2570cb2929a3a4a
@@ -1283,13 +1167,13 @@ No refactorings found in commit 692fe315751b6da1373b23450c3b513327395118
 No refactorings found in commit 38b2dc00284a18eda549c50daa47f85bfa128183
 No refactorings found in commit f52560cdbbd85206d975756526bedb9e59c76eb4
 No refactorings found in commit d79fcae1309ec38961544716b9edf973969a1c45
-8 refactorings found in commit d10d758c84f809e9fffd05882b995cfe7906f83e
+9 refactorings found in commit d10d758c84f809e9fffd05882b995cfe7906f83e
 No refactorings found in commit c9a754f0e4625caf7df0a941515fc7712a28d8df
 No refactorings found in commit 8bf825d0462d45b4b8d0704cf8fe365420f69f9f
 No refactorings found in commit 2beb5f012c203093cf6ff3488fcc44da15a73973
-2 refactorings found in commit 52ac2ba2d38f86e200033287b4efec3d5c75aac7
+3 refactorings found in commit 52ac2ba2d38f86e200033287b4efec3d5c75aac7
 No refactorings found in commit c9072e54d1fe27cf63b6ff6fb269cca2cf82c07d
-2 refactorings found in commit 44d5a03c0dfcc9a50b8e6f89aaeac7364eb4a2c9
+3 refactorings found in commit 44d5a03c0dfcc9a50b8e6f89aaeac7364eb4a2c9
 No refactorings found in commit 8db94607f90ee8bc20488eb1c4896407ca5e0653
 No refactorings found in commit 8ed5c8e293bcb60c97b13c80dbd590303a64c9f6
 No refactorings found in commit dca9403876732efbce2cfd966d8d6342bba0ab70
@@ -1337,10 +1221,10 @@ No refactorings found in commit c0350ccc99294c1848e886023c52833ccc67fce4
 No refactorings found in commit 47959c67776842a30b2866899bdff75a947b83dd
 No refactorings found in commit 7bfc50e9246299d60ae01d0abc98833cedd1934a
 No refactorings found in commit 624f7f4b0625aba2dc52e2e6640cfc57ac47b902
-1 refactorings found in commit 239da95f3d21ec25e945bda22d7e176bc3998bd6
+2 refactorings found in commit 239da95f3d21ec25e945bda22d7e176bc3998bd6
 No refactorings found in commit 0f22f7b82ab0e5ae7c4f96b2a85bc1ca440589d4
 No refactorings found in commit 75c10034519d33b5e48ece57fed21e3bef47ce38
-2 refactorings found in commit 8ac23221fe2f2e8c0e3a7c6354a00429239a7fbd
+4 refactorings found in commit 8ac23221fe2f2e8c0e3a7c6354a00429239a7fbd
 No refactorings found in commit ba9d8324ee45a186d61110ac75f201a2fd3fe819
 No refactorings found in commit 7d0e9da6cea4806ed2bf18e8b8380e8d8c49f6d6
 1 refactorings found in commit 0fd8f998718fedf373c0ddba2faf4d772e8fd823
@@ -1355,7 +1239,7 @@ No refactorings found in commit de07e1f92619eb445db30ebe7ff0fde81d747636
 1 refactorings found in commit 19f39c141e540082fba361e2999c50934acd25b3
 1 refactorings found in commit f95f0da640300d6fe915312af25214dc94d82a86
 3 refactorings found in commit 3e192a0707922ddf083dcdca703db21de3002f54
-No refactorings found in commit 5f59a1b245cdb5758318df80a2aa11a517f8d532
+1 refactorings found in commit 5f59a1b245cdb5758318df80a2aa11a517f8d532
 No refactorings found in commit d4d0305f3efc5dfc024bbbbe6ec1f536e889d3a8
 No refactorings found in commit 07d7ec51e82f044fb711147eeebd5b7e5601a3fb
 No refactorings found in commit f6ced9a7ac1553a76b6d511739686aa025f7886a
@@ -1409,17 +1293,7 @@ No refactorings found in commit 3c4faf999dfca69eff9f1c00045104e91af723aa
 No refactorings found in commit 01529c3202c9750a900380eb1fc2f289182fb1a0
 No refactorings found in commit 7262427421efd8e60dcad373f73bdda39d279625
 No refactorings found in commit 94d02ed1f6c960db7bae229f3b3f0cbdb9ab4c9b
-Error processing commit d635e9a2459f985194d2089bc9aa574ae0514365
-java.lang.StringIndexOutOfBoundsException: String index out of range: 13
-        at java.lang.String.substring(String.java:1963)
-        at gr.uom.java.xmi.diff.MoveClassRefactoring.getRenamePattern(MoveClassRefactoring.java:26)
-        at gr.uom.java.xmi.diff.UMLModelDiff.getMoveClassRefactorings(UMLModelDiff.java:649)
-        at gr.uom.java.xmi.diff.UMLModelDiff.getRefactorings(UMLModelDiff.java:722)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detectRefactorings(GitHistoryRefactoringMinerImpl.java:123)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detect(GitHistoryRefactoringMinerImpl.java:82)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detectAll(GitHistoryRefactoringMinerImpl.java:230)
-        at org.refactoringminer.RefactoringMiner.detectAll(RefactoringMiner.java:63)
-        at org.refactoringminer.RefactoringMiner.main(RefactoringMiner.java:33)
+2 refactorings found in commit d635e9a2459f985194d2089bc9aa574ae0514365
 No refactorings found in commit 498a84c8b34ad95392a303c37eac7486d97f1ec4
 No refactorings found in commit 7e26990eb94e5bc80a08a90267410afc77df92a6
 No refactorings found in commit 86c1d6d22de6eccf47d7accba75fc6623a2bfb73
@@ -1481,7 +1355,7 @@ No refactorings found in commit 74e67d6ce9b520ca379a60b592d13a484b31ce07
 No refactorings found in commit 621d0d2c621cdc3badca795bfb92928cd708d11c
 No refactorings found in commit b6674f68dc1ae936ed46cabd251915ccb99c45b7
 1 refactorings found in commit 18b1334ff12d098265fa1af2a497bbd21cd217b9
-No refactorings found in commit ccba3de76531e1b01ab10156dd4ba6247e360c74
+1 refactorings found in commit ccba3de76531e1b01ab10156dd4ba6247e360c74
 No refactorings found in commit dc867672e9441d9d3c4c67b77dd78566c8321b57
 3 refactorings found in commit 8a344330950ecd9c728c80148373be24851fd2f2
 No refactorings found in commit 8c0ce48aaee0bfa5b4cf772db424c9e6828eba87
@@ -1526,7 +1400,7 @@ No refactorings found in commit 8d9a7b0ecff611b751f103537b20b78ae1c5464d
 1 refactorings found in commit 43357b0809a079381c9980149236dc22af4ce19a
 No refactorings found in commit 87cdf5d9dd2891eb97c08b96cc3b96e632186c52
 No refactorings found in commit 290e759d4ae6599d690c56a11c20f49cd8408162
-No refactorings found in commit 299432df1178fccc62772ef60a6116ec68153d51
+1 refactorings found in commit 299432df1178fccc62772ef60a6116ec68153d51
 No refactorings found in commit e13204ca96a30cc5db83cd248288d16d95c9ef4a
 No refactorings found in commit 9b2e8ec9f9868e490d3cf9e92ef18dfa99aa6f2f
 No refactorings found in commit a1b7c270dd41c5a5da60c1ad1995a603d30b7092
@@ -1580,9 +1454,9 @@ No refactorings found in commit 71f1a2bc447583a31d84d3c6355e149847bf8799
 No refactorings found in commit 8e9c36c98e50520a250ed6dfef386723e568d902
 No refactorings found in commit beb0116cf718f6b71b36cb4ab789dd14c9f06551
 No refactorings found in commit 8137c203495d67a3afd1e2f902e39ff9c7310b9a
-No refactorings found in commit f02d11722390db08aba8b687aa5e49dd7e722e3f
+1 refactorings found in commit f02d11722390db08aba8b687aa5e49dd7e722e3f
 No refactorings found in commit b6b077b457bf83b9bbc549aebef10fe4b776cae5
-2 refactorings found in commit 43ce43cc363747fdfcb5c23299bfe6b5395341f3
+1 refactorings found in commit 43ce43cc363747fdfcb5c23299bfe6b5395341f3
 No refactorings found in commit 5e8022f1f07b2d05f168cccd00161e338f3857ac
 2 refactorings found in commit 4ff0768feacf43f622d9e79720c17647a2b18361
 No refactorings found in commit 8214c8dd97a38b06959aae00ca678b521c4abef5
@@ -1642,7 +1516,7 @@ No refactorings found in commit e96690ef203ddfd2e8d0202d41faebdeb96aa833
 No refactorings found in commit 75ac7de5cde3ac424af9e9f145f258fb4a237703
 No refactorings found in commit f8bf4038f1dc0a109f1024c7b7b274a3e72b932d
 No refactorings found in commit 4e95722017879aabade12999a1322fbcd4e0effa
-No refactorings found in commit 64212862bf2566db43daa44ba0d1c54cf5ac2f9e
+1 refactorings found in commit 64212862bf2566db43daa44ba0d1c54cf5ac2f9e
 No refactorings found in commit 292d9f802f685745f5e9972eec2cc5c81254f85a
 1 refactorings found in commit c910f2533418fe50d02af484bdcb13f663e0aaff
 No refactorings found in commit eab110d0d00d0d713acea2230d2de0715bebb6b6
@@ -1653,7 +1527,6 @@ No refactorings found in commit 600d610ddfef9390ff90b8532c76ff3e4c7867db
 No refactorings found in commit ffd66faa7d4f04946fad20f3fd8991649c82aa3d
 No refactorings found in commit 14456eb92d1afd289ab92fe129a18bac7f442b65
 No refactorings found in commit 5004fd96a35741bdf036f50ffbdede3d58a5abb5
-No refactorings found in commit a32fbd3341541d95454b369f1e3d8c1da2f2b012
 No refactorings found in commit a24e442731b82235ca18451d8eafe44ce58cda02
 No refactorings found in commit aba59e88d9e2101a7050b85af3e20112bc2c6888
 No refactorings found in commit afa82c0d28c63703ad977c3a3defb662a8ea48ce
@@ -1666,7 +1539,6 @@ No refactorings found in commit f05345112f95e9e282dc4ce169787fbf941d676b
 No refactorings found in commit dc0d802cd905d6c15632524ab2e4ebc3e6bb561f
 1 refactorings found in commit b4d3e23c3e568e8e25c8786c5de6337bc84035f1
 No refactorings found in commit d8d1171afa10a839ce81e7f6519f8532ac797f82
-No refactorings found in commit 33a58c86f08de00e0347b7687de1ff3b36d61e67
 No refactorings found in commit 8739094a161da0817093843d5da04825f44ef676
 No refactorings found in commit 470ac0c7bb48e8c33b7687ab0243d1eed7fc70c5
 No refactorings found in commit 3e2d766f37f3820a5d0b68d4d6fea12c22087522
@@ -1694,25 +1566,15 @@ No refactorings found in commit 2f3398beaf47999cba34dbb020c2f211ae81235a
 No refactorings found in commit 2e119a5e997608925cc6b0398e2a0591a57733b8
 No refactorings found in commit fc33d62cc3aed06165d21b690b8a5eb7a5799236
 No refactorings found in commit e422edadd08886a3b1173f9339c063e5184c82a1
-No refactorings found in commit a219184b4670d45ded0d6f94c8cdbadb356d072e
+1 refactorings found in commit a219184b4670d45ded0d6f94c8cdbadb356d072e
 No refactorings found in commit e704d296bfac54dc480b304b5391a740bda92a53
 No refactorings found in commit 13eec7e57cdffff721252b01dfc4632276553af4
 No refactorings found in commit f876c6d02e58bb275664bc0dc6e5d4240f8b54ee
-No refactorings found in commit 62254d9bebead5ecc481653ce20ef560110b085f
-Error processing commit fe2d2a660455122263e60eadee0882c9c307acf8
-java.lang.StringIndexOutOfBoundsException: String index out of range: 29
-        at java.lang.String.substring(String.java:1963)
-        at gr.uom.java.xmi.diff.MoveClassRefactoring.getRenamePattern(MoveClassRefactoring.java:26)
-        at gr.uom.java.xmi.diff.UMLModelDiff.getMoveClassRefactorings(UMLModelDiff.java:649)
-        at gr.uom.java.xmi.diff.UMLModelDiff.getRefactorings(UMLModelDiff.java:722)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detectRefactorings(GitHistoryRefactoringMinerImpl.java:123)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detect(GitHistoryRefactoringMinerImpl.java:82)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detectAll(GitHistoryRefactoringMinerImpl.java:230)
-        at org.refactoringminer.RefactoringMiner.detectAll(RefactoringMiner.java:63)
-        at org.refactoringminer.RefactoringMiner.main(RefactoringMiner.java:33)
+1 refactorings found in commit 62254d9bebead5ecc481653ce20ef560110b085f
+8 refactorings found in commit fe2d2a660455122263e60eadee0882c9c307acf8
 No refactorings found in commit 9ad123a6558e1ac200c705a2f1f71460270d81a2
 No refactorings found in commit 0b60c211222eef04ddc78cf854c6c269395ff1f4
-1 refactorings found in commit dc9ee11a796e81cc21c6d7b11900925fdd300ea8
+2 refactorings found in commit dc9ee11a796e81cc21c6d7b11900925fdd300ea8
 No refactorings found in commit 62efeccfd090ec683f2b236d2bd115233f552f6b
 No refactorings found in commit 19577503828fcaa324731dcee198414455e21daa
 No refactorings found in commit 57279a1b5cf07c2ad94e91b4ba9672093739385d
@@ -1735,7 +1597,7 @@ No refactorings found in commit 5a184d4e0d9cc19632b96f7e75c009c171943a93
 No refactorings found in commit f3c99a7fcf46b93b5c0e874a0e55b8b114491b45
 No refactorings found in commit 896c71906b8bd87660cfee7b286430cf0c895956
 No refactorings found in commit 20b9f1bfa94aa8f49ee85ba8cfde8a13f01776b1
-6 refactorings found in commit b9b230f83eec38b5e22cfa5ed3328a012d420666
+8 refactorings found in commit b9b230f83eec38b5e22cfa5ed3328a012d420666
 No refactorings found in commit bf7829d539acbfe3a7d580e1db617e3c56fb2922
 No refactorings found in commit 3856d1a83238f752f49fc40a8fb18c312c9026c1
 3 refactorings found in commit 5681be08446e16eb2ab20e888fa5a47688361104
@@ -1763,10 +1625,10 @@ No refactorings found in commit 2f83bec2317351b8987f478922de74f92f539fb5
 3 refactorings found in commit 1d96bc5761994a33af9a7a9aa5ab68604a5b44dc
 No refactorings found in commit 7845da922d89d53506dd0fff387ea13694c50bc1
 No refactorings found in commit 076657a26a57e0aa676989a4d97966a3b9d53e1c
-8 refactorings found in commit 5d7e0bc531780252235aff42c252363b2038125b
+10 refactorings found in commit 5d7e0bc531780252235aff42c252363b2038125b
 No refactorings found in commit f775bf91e53a1ecfb9b70596688d7c8202bf495f
 No refactorings found in commit 76e2c35457a1fb218370cee53095a486867733b5
-8 refactorings found in commit a0d82c25e34260e7bbdfa043596e66f00903c130
+9 refactorings found in commit a0d82c25e34260e7bbdfa043596e66f00903c130
 1 refactorings found in commit 7a77016b3cd019c2e5ee98efdd73d6728f10c51f
 No refactorings found in commit db2bb252de5251c24782ff28f1a1f5ee34407ae6
 No refactorings found in commit 70ae331cd751a18fb5b21cbcde0abf472c38eff3
@@ -1781,22 +1643,20 @@ No refactorings found in commit ad5696a8b5654ddbb8bd6598cb98afb66d347745
 No refactorings found in commit 7d87b3aeb7ac35b2721f0e02b10a127b02d16e50
 No refactorings found in commit 612b9a137d3a3fc79bb07ab402dc10e6468de98f
 No refactorings found in commit 716e7c212323bc08c093cffdea1bf2d68cd68dd2
-1 refactorings found in commit ef34fc65762ac9e786e4db2a9cb51238f09c6f2b
+2 refactorings found in commit ef34fc65762ac9e786e4db2a9cb51238f09c6f2b
 No refactorings found in commit 6e994240f7ced1ce2ff66e3511a649ec761aaebb
 No refactorings found in commit 37360b9f29fb590226b1a6badf181d3e4d24e5a0
 1 refactorings found in commit 9f9024c53962ef3cdb5f43dc3ee6311b2f60f7e7
 No refactorings found in commit fd790bef2fca7004d92b62af2fb58555baa2e239
 No refactorings found in commit c499ecee27d45287aa0ae0e49489a5b55ffae367
-1 refactorings found in commit d37cd9566399d00c906ba0d308a135b3aa629463
 No refactorings found in commit 760d4e1a913be06e80b5081faf384212e810d367
-No refactorings found in commit 2ea0064880416da64acaaef206722729d09488b4
 No refactorings found in commit ac8e04b6511e266afd7553657b1a944672a0eb6c
 No refactorings found in commit 3184c49da57e714980e32905868bb65aa5598b94
 No refactorings found in commit faeaf0de6aaf3cca0869347c84aac180adcd6adb
 No refactorings found in commit c2574997f72089e755af06a5aaa92335bcb0dd08
 No refactorings found in commit 03c7ee9b2adad45d90e88ff074f8fa3896c5fdbc
 No refactorings found in commit 6f198df9db0fb75b25d183a8a984579ab839c2d9
-No refactorings found in commit 342c356b89434dc1779aec4f787c7cbc742cc2b4
+1 refactorings found in commit 342c356b89434dc1779aec4f787c7cbc742cc2b4
 No refactorings found in commit 69c330eb6c770713660075dff0138d079463046c
 No refactorings found in commit df782e425b4857af670fd17b9dd73b48d6ecd2a3
 No refactorings found in commit c26eaf869650ae634df2256cba6bd95789c5c026
@@ -1809,8 +1669,6 @@ No refactorings found in commit 376a21bbbc642d5984f380304aa091c943db2c9e
 1 refactorings found in commit 21865398d730fcee89ccaa1779bda3ed3c3c9c94
 No refactorings found in commit 4f5ccb906f821821206e5401a20a70bf7fd5b617
 No refactorings found in commit 12166e9016f013a009b0f23e780d06fbd0db8f36
-No refactorings found in commit 1d548f790ec9dd3387f6f4f5f83ed0bb19193a03
-No refactorings found in commit e6d079070f4ac38fc3b758ce733640c5ae8e413d
 No refactorings found in commit 7ee3e57727b9a45b26208adf77ffe5ef5c1ed595
 No refactorings found in commit 213a6e2bf2410285e6dd7cf2bf06362a900891de
 No refactorings found in commit 3ae96995ad8ad20f1b2a8ff65da5fa339050190f
@@ -1831,7 +1689,7 @@ No refactorings found in commit 526fd057cead10ff49974b29da05dfd5c685e6b6
 No refactorings found in commit 7c4016e056a3e4fcb31483f2ba406e32808e4db7
 1 refactorings found in commit f8e8aa0fce920b5c23d5017c2767771a459574a7
 No refactorings found in commit 9e3e240a596a04192e3a672df2e46b8c590e0b9b
-2 refactorings found in commit ee2ed99ad95a97748e59aed81e7fcc2e5396fe84
+4 refactorings found in commit ee2ed99ad95a97748e59aed81e7fcc2e5396fe84
 No refactorings found in commit 3aba63dc0e4755746ac46dd87c41d9a2ca7e7192
 No refactorings found in commit 79c91fdb3390f3a8be9a2e8b7570a8108931bcd6
 No refactorings found in commit f03ed8548b696340296e16a35af1673364368266
@@ -1848,7 +1706,7 @@ No refactorings found in commit a6a58f40f6e22749128434ab124b010233fb6821
 No refactorings found in commit 0fab04f1b6b5bec9c4ea503f087eb7b1c3b449cb
 No refactorings found in commit b5077409f4a15080cb4982955f591d00e836fd67
 No refactorings found in commit 2f652a262097bf36c87e05b7179f6169492b594d
-No refactorings found in commit fdb25a22768e88dcfc2aa76fe17c1dd2ba79ee30
+2 refactorings found in commit fdb25a22768e88dcfc2aa76fe17c1dd2ba79ee30
 No refactorings found in commit 91b0efccd2d79f5b0355776f918370e3a563ab1c
 No refactorings found in commit ec46b8b3387d43899c7e8a00042510a5d39126c5
 No refactorings found in commit bfc6d480c8df0a85473b0e41f2320a10ba6a4fe6
@@ -1875,9 +1733,6 @@ No refactorings found in commit eba5b938f5aa356a08e93a84f7c6f3f5f25ad59b
 No refactorings found in commit 0144471d0fbb5597018c0faf008e1fa205591d54
 No refactorings found in commit 4ca15c909ed34592003299d480edbcb332d030b0
 2 refactorings found in commit 5a5f3fa4591ccf2fb215e69415f26f4423d6e630
-No refactorings found in commit 1840bd3ed80a22a8e9d0e9057d7e182c89892f5e
-No refactorings found in commit ed5159f5456fc3d75835f6435864cb7d15fe3644
-No refactorings found in commit b106eb2045f4da306010acf7a94399884024a666
 2 refactorings found in commit ee8bf9f7112e66f0cdc59a3b75942c982956df1c
 No refactorings found in commit 5a8ec66b5dbf34d7c8ec5ec638d809a1bb759c09
 No refactorings found in commit ac2ce9636c1fef94bc0357bacc7b0283141c3f78
@@ -1903,8 +1758,8 @@ No refactorings found in commit d96a5553ee60320c21e62ef3501e14656e7d5f0a
 No refactorings found in commit 5698ecb047497bf921c3338c63a961f9d79e08e4
 No refactorings found in commit 6786eb13d8bc6a165c3db5bc202057af8bf7042e
 No refactorings found in commit ba4257d2337757ec0cd65bb0d67841c238541aff
-No refactorings found in commit f6a39f84bb36adad56c75ed77e411ab775d2cd54
-No refactorings found in commit de138a4a925c8019cdacc10cb2ecce2ea58f3c53
+2 refactorings found in commit f6a39f84bb36adad56c75ed77e411ab775d2cd54
+2 refactorings found in commit de138a4a925c8019cdacc10cb2ecce2ea58f3c53
 1 refactorings found in commit 69b4a05eb8ce4f948a23ebeb857f1e2e6d9afc91
 No refactorings found in commit 291cd2c205b4a4b4530133b5ea5fa6ebb332b2b7
 No refactorings found in commit 74aa2c9ec90382733a350fda589ff591e03b1357
@@ -1936,14 +1791,8 @@ No refactorings found in commit 40dc54755872275d69e66b0b0c8454f9e24908a4
 No refactorings found in commit 5b785b3ad2cdad93f34aaccaa332d539ce853d19
 No refactorings found in commit 4ff0d94e6b44f47e63a540bf592485c563fe408b
 No refactorings found in commit 41c35cea8b0d6400d49a7a2995cb020e3d1de78e
-No refactorings found in commit 7054e33372dc95c8049e12208433025754f43121
 No refactorings found in commit e59ecbc864f4b353d42db86ad84591cb63176017
-2 refactorings found in commit b593a24bef8d9ffaf354aefbdbd1666438575c6b
-4 refactorings found in commit 7b2393dd918764a0499fee153a302c568d450a99
-No refactorings found in commit 0781fabda038758b256f1d61ff1652a478d07e48
 No refactorings found in commit 4453358bfbe8c7044c89002ddf861095b6f1ba28
-No refactorings found in commit ea074833dba8873ad93446fd53edd853223c7b31
-No refactorings found in commit 1d4fc8d6597fa49c02186609562e928aa3c4647e
 No refactorings found in commit 0529906f47c71b76840d06e0b7527ecbd62ac294
 No refactorings found in commit 61135ac4da4023b415aad4c90ea63b83fc57ad90
 No refactorings found in commit 58a9ea09393025aa9ed9d3066488b58eca68e390
@@ -2045,7 +1894,7 @@ No refactorings found in commit 4393cdc0f63c52b9307132a9d3e90dd3065441b4
 No refactorings found in commit 9a2827f84e7782e806c45d58b7c0d4748b27d57a
 No refactorings found in commit 4ded9c02f7e12929f43f330a71c99196270c4899
 No refactorings found in commit 3b1337598f40b3c0bf1ceaa168389465b6ddb8e3
-No refactorings found in commit 4fd99ca7a5aacdb441d0b13a73bdecca7ec5127e
+2 refactorings found in commit 4fd99ca7a5aacdb441d0b13a73bdecca7ec5127e
 No refactorings found in commit 28adbeb53daa5942944a49ece4b0630370733e9b
 10 refactorings found in commit 45e16d409bbc4cce21c2ba8f9449eb373115ef33
 No refactorings found in commit 140de5b0b22d0c79a9c9779234cf3b6811cd905d
@@ -2070,7 +1919,7 @@ No refactorings found in commit e338d3eb0ecbf42d7d5302c751a121585cf6e0d6
 No refactorings found in commit a6168a139bc6d2592235954d169c69ca3219b782
 1 refactorings found in commit fdfbab9365c727f061ff1619b26735467dbbbd58
 No refactorings found in commit ec7ee8bc426e13d928985c5f8a8bcfb545ea4378
-4 refactorings found in commit 70680ea79a8bc0ed063a922b5e3d804efb116dc4
+8 refactorings found in commit 70680ea79a8bc0ed063a922b5e3d804efb116dc4
 No refactorings found in commit 7728d58e5b66fb2869b527de7a87cca2924d16a2
 No refactorings found in commit 54d136518ecc6a26a2c755f769c74ed248a1a532
 No refactorings found in commit 6d4682fa367e36d76048147e192d296335ed912b
@@ -2106,7 +1955,7 @@ No refactorings found in commit 8b093ff4ec9d5c121f88a81030239e5e19df5208
 No refactorings found in commit 1130dc6b1e22d47e766b46da27cb56f5f758ec17
 No refactorings found in commit 4d53bdd90af0e30bff989ec6045e0e6a32eb16c7
 No refactorings found in commit 514164a86166af3310010761fa66c899eebd7092
-365 refactorings found in commit 48cd6f876fc117dfd52b43c1da8a82188039010c
+363 refactorings found in commit 48cd6f876fc117dfd52b43c1da8a82188039010c
 No refactorings found in commit 5a58aacb8ff8edf3dcc8c80f0d9b3953b6aaa8d7
 No refactorings found in commit d46af17af415eced441ae2335cf3280e6302ca37
 No refactorings found in commit 0c973f492ebb8826e1d4cc73f46efb7b0e39b296
@@ -2144,7 +1993,7 @@ No refactorings found in commit c5766f2bfeb55e82eeab5f0d4e0931a5c2bb5345
 No refactorings found in commit 35231d0c19b9df38740538618e4db06209ef8b9d
 No refactorings found in commit 9fd2a911b11d966e75cda9d1ed1b4875d090e7db
 4 refactorings found in commit e8e3234647c3deb5bb0ffe73b8593068ca0dbfc5
-No refactorings found in commit be4b206478c136d24ea1bf8b6f93da0f3d86a6c3
+1 refactorings found in commit be4b206478c136d24ea1bf8b6f93da0f3d86a6c3
 No refactorings found in commit c53095a3d7d6e2d2c525dc068f6a2ea830677f99
 No refactorings found in commit b29cb580a62b70661a23ba8109bd885908ee697a
 No refactorings found in commit 6e589636edc472e8cb7a6998a33ad6a6b2ade47a
@@ -2178,7 +2027,7 @@ No refactorings found in commit 4a3662b4ab1d95c4e3966c8fc49117b8e1bca59a
 No refactorings found in commit 2c790c40cbdac1aac107dfb3de83162f50507266
 No refactorings found in commit 1e691b3a75fedb0568ad17ab398eee6bba38850a
 No refactorings found in commit 6bda038a28f52495b61925b68a464cf45cecaf79
-1 refactorings found in commit 934fc3ff396f10f92320a7f9759e1d2aeb79a0e9
+3 refactorings found in commit 934fc3ff396f10f92320a7f9759e1d2aeb79a0e9
 No refactorings found in commit cae4e4c78daf86ef648a22fe841e450d13047bdd
 No refactorings found in commit e87b8c36bb322789a9075d6d80431ed690ab0e1f
 No refactorings found in commit ec5c07bb10fc44b7a57889d294876781fa190707
@@ -2218,7 +2067,7 @@ No refactorings found in commit 594920af9beeb52ff38fa7479fa7b20f663bafec
 No refactorings found in commit 68190482b4a1e1ce627c5f1af2d100bee7af0516
 No refactorings found in commit 9a3df1fe7675868415d6f627913950e03273f514
 No refactorings found in commit 01cad343f7eac74686d5acd19037e7866e05469f
-1 refactorings found in commit e83002ce993a03c7dca753c050ec66deead00f9b
+2 refactorings found in commit e83002ce993a03c7dca753c050ec66deead00f9b
 No refactorings found in commit 14f518107e88a757f4cd7b2692568d41db6f320a
 No refactorings found in commit 1c24e0a2cfcd239199a34d45b4a2ee92caa00a98
 11 refactorings found in commit 5b5003b39106ffdf31fe7af8a73b5440e2eeb6ca
@@ -2260,11 +2109,11 @@ No refactorings found in commit 17ff6e50f4fc115d3a8be30b4a2ff09b972c0233
 No refactorings found in commit f979a4075d829af95eec40aaafcfc39e9eac243c
 No refactorings found in commit b0e15fcca07000e0e04d4c6bf76f80242a6aee88
 No refactorings found in commit 129c751cb43e6ba246f77bfb02ca34f9536cd407
-2 refactorings found in commit 3751e272889fd0417573e4a923ecdb8d0aa61910
+3 refactorings found in commit 3751e272889fd0417573e4a923ecdb8d0aa61910
 No refactorings found in commit d6e58f6efd01ed4816565892893c401e0fc51138
 No refactorings found in commit 1c53e626419b61147779b72cec7a48ce0ffbddee
 No refactorings found in commit 6aeb90de5b5b5cfc7b25b119085c7606475e6d41
-1 refactorings found in commit cee7e71400c627a5a099f989975982e090992f28
+2 refactorings found in commit cee7e71400c627a5a099f989975982e090992f28
 8 refactorings found in commit a7b7ccad2da4a4e4b767b8b36a025f16011508fc
 No refactorings found in commit c10f709e177e8002a2af491d7970c0467aa1147d
 No refactorings found in commit 4eb3f44b14ca81a8f7ed9d6f665f50f104f325ce
@@ -2282,7 +2131,7 @@ No refactorings found in commit a8b633701d56c735402c00c14502844d55981bdd
 No refactorings found in commit f4d56d77652ffe11ae876ef34f8745b75380595f
 No refactorings found in commit 9f9dc8770a239dd41d9618df2f7bc950f62e93b6
 No refactorings found in commit f88d40442c6ae1e0d89ece887d239d3231e1f335
-1 refactorings found in commit 7a96484ba361545b5c6ce7add058f3a9d2e242b8
+5 refactorings found in commit 7a96484ba361545b5c6ce7add058f3a9d2e242b8
 No refactorings found in commit caab7829e7468f38c401e76165a731355bdf0b9c
 1 refactorings found in commit 2a3030dd98ea1c5f33b178e146f12f633ff9ca86
 No refactorings found in commit bac494c0bef33c2ebf5e3b4db291626f16415534
@@ -2355,11 +2204,11 @@ No refactorings found in commit a5de78c2b21737448ee7aed4f7a4449e2cbc60a5
 No refactorings found in commit 60332bb563609667c60cb77dd333e32aadb6b45b
 No refactorings found in commit 1e8bcdccb240992896852487658865bad5ebdcd4
 No refactorings found in commit c0509dd1ee1f2b7b09b1ac5756f8324e520ac51e
-1 refactorings found in commit 60c2edaaeb78110ab664e3929c8738b2481aecaf
+2 refactorings found in commit 60c2edaaeb78110ab664e3929c8738b2481aecaf
 No refactorings found in commit 13a42ea2814e2505e74121600a08bf2a256a0a09
 No refactorings found in commit f5437fefaaf5dd5118a8fd6eb1dc502ead5f17f9
 No refactorings found in commit 6bf3659fb58dfbe19f63d854d7ece76b54fad532
-No refactorings found in commit a3926e42042c9ca4caf2661f4f47760bdd4ff3da
+1 refactorings found in commit a3926e42042c9ca4caf2661f4f47760bdd4ff3da
 No refactorings found in commit 196ea6b5f77c554fd00a21a5cb5bde3607929dc2
 No refactorings found in commit e7d81e6e9829f8b6160278a9a4f715348d8de014
 No refactorings found in commit 7ab1e373569abb431e4127760b70fa08de1af127
@@ -2387,7 +2236,7 @@ No refactorings found in commit 77d270a4b1bf0f145083ba36e64a08281ef2392c
 No refactorings found in commit 44e63c68f2520cafd3bd73f703c9500f994eb1ba
 No refactorings found in commit 09329512cd24d1948b2d1aa98cfbfee3be31f1e8
 No refactorings found in commit 54615ddd11f87be945780b5437d7bda060ed5fb5
-No refactorings found in commit d361c91ed3f9e2216c441f61be820b19f0748dfa
+1 refactorings found in commit d361c91ed3f9e2216c441f61be820b19f0748dfa
 No refactorings found in commit c817aec2dc5303da4aca06bd222b6c21704cee24
 No refactorings found in commit c3b73c5e568a703a482727574d5bf355ba942933
 No refactorings found in commit 8e060b9aafb5c172f1b6da6a9b0df8f1dfed0531
@@ -2429,7 +2278,7 @@ No refactorings found in commit 361df0769448c4c761a1fef9b5b088ed8de29ec9
 No refactorings found in commit 6fe778979a3b7fce3ff5a483a1544e8eba360deb
 3 refactorings found in commit 6e2dcfcf5903d2e273ef48507e8c3daf3f0d8f3b
 No refactorings found in commit 17042f0420772d036b8d24dab1c6644ec918a8a7
-3 refactorings found in commit ef91c379b74f6645f53c348f96234bf19df44f4f
+4 refactorings found in commit ef91c379b74f6645f53c348f96234bf19df44f4f
 No refactorings found in commit 70d8fecc54c9c7dd5812a6e3c3329e81e3f15c49
 No refactorings found in commit 0bc9bfbacbd10b0673a65ec52a0293da2db7f6ff
 No refactorings found in commit a18d779294b7c023f4167774ec811e2cf331955d
@@ -2448,10 +2297,8 @@ No refactorings found in commit 52eb7c2bc42081b589b9a566f594fe3817acfaa5
 No refactorings found in commit 052c149b0edb156eba9244d708d5b3a958d15e4f
 No refactorings found in commit de29cd56327f0b532d587053f1c997e07d6c88c6
 1 refactorings found in commit e62f8fa3d8ce4e8671c59065401cccc58384f016
-No refactorings found in commit 18d7ad2e499f15505fd0a14b94c555e7d4b72480
-No refactorings found in commit db2a7aa34fd64c6301550abe00b6fdf9d3f45f09
 No refactorings found in commit 9b48f77c8d1f48aef50f6936b24d0b94f607b550
-8 refactorings found in commit 21f9df63304a695cdcbb714fa1138b2b610d6751
+10 refactorings found in commit 21f9df63304a695cdcbb714fa1138b2b610d6751
 2 refactorings found in commit 669f4d6dce4d528dd6c8ad7382ebd33c2b6a71db
 No refactorings found in commit efc2043e5285cfa3067a86b2cd1c19c7bacc73d3
 1 refactorings found in commit b6e271f1f0f111e02ae6141918fb32cae265067f
@@ -2509,7 +2356,7 @@ No refactorings found in commit 11536181b5f6d5ba0060559434c314cf85f5a5e4
 No refactorings found in commit 8981008cba13bd614d1dfea35805a7bc757c2149
 No refactorings found in commit 6300112fc66ef339a1e1815e3d49bc9d851703e8
 No refactorings found in commit 42f1ef0bf38782db75a00cfb5a7af678b490407a
-No refactorings found in commit dc90aace68ccb29428970fde4283784c405ed1a6
+1 refactorings found in commit dc90aace68ccb29428970fde4283784c405ed1a6
 No refactorings found in commit 99bebe806c3bd50eaddd5e1ab006c299ce4c9cfb
 No refactorings found in commit e7e6326a0034fd40a5bc43ac5d35a00d5371cab7
 No refactorings found in commit ac50687880e6bb3ee8c0b3d1bf210744147d4c9a
@@ -2519,7 +2366,7 @@ No refactorings found in commit dbc2c49fe2af9ac0bfb7def7fa3730e8f4e6727f
 No refactorings found in commit 6aefd62288e64513319d467af0deded953ba972f
 No refactorings found in commit c2bcb6338481708d3d9502ccbdde11453fbbe991
 1 refactorings found in commit 26b5ab860a8459bb8f41b05dd3fa2100ce0fa3ea
-2 refactorings found in commit de29f6af4b6b8ec756d6d25448dff0eafc311506
+3 refactorings found in commit de29f6af4b6b8ec756d6d25448dff0eafc311506
 No refactorings found in commit d1233d04378c7b36a490cc1a7c2f7db52d7e4989
 No refactorings found in commit 21aa12753d6fd61061894098bc9e0246a5f94757
 No refactorings found in commit f6e570c6cad68b67c31c8995d0af237f5e37f164
@@ -2528,7 +2375,7 @@ No refactorings found in commit 61660f5d37b045bbfafeef4c037f4fab04f1052e
 No refactorings found in commit 112fa1290f2cf7570f183d64d39788d034c7614c
 No refactorings found in commit 52ef5b380382566f37977e98c671fe02af5d237d
 No refactorings found in commit f2f8839708d9637821a86db26d36535514f0988a
-No refactorings found in commit 46b1f93d52103953c9bec989c0cea4feca61e049
+1 refactorings found in commit 46b1f93d52103953c9bec989c0cea4feca61e049
 No refactorings found in commit 15f5037879bb172e9c4a8e03efc6de3f03b2338e
 No refactorings found in commit 788e261f928e06f5782b7ffd4aeaf0ac04758fc2
 No refactorings found in commit 9e00c1cdffbac166ecfd5d5be80d098117e09805
@@ -2539,7 +2386,7 @@ No refactorings found in commit b7e74ce721ee2af9bddfb09fb7ed28502852eede
 No refactorings found in commit 19ff2eb487a5315622595022b7f6e363dba733e9
 No refactorings found in commit 818eeeeb186819570679c0141fe7c84d01fbe7a7
 No refactorings found in commit 9063961bb43366b98422f56a7de77ab188f7c110
-No refactorings found in commit 13b8a8f87eef2c7a62bc975fef21ab8619dcebd7
+1 refactorings found in commit 13b8a8f87eef2c7a62bc975fef21ab8619dcebd7
 No refactorings found in commit b2b53494388e2674dd104bdddbc8d96783340c2e
 No refactorings found in commit dc142e8423638afa7a70e8af8fc09e4246646d35
 No refactorings found in commit 2f3f490453a44adb96ef13ecbb92b90d8cb04af6
@@ -2564,7 +2411,7 @@ No refactorings found in commit e46484df4cb62eb35dde15558c42dc093973e29e
 1 refactorings found in commit 3de9a69c625c3500f7baa1c259672816aaac4ab3
 No refactorings found in commit 8dcb9af71200c4ea4a9c8bf18a172783582014c4
 No refactorings found in commit 273394fe4e686d970e53d512a20da62f9f11b013
-No refactorings found in commit 2cc336e0cbf6c013b55eecc71a28abc936b230fa
+2 refactorings found in commit 2cc336e0cbf6c013b55eecc71a28abc936b230fa
 No refactorings found in commit a5f8bf91be368560d6534b308df8deb0f908b0cc
 1 refactorings found in commit 00d42129ef505f9bdf4a96b02cc2037474faf116
 No refactorings found in commit 6ea120d67fa2e8ffd4a3f3276125aa5d0d3cf39f
@@ -2578,14 +2425,14 @@ No refactorings found in commit 250cb7c16449a64c0b407bef83e749914be2d858
 No refactorings found in commit 656afd6ff53c47a475b5b027a7526c259bcdb569
 No refactorings found in commit a7bafc07758bee1d14929edffbdd26c07ddbc072
 No refactorings found in commit 6fbf90fd27f0072df1716c7a624b68105ba00287
-No refactorings found in commit 42ab31718818c1e9effbee9460c677f396f66a6f
+1 refactorings found in commit 42ab31718818c1e9effbee9460c677f396f66a6f
 1 refactorings found in commit f57af2b200fcf8089dd026d1d7ec0516bb250df7
 No refactorings found in commit 22842a0e718c35465cc4616a53859fa5f38b3780
 No refactorings found in commit 7355266feb70e1400d0556a230f42ded3824ef5d
 No refactorings found in commit 7a92909566d22741748d0a9c4303dcfc8af76ed0
-7 refactorings found in commit f07985b402c96fbf54e4a05ae0a2f3c51fda47b8
+10 refactorings found in commit f07985b402c96fbf54e4a05ae0a2f3c51fda47b8
 No refactorings found in commit 4f51b3634f2437033559ccbd1802c764aec618e7
-1 refactorings found in commit e1d136368b53e40acc2cbc158d185f7794b40e3c
+7 refactorings found in commit e1d136368b53e40acc2cbc158d185f7794b40e3c
 No refactorings found in commit 9f94f9f78996a42c314168987138905d49f6e95e
 No refactorings found in commit 1ff8b4c69c26de7e5d496f4c85e4ec5b8749a5e5
 No refactorings found in commit 693f7b96892ab5dd44bb1040f20b59d5a1a541ae
@@ -2601,16 +2448,15 @@ No refactorings found in commit 28fe826e3b6495475eaf1c2c27f6b15d2c1f58e4
 1 refactorings found in commit 348adc878bf1a4ef4e99f16fbfb111ce75c5b4d0
 No refactorings found in commit 15eb03d21241e07b58de487a8dac2a4e20bb10d1
 No refactorings found in commit e9d847186dd08b04b55553d23336c4d2c67cfa17
-No refactorings found in commit 10a648dfbcbe6ab1ee107cad4eb617039c991bd3
+2 refactorings found in commit 10a648dfbcbe6ab1ee107cad4eb617039c991bd3
 No refactorings found in commit 005ac52b68ffb3ecdc02b907e9d0541dd7527d7d
 No refactorings found in commit 2538f131768f3ceb0978e8cd24aa59537610cfe6
-2 refactorings found in commit 8ffc21e8cf42bcbd4e9dfaa7111d955159cfad1d
+3 refactorings found in commit 8ffc21e8cf42bcbd4e9dfaa7111d955159cfad1d
 No refactorings found in commit 735b377a1a078f774b26f475954669ede2f203ac
 No refactorings found in commit f57a7ddaed01142142c791f3dca9314081baf028
 No refactorings found in commit bca902362a131c0e00480cb1ddb0eb5dca526f03
 No refactorings found in commit 6356fb6a26c68b6efb0ecb0e33de263183e23bd3
 No refactorings found in commit 23489a082bf1776addc0cee74bec94341934f7ce
-No refactorings found in commit 444c38b6863252243ddd99ea5010a02d9857907d
 No refactorings found in commit 351af60bcea9dd7e54abf75c3a54fc222bf5d613
 No refactorings found in commit 1df0503b202f6615f0870bbfe843597ec9596519
 No refactorings found in commit f1322a34a6da51b0a93b90637ee790b5dcf08d47
@@ -2626,13 +2472,10 @@ No refactorings found in commit aedbf7874c0b8dfeaa8a08839db8da2482c0acab
 No refactorings found in commit efdd45259f30ea2794a47a4e252831e4f1337210
 No refactorings found in commit 52a3565f39a36487393230d6e0ffc780dfe602c8
 No refactorings found in commit d1f0b2e554ce5d8b3a30d35aa0f5b89edd96c80a
-No refactorings found in commit 476882a9503ec56e1bf71ea156bd988b33c1c25c
 No refactorings found in commit 442c00545c4fe7109c971d2dd6414dc619df301e
-No refactorings found in commit e8ce5d9a822df73cc8f54f10b041c3c2c953ddda
-No refactorings found in commit 44fbe5885ac0efb90168ceaa72390395eb905d34
 3 refactorings found in commit 1bfc944c5a5db228a6bd648794360df6aeb58225
 No refactorings found in commit 0d31cab067788ec1d2926de7b0beb2bf06f2fb38
-3 refactorings found in commit bb1b9c4ca43f5f3f2bb0acb2d7d28336de97f061
+4 refactorings found in commit bb1b9c4ca43f5f3f2bb0acb2d7d28336de97f061
 3 refactorings found in commit 29882a1f06e02faf90ade160996829ad953a1cf9
 No refactorings found in commit 64efdec3ef1669e3391a54e0520ccb92e1eeea2e
 No refactorings found in commit 5930f9dcbb97005230fdc8181c2663e321d0a73f
@@ -2649,7 +2492,7 @@ No refactorings found in commit 7f20437cb05b1474450b17a0639c120f7ac55a0b
 No refactorings found in commit 325466a7820aed6352b7213592243e1147796c5e
 No refactorings found in commit d4576d97620e2b1a10291377df6bde86515ab116
 No refactorings found in commit 2d43e32690a0a84da6fea18b2a35b5f42e3146ec
-4 refactorings found in commit 13b639cdff56ee436917c6cb2160892109540eb3
+5 refactorings found in commit 13b639cdff56ee436917c6cb2160892109540eb3
 No refactorings found in commit 6bbb4cfef447868e6378f6995a9ac2d9c2e73cfe
 No refactorings found in commit 73026b65653fe38fded09d85212d108f5b43ab27
 No refactorings found in commit 9c39406c1686c4f3ddc637a8b85914a970639404
@@ -2671,7 +2514,7 @@ No refactorings found in commit 0fcae56196e02170ff873b4aaec672c519442639
 No refactorings found in commit d267d393210fc2c06272dd491a79f43633e9e70c
 No refactorings found in commit fc570b9e2ec30c120142cafe0313b369d41eb188
 No refactorings found in commit ed4ccd92f77f6514590456df9a6c5731384f63a7
-3 refactorings found in commit dbc52e86545b5631cdf39a17620d31c3f86d6a9e
+6 refactorings found in commit dbc52e86545b5631cdf39a17620d31c3f86d6a9e
 No refactorings found in commit 72d5bfca82ffe4a4f98612e3e7da39a11558438e
 5 refactorings found in commit 12193e96fa8b39a8444ea97586ffa13ee8730e30
 No refactorings found in commit d3d11a18f3d05e37ddd284cb6b4b2c06283c7a0f
@@ -2682,11 +2525,10 @@ No refactorings found in commit 494d6d57e1ee74b2a6699da15c3fcdb67fe08984
 No refactorings found in commit 99dbc3efd11ba5567b6f3e8ab30922506febbf09
 No refactorings found in commit fae4d381c1b4662f86918f45423698533bbc7461
 No refactorings found in commit 08ced4054783518d34038059f831fe902ca32e20
-No refactorings found in commit 99c8ee52282b30d97cbab7fd717a43356d80b4a8
+1 refactorings found in commit 99c8ee52282b30d97cbab7fd717a43356d80b4a8
 No refactorings found in commit 689219c7187577afbd460d733e5e5153f4b0f990
 No refactorings found in commit 7c337eb6c08ec8500f22e328d715b60d682744c6
 No refactorings found in commit e5ecd86f27adedff215716f6916e72caccdfda83
-No refactorings found in commit b896085d03d25663a9ba33caac075e1aa60838a9
 No refactorings found in commit 46f854c03be775b12477f238eec62b66a6e7b9e7
 No refactorings found in commit 333953b204e473c06b7c86c72a164538e51f60e6
 No refactorings found in commit e35c452ad1ac8ce4fd6bbf5f182cdf952e6bf02e
@@ -2695,12 +2537,12 @@ No refactorings found in commit 306eb4ee96036d762c6611899953fa9afc02322c
 No refactorings found in commit 8d4b69671a164f224c1bb7593973a9eca1b2e19c
 No refactorings found in commit 2bf21cbff37fb78efad08fea90a9d26ecbe141ca
 1 refactorings found in commit f800e9dc4f32f118117c06362a61332e274cdf1e
-1 refactorings found in commit 2ee0a8a7a13145df12259429012f9c57b5509509
-3 refactorings found in commit 6c282a742ce71e04513f1a2c6d560754a7acd854
+3 refactorings found in commit 2ee0a8a7a13145df12259429012f9c57b5509509
+6 refactorings found in commit 6c282a742ce71e04513f1a2c6d560754a7acd854
 No refactorings found in commit 00d83f90709108e88c16ade58dbeb9899f7067dc
 No refactorings found in commit 8fe5a2ac727031afc043b89839844ff4fb4d5a97
 1 refactorings found in commit 31cf702160ae3b6a2cfb84fb37340c953a35ff97
-No refactorings found in commit 895bcc1921eb716d6f7bd08bbef8c1e124753445
+1 refactorings found in commit 895bcc1921eb716d6f7bd08bbef8c1e124753445
 No refactorings found in commit 88a97726948c7dc422c1d3aa6087296e3f730c55
 No refactorings found in commit de376eb0fc7fe10c5a552ef1a8043b7fa0dc7bfd
 2 refactorings found in commit 935b815ad4828a184a3f246d595b3fc6dfb42599
@@ -2746,18 +2588,13 @@ No refactorings found in commit 4aaefd39df187bd67191c62ac2d7bd0ecc0b83ee
 No refactorings found in commit c9bb4b9e37ca9d4a45a0d90adbd1059ceb7ae27d
 No refactorings found in commit 25dc6bc81c8dbc8e6d808d62025dc8bf77304d31
 No refactorings found in commit 4b728ec65b1314e54ae6668557bcbb425fb72cbc
-1 refactorings found in commit c1b9675c4317b525a5c9e935b82517ba8391b974
+3 refactorings found in commit c1b9675c4317b525a5c9e935b82517ba8391b974
 3 refactorings found in commit b5985a586ca0020e013c2ea6b348740b88b6d8db
 No refactorings found in commit 7c07b93def81a51a82bbdcc8c27a02f0336e080d
 No refactorings found in commit bb6224d7712addbaeb15f2db5eaa80fec96aaf35
 No refactorings found in commit b050db16cbd9dadf5da11587c1777e8f4fcd05d0
 No refactorings found in commit ec2bfa70141e4e1a27cae2ffcdbaeb2a510d524a
-3 refactorings found in commit e828cb79950ad614d941017d4a0134c4a90a00ca
-No refactorings found in commit 2e742c529f32b0ad393fc06012ffada2546d17bc
-No refactorings found in commit d4ba930df926156b5809e229627ff0fc052e4c1f
-No refactorings found in commit 402d8848c8b9a04f8058d3cba3b634159bc322ea
-No refactorings found in commit be93b67a056e3691916f65745e5950c867d92a9a
-8 refactorings found in commit 23696a24bd69f0febb433d3ef9e0224ec6e26ebb
+9 refactorings found in commit 23696a24bd69f0febb433d3ef9e0224ec6e26ebb
 No refactorings found in commit 5218116a80abba1bfee47875ef7221ba8d18b154
 No refactorings found in commit 34bfeed011ad8429d8a72071733a1040e9cc1eac
 No refactorings found in commit 70cc228f1e5761c724bbc86dc6665a99a312320b
@@ -2803,7 +2640,7 @@ No refactorings found in commit 5c8acbac57c08b2217d36c64abfea4cde4a8ac63
 No refactorings found in commit a9d8c5f3a3154125cf90eef0541963a8ce0c2b4b
 No refactorings found in commit 92ad8123f1288f051fe20b4cbd331a4a41867ba6
 No refactorings found in commit 69bfaa557a654c0c66391cd79a61e988fd9b5147
-1 refactorings found in commit 3559789573f612be3911eb983bf51abed125c5c0
+3 refactorings found in commit 3559789573f612be3911eb983bf51abed125c5c0
 No refactorings found in commit fc233b4be7950b0df7f1a1dd88a515581519621f
 No refactorings found in commit c13453d77229fb18475d591ead7fe03e4484f642
 No refactorings found in commit 178f49e4857a41f426330b29e155546904801852
@@ -2856,7 +2693,7 @@ No refactorings found in commit 3bda12d20c9b820531e9feebb7bcd89a35421bf7
 No refactorings found in commit f69deeca2d23b2ae154a2d17468d33c80b25dfcc
 No refactorings found in commit 80c07b0ab2d1c49e6b9c6fb39b4999262fca662e
 No refactorings found in commit bd6fe7269e19db914d2ef0b7dbfc8899d5ba38b7
-10 refactorings found in commit 4d5624161f46863203cad5486a15fe20d80f3d7c
+14 refactorings found in commit 4d5624161f46863203cad5486a15fe20d80f3d7c
 1 refactorings found in commit 896a193fb0baa5baf56fa35b83d38ede8445ba9b
 2 refactorings found in commit 318aeb7aa38d310b61745a74e35aa2cd33de6358
 1 refactorings found in commit cd921fe6d330ed3125efe995ad3c258ee96b3693
@@ -2875,13 +2712,13 @@ No refactorings found in commit eb79ed409b9d35ae5c76b7a92786d9bb2491cb52
 No refactorings found in commit f8322f161d92b16a8600bd0481955ae3fa3dd01a
 No refactorings found in commit d8efbb5c75f46c7cf147b824a5031462444febe8
 No refactorings found in commit 51d8c0cdb7caccf19aa743fcab8282c43c77a25b
-No refactorings found in commit 2065c3ca514c9a5c3a60c1610d059c0995534f46
+1 refactorings found in commit 2065c3ca514c9a5c3a60c1610d059c0995534f46
 No refactorings found in commit 1b1b5becd7d3950f25d4b3a7f2e2b4a23e307331
 No refactorings found in commit 694931a190f91e6b6e3ec440408fe107753f686d
 No refactorings found in commit 5c85259243b5e2b31f6d37e9c7c53e0c93666a6e
 No refactorings found in commit 5548022a2bd56083bf83987edefff8b0a9d1d2e6
 No refactorings found in commit 28cbdeb4a9d3814d398900f372e05386a7ec839b
-No refactorings found in commit 352b466bce5f3a2d6eb588f5be9ebdc603919f6e
+1 refactorings found in commit 352b466bce5f3a2d6eb588f5be9ebdc603919f6e
 No refactorings found in commit e385c7409b5aefbfbc815922844a26a713af2491
 No refactorings found in commit b2fcd4a953f39d1a3a4b7207b9e08c220da99e4f
 No refactorings found in commit fb50f56cfd5bce7a139f10a68ac3692235b65355
@@ -2923,14 +2760,14 @@ No refactorings found in commit ed6e3f56a5bd5f0dc52d7f9b0c6c8c0839c61565
 No refactorings found in commit c0756273cacfa831aa05c341834bef41c9107080
 No refactorings found in commit f36d7f1ac2bc94d20e6f9fe46ac1951d5d643486
 No refactorings found in commit 6f9e6e0f20e5900d6290164cce1bc808dbeed328
-No refactorings found in commit af44518a6a811bbb3eb4d2acd84962ff75ffbede
+1 refactorings found in commit af44518a6a811bbb3eb4d2acd84962ff75ffbede
 No refactorings found in commit abb541bfbab9a1c6943b82cce31830c02ad5f074
 No refactorings found in commit 499954786187bcc8e1f109e9e12980b8cef18391
 No refactorings found in commit 5d2abc903178a2a7bc03b214a6316744a1581d08
 No refactorings found in commit fb61d1b187bf173065d1690083fb6ef724b63d61
 No refactorings found in commit 4ff894095c4a7fe14df390a8a75b1ad81c58129b
 2 refactorings found in commit cc7d5ba3fc7ef184560ce4f507c47016d645ecd4
-1 refactorings found in commit c9a1fb1b398ad0517d9c3d39a2e3a456f265681a
+3 refactorings found in commit c9a1fb1b398ad0517d9c3d39a2e3a456f265681a
 No refactorings found in commit 09fc6d9ee4d823dc1df1c56f92902e230076783f
 No refactorings found in commit cf7d8078aa6acc1efe8bd8de210d3f95b6c42ddb
 No refactorings found in commit 4c0a72d6e777b9f7b30cea0e274f8803c46fb169
@@ -2949,7 +2786,7 @@ No refactorings found in commit dd2772a3874d309c0fb46bd202d083eda0f181cb
 No refactorings found in commit b7cd127b48bc4a6498a4320c683adc8812334bbc
 1 refactorings found in commit ec121c1ade4160af05225275c9f21ea3a81ac0d6
 No refactorings found in commit e4bc0a44ce497d8a3c6450da601fdd493e67195a
-1 refactorings found in commit 673faede4cf84691b68ba5dff9f1edddeee5c854
+2 refactorings found in commit 673faede4cf84691b68ba5dff9f1edddeee5c854
 No refactorings found in commit 9220584528b9cad520e10eda7a994d63d606185b
 No refactorings found in commit 7a4d666521334634a29e6776ab4a31e93168ff7e
 No refactorings found in commit 8f590967c9305375eb10b3248a6438950df2e85e
@@ -2963,7 +2800,7 @@ No refactorings found in commit 21649ab375c3a7411b509ed4e1efbb016bbcdac3
 No refactorings found in commit 60f5dd09381317849e44abf998a6a173e0c07aba
 1 refactorings found in commit 62c59c82ceccfdb81ae627656145c320509a78d5
 2 refactorings found in commit 65e7c7fa300584bac1427ba31de88a85b0bf29b8
-10 refactorings found in commit 1af04dbd85515f67ee75889564db3f545e880302
+13 refactorings found in commit 1af04dbd85515f67ee75889564db3f545e880302
 No refactorings found in commit ad63b55edbd4372577160f8038c0b083801aa208
 No refactorings found in commit 117635f9550acab84981ed98d45720336ffde55c
 No refactorings found in commit 522599fc02b643e827c2e3646bf40c273b6a8150
@@ -2986,11 +2823,11 @@ No refactorings found in commit 4c437b59bbab4e47e37f3d58720a0676cb6acb1f
 No refactorings found in commit 00e79b78f85d95feafd2a7f088a55bdc85c626c1
 No refactorings found in commit a269eba42734973639d7bdee522881b83713db8f
 No refactorings found in commit ada5fca2d5f26b16e893df58d22bf4745aaa67c9
-No refactorings found in commit 056bbc02afd9a18546c17da392dae97530ee1ed8
+6 refactorings found in commit 056bbc02afd9a18546c17da392dae97530ee1ed8
 No refactorings found in commit faa3d322f8868b8af7eb1d0c143acbfc796efa90
 No refactorings found in commit 7fdf20df6baf4170b4350d9f30c7e83f3638ac6a
 No refactorings found in commit 2c0b55e4a3dfddd0739827a5a78b7daa5ac33ce9
-No refactorings found in commit 2c522ca047f8ce04423a9c61b666293b90835fb6
+1 refactorings found in commit 2c522ca047f8ce04423a9c61b666293b90835fb6
 No refactorings found in commit 543c6eeb291dda9449edc66ce0902ac1fdac2afd
 1 refactorings found in commit a7c1fb3b72078b07facc64eddb6803e50bd4d6be
 No refactorings found in commit 9512edb66714b7a268bf5160f3aa35bfe5aee55c
@@ -3042,7 +2879,7 @@ No refactorings found in commit 79d13928e5ad489ff22ee893c5a36ba4d0d949da
 No refactorings found in commit e4286380784b3a5a7e8d593ee3c6b57c648808be
 No refactorings found in commit 3fc01ee7e0db0610711710e5072046383873e50c
 No refactorings found in commit 94c315c1c2071d33135821f9348a483d43a3c09d
-6 refactorings found in commit 4772976bdac504ef2d4f7652024da7588e0f7a01
+7 refactorings found in commit 4772976bdac504ef2d4f7652024da7588e0f7a01
 No refactorings found in commit a0de46efb99efe3ca0151d01b16ca343d6ea4af1
 No refactorings found in commit 6e9b667aef2a2e0bb1d0ecc0b4fbedbaaf44aa2b
 8 refactorings found in commit 1423907bf0dc51d1dccf578c4d12a3aab048620b
@@ -3084,7 +2921,7 @@ No refactorings found in commit e32e9d6f7d787e017a3fb92cd788763b1d927d0d
 1 refactorings found in commit 5e18a4f185ce8db2fcffdfbd47c5632aaf4c9a43
 1 refactorings found in commit 4d248d5c8f58aaa0dfc0a768e0ca6c3ecd6052a3
 1 refactorings found in commit 6d5feb75dcd2ec4de75b5191dd51d4206c4848e6
-3 refactorings found in commit f72311412835ae41510520bb43d3c4928fc946c5
+6 refactorings found in commit f72311412835ae41510520bb43d3c4928fc946c5
 No refactorings found in commit 8e89c9394b03c6680e9f1cd72b1e78b1cd897e99
 No refactorings found in commit 494e539700bb3cda5fe1bb3b4cceec84c38a9ce0
 No refactorings found in commit 68ec5d70c46f07b5a7ae66924203ffe27f64a191
@@ -3098,9 +2935,9 @@ No refactorings found in commit 77fba546b30d1e0095004c80845faf460f59ff65
 No refactorings found in commit 17148ca5e91a79f9cce9177f098c887751091da0
 No refactorings found in commit 4d415f7f744ab4f906798be6fb30ea28a00a7a21
 No refactorings found in commit 3351d96147c11b24ea0d2d2abec8ff3a677c413d
-No refactorings found in commit 4018d45a2ccadd89cf4baadd5158e8f8e78e537a
+1 refactorings found in commit 4018d45a2ccadd89cf4baadd5158e8f8e78e537a
 No refactorings found in commit 7844b1d4e4615f6d3a76f693ca17f60db3887076
-3 refactorings found in commit 31b74a996c7e02a6209fcfde65cc2b968a4b170e
+5 refactorings found in commit 31b74a996c7e02a6209fcfde65cc2b968a4b170e
 90 refactorings found in commit 11fb8debd6ae288443b4bda5c53e6cb9998cd5d8
 No refactorings found in commit 12966e0f086383cfcd55e0d45ca4bde47b16c841
 1 refactorings found in commit 5e60c508513ef6826b25374892111aeebd7084eb
@@ -3128,18 +2965,8 @@ No refactorings found in commit c5b67b5620f41d6c5b1ee705b1f3f076f126e174
 No refactorings found in commit 20bbeb3e65dd55fd2794b35f386c6a578a0c2059
 No refactorings found in commit f8edea40ae345bad31589c67686c86cd180ef4bc
 No refactorings found in commit b1d2595b654a9c6397923a9b1064f00cfc60dbfb
-Error processing commit bfaff068134968f799b55888da0e3391967a8383
-java.lang.StringIndexOutOfBoundsException: String index out of range: 51
-        at java.lang.String.substring(String.java:1963)
-        at gr.uom.java.xmi.diff.MovedClassToAnotherSourceFolder.getRenamePattern(MovedClassToAnotherSourceFolder.java:16)
-        at gr.uom.java.xmi.diff.UMLModelDiff.getMoveClassRefactorings(UMLModelDiff.java:671)
-        at gr.uom.java.xmi.diff.UMLModelDiff.getRefactorings(UMLModelDiff.java:722)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detectRefactorings(GitHistoryRefactoringMinerImpl.java:123)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detect(GitHistoryRefactoringMinerImpl.java:82)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detectAll(GitHistoryRefactoringMinerImpl.java:230)
-        at org.refactoringminer.RefactoringMiner.detectAll(RefactoringMiner.java:63)
-        at org.refactoringminer.RefactoringMiner.main(RefactoringMiner.java:33)
-No refactorings found in commit ed89b85f18982d9c885ca4b18e6b250c1782c8c1
+2 refactorings found in commit bfaff068134968f799b55888da0e3391967a8383
+6 refactorings found in commit ed89b85f18982d9c885ca4b18e6b250c1782c8c1
 No refactorings found in commit bc518a5bc14c23e37e55c427f1879145eaf7ce93
 No refactorings found in commit 759d8e16872b9613993df3950997f9eba9df8b70
 No refactorings found in commit ff5e07323dad89e45382527d63a3040b5ea82240
@@ -3178,7 +3005,7 @@ No refactorings found in commit c2f77119237572bba9014a980ebc23c62607e466
 No refactorings found in commit 39cc3511ad2253e330f6ce243e3915a4897aa3d9
 No refactorings found in commit ac6a6962a24719ba0072138bdc65fcb507e7252a
 2 refactorings found in commit 51a96d14de27e100954c36e219daa7db54425a75
-3 refactorings found in commit e84137bdfc35083227a41eebf0edaba5df7de266
+4 refactorings found in commit e84137bdfc35083227a41eebf0edaba5df7de266
 No refactorings found in commit b6e8cf95c7996658455af440d71aa7d1dd85b4c0
 No refactorings found in commit 8ff889bc7da823c7c81872ba8e0bbc61ba1d630f
 No refactorings found in commit b74df6163a4b45f4ec8ceebb9e0247b3f4925419
@@ -3245,7 +3072,7 @@ No refactorings found in commit ca617e425a656f2ed1a25794836c2ce5cc35300d
 1 refactorings found in commit f73d5e917aa6176df263e2767c306c0c697b5911
 No refactorings found in commit 237da5d16a1b2cddfa4a13105c24c99056ff4557
 No refactorings found in commit a3e623622b857b39ce5b86df9f0bd9fcc7934eec
-No refactorings found in commit 3db2e80ab65a9f9f07e82bf91c1812e4e3640c0c
+10 refactorings found in commit 3db2e80ab65a9f9f07e82bf91c1812e4e3640c0c
 No refactorings found in commit cddeb95e8e6db8a82d39fe97e882692116068815
 No refactorings found in commit 91f36f41e5b481c064980fb7485e51e64b6b4089
 No refactorings found in commit d727a324344f9d066a048fbcb6d5fd6a4945b684
@@ -3257,7 +3084,7 @@ No refactorings found in commit 78b1f071a8c67383a8c55e5733cf49940e8c54f8
 No refactorings found in commit e986d707dafe964a60eb269241ce146b506e5065
 No refactorings found in commit c75a9864f85bb811dbba104bf16bbd8b9b7a5db0
 No refactorings found in commit 74da012f6f3393328a142026174c6efe96360f31
-1 refactorings found in commit b7db6cef7f2837562f2255019f158e149f8f65ac
+2 refactorings found in commit b7db6cef7f2837562f2255019f158e149f8f65ac
 No refactorings found in commit 6882b767ce5a6ea5a0a6998952adcb4f53398730
 No refactorings found in commit da045d1d6f25e61605e464e1458000f81ff000ae
 No refactorings found in commit 8c27b3240dcbaed7be1e2a157092466aedfbf4ce
@@ -3330,7 +3157,7 @@ No refactorings found in commit 11b1cd3edd5e0a399b5e5c8fb7ebc3a53e69ba0f
 No refactorings found in commit 19e7ab40e46cdc296079c4c11f5b5cbdf816c0b1
 No refactorings found in commit ec56e7f86ceab3db230ab4472526e006ece5d942
 No refactorings found in commit 5925abc2437bee14aa3fdf5ad9b33a6e022c9064
-No refactorings found in commit 3a00e57002f5264d7c620f24b1a1bed5d5ca97c5
+1 refactorings found in commit 3a00e57002f5264d7c620f24b1a1bed5d5ca97c5
 No refactorings found in commit 450c250a0f18546114110988bbec55b2bc715bee
 No refactorings found in commit 35020fc0853ca4a8307a10ae226ab00f0756428f
 No refactorings found in commit a6bdad2cb9bf98845b2a435b7e828b789a3a70cf
@@ -3342,17 +3169,7 @@ No refactorings found in commit 17b5b87067bb7dec492f304eb18fe1b14ade8550
 No refactorings found in commit 65d007e14d086d1d7201c7c8c9ccf72e69ec1f2d
 No refactorings found in commit 6304f2036f0eab9b58c60ce954541ab7e4423f9d
 No refactorings found in commit 1b63b9bf35798cc1740929b30ba31e73e31fc372
-Error processing commit 1a7f172587fd7d528210b6af404d8226efba2180
-java.lang.StringIndexOutOfBoundsException: String index out of range: 9
-        at java.lang.String.substring(String.java:1963)
-        at gr.uom.java.xmi.diff.MoveClassRefactoring.getRenamePattern(MoveClassRefactoring.java:26)
-        at gr.uom.java.xmi.diff.UMLModelDiff.getMoveClassRefactorings(UMLModelDiff.java:649)
-        at gr.uom.java.xmi.diff.UMLModelDiff.getRefactorings(UMLModelDiff.java:722)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detectRefactorings(GitHistoryRefactoringMinerImpl.java:123)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detect(GitHistoryRefactoringMinerImpl.java:82)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detectAll(GitHistoryRefactoringMinerImpl.java:230)
-        at org.refactoringminer.RefactoringMiner.detectAll(RefactoringMiner.java:63)
-        at org.refactoringminer.RefactoringMiner.main(RefactoringMiner.java:33)
+3 refactorings found in commit 1a7f172587fd7d528210b6af404d8226efba2180
 No refactorings found in commit b18e801370b87ab660f2213bea591f602bd438e9
 No refactorings found in commit c05a61b91bba0bd5b7d7fe077cc850aacda51a4e
 No refactorings found in commit e601f6e3e3b9b67bc167f02e5983ec86836b7b76
@@ -3377,7 +3194,7 @@ No refactorings found in commit 460104c86f8d3ed7652b7356a25b51e58c8fa6a9
 No refactorings found in commit b61f35e956431336f371dd149eb563b6e778f67b
 No refactorings found in commit 3c0d504fe54b2004b7dd21f8e63f7bb17e75645c
 No refactorings found in commit 782e169f462f9eb1d3a2a8919f59a11aa11c516d
-No refactorings found in commit 0be0117470fba74174bccb82f38667c295862ff2
+1 refactorings found in commit 0be0117470fba74174bccb82f38667c295862ff2
 No refactorings found in commit aa2285f3b4c7141d5465b491bde4f1e40e17d977
 No refactorings found in commit 0a9a0e819a1eaf0cafd03a853d80f88bf96779a0
 No refactorings found in commit 72116e7a495dcbe410484cc3212c66f2ed688489
@@ -3405,7 +3222,7 @@ No refactorings found in commit c884ab0f30ec8a0e0fe67f9c52d400aa934d4a7d
 No refactorings found in commit 753c71a399a304fe4b0aece6a4d7f7e84db50186
 No refactorings found in commit 6e6c3e6e80ed1d145b783eed277d174c2b8e1708
 No refactorings found in commit 602e98c6c3352148044924b5d702db3d59bd8349
-No refactorings found in commit 333d3bc1226787a45fe3113d8f7999db76e738e7
+1 refactorings found in commit 333d3bc1226787a45fe3113d8f7999db76e738e7
 No refactorings found in commit 88a8d5838f8b0dd15cadea9564879c403a22946c
 No refactorings found in commit 13dbf6603b3ffaeaeae1f5e321fb890857fa5340
 No refactorings found in commit d07891bfc8099b16515622fb81af6ec3cd1aeb73
@@ -3429,17 +3246,17 @@ No refactorings found in commit 2e7d05440c3a3306fd85305cc6e6de2f434a170d
 No refactorings found in commit 576533baf53579964e43f008506fa2181026ead4
 No refactorings found in commit 6da0057ef5f5329e8bd473d4a1e846cd77aa2493
 No refactorings found in commit 13fdc6201db3dffd66dd2314068cf3e5560e1149
-No refactorings found in commit 5e2a6a97fafbc4c4d9a9975020edb64cc4e10439
+1 refactorings found in commit 5e2a6a97fafbc4c4d9a9975020edb64cc4e10439
 No refactorings found in commit fff5f24633a4e7e57053b7833c2731c4997a7b1f
 No refactorings found in commit cfdaace30bcf6060ee203db9d31eb4b47ab945bf
-No refactorings found in commit de8038fe4d2b9ed8e4cd51cbbb2589c9533605f6
+1 refactorings found in commit de8038fe4d2b9ed8e4cd51cbbb2589c9533605f6
 No refactorings found in commit 115f70c9173590414c8a5dca946a758aa0d66e49
 1 refactorings found in commit aecc8503f235e90b5421d4044b64d3e1238dfa09
-No refactorings found in commit 678e47dc1a9313cc3586c72bc17d094fe0ff9aaf
+2 refactorings found in commit 678e47dc1a9313cc3586c72bc17d094fe0ff9aaf
 No refactorings found in commit fc64b7ed46b3daebe30a7c72f032765a0e21741d
 No refactorings found in commit b451fcfc02ed7e5d6bf30c77a2a3b1666029bfc8
 No refactorings found in commit 65c5535c7d6ef788d819b8c13ce03528be0b2def
-1 refactorings found in commit 361874d0d6beb8c00a41e0ca86668fa8189b029a
+2 refactorings found in commit 361874d0d6beb8c00a41e0ca86668fa8189b029a
 No refactorings found in commit 6cca0522517816a98ffbc883992d11e537b68c03
 No refactorings found in commit 5b738313e8524ea44113cb1bf7c9aca0f4c34ddf
 No refactorings found in commit cdb6dfd79e4c185804adc220d9a221a24f0b9e7b
@@ -3454,24 +3271,14 @@ No refactorings found in commit b8ade6f6da06b4d24d9d1b18bc486188e5795649
 No refactorings found in commit 126b7f1fe530121645f55e7060ec19570ee4c822
 No refactorings found in commit 2375eda92c1c218e1dc10a45e6cd3873e992b010
 No refactorings found in commit a32db2581fb69e44fb117349099134497ec43799
-No refactorings found in commit c1f94aab9265271376ff299f61597496e083ea45
+3 refactorings found in commit c1f94aab9265271376ff299f61597496e083ea45
 No refactorings found in commit e84957c768eace2e933a935d6c76d87bc251fcd8
 No refactorings found in commit 4d4afa6ca454b0172260e8cc210e7215442746c3
 No refactorings found in commit 77240dc024831aa643e0c2c885e09e92c15fbf7a
 No refactorings found in commit 652dcd2804f215d5a2fb175d07a8f0b3dc61c603
 No refactorings found in commit e66e9d445f301cdccd370e721eea1e9ab92cc131
 No refactorings found in commit 540075ca390a859a1f1bff4966095b3b522dd74b
-Error processing commit 2186f6412677edef05a2700775b4cbbf6ed3b3b6
-java.lang.StringIndexOutOfBoundsException: String index out of range: 9
-        at java.lang.String.substring(String.java:1963)
-        at gr.uom.java.xmi.diff.MoveClassRefactoring.getRenamePattern(MoveClassRefactoring.java:26)
-        at gr.uom.java.xmi.diff.UMLModelDiff.getMoveClassRefactorings(UMLModelDiff.java:649)
-        at gr.uom.java.xmi.diff.UMLModelDiff.getRefactorings(UMLModelDiff.java:722)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detectRefactorings(GitHistoryRefactoringMinerImpl.java:123)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detect(GitHistoryRefactoringMinerImpl.java:82)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detectAll(GitHistoryRefactoringMinerImpl.java:230)
-        at org.refactoringminer.RefactoringMiner.detectAll(RefactoringMiner.java:63)
-        at org.refactoringminer.RefactoringMiner.main(RefactoringMiner.java:33)
+1 refactorings found in commit 2186f6412677edef05a2700775b4cbbf6ed3b3b6
 No refactorings found in commit 68356256026542836b3501b4dea936ad973fe428
 No refactorings found in commit 73bbab4ae64efb55d1ece603e6b576e031ba6607
 No refactorings found in commit a7e2e2d6b2d23c17b3635db9c923ebf5d9b47d75
@@ -3485,7 +3292,7 @@ No refactorings found in commit da66ba895517026dc147bc23e0fab945298b2b5a
 No refactorings found in commit 224a3a8a42e2c005fa77adee45f362cb6ada5ae9
 No refactorings found in commit 6d8a11f0a6245f2f70b23aa189545b110a5ba08f
 No refactorings found in commit 12de46529d7f37333b2cf862e3a4be929d7dd395
-2 refactorings found in commit 30171ef89bcd5e0e919263fcb66ffa9c9960cbea
+3 refactorings found in commit 30171ef89bcd5e0e919263fcb66ffa9c9960cbea
 2 refactorings found in commit 42946ddbac3869a755ed48ccd6bbd9ff2e186bd8
 No refactorings found in commit 205a84d8345a51544876be572fc2805b1ada7c4f
 2 refactorings found in commit 7f6130c5661009aa1ae8e225b3d14b428e5444c8
@@ -3513,10 +3320,10 @@ No refactorings found in commit 89ebafc9a6c92d6df5beb6dcfcf312f85266d038
 No refactorings found in commit 35ee1b89bbce2df2517d066d9e166da011a1a9df
 No refactorings found in commit efc24501236ab94540c7a70a6a9d964923136314
 No refactorings found in commit 62d58599c5dc9fc4b4ed309d3340362bd4801f17
-No refactorings found in commit 41992976ec45cf641ea47415ed0595c69a565bbd
+1 refactorings found in commit 41992976ec45cf641ea47415ed0595c69a565bbd
 No refactorings found in commit 3c254fad0bef21108675dbd2fa4f45c59a3049e8
 4 refactorings found in commit 3914a5d41751a2ffac8f88c74bfd53f9ca0a3519
-1 refactorings found in commit d2e52b4368c49d4072daed7d32157adecc5f4faa
+2 refactorings found in commit d2e52b4368c49d4072daed7d32157adecc5f4faa
 1 refactorings found in commit a323947704278a150ddd357969b8b95c61b7fcde
 2 refactorings found in commit d33c3868bcbb42163db7edae2955fae16e296e00
 No refactorings found in commit e2608793bfbdef223f57ca62787308711a3a3289
@@ -3540,7 +3347,7 @@ No refactorings found in commit 9b0aa76e7e42726826217cb2197914a1774a444a
 No refactorings found in commit 94bfcd3b265fece6483ebfe5926d2966ba4223d1
 4 refactorings found in commit 58e704a0b873a965d7c9062e6b37a9c8f4265b5b
 3 refactorings found in commit b58c2341da2c216cedacab8003797e29f544ea8d
-4 refactorings found in commit 633162a04bc5317dbe949085eae62e337e677320
+5 refactorings found in commit 633162a04bc5317dbe949085eae62e337e677320
 No refactorings found in commit 19eb8bd90d286e5d3337cf520c71d3feebe07cd0
 No refactorings found in commit c30bd6caa75287552bfb424d07ac717c90c9ca13
 No refactorings found in commit 8ccfd201e6be15a6fbbfd972c2f9c2c27eec4489
@@ -3569,7 +3376,7 @@ No refactorings found in commit e26d9ff8e492bdd05e89b9d774c2e7f0a773a0a3
 No refactorings found in commit 9187dbd3624e7ccab95c6e1ab3830634c7677271
 No refactorings found in commit 23db51fbd75d5dacb95db6acf44c3730c0d89861
 1 refactorings found in commit 4e3f9fa626839f6b1f50abc9c147cad0a1e84757
-5 refactorings found in commit b27a8cff06b5298022f5b3a991ec87d78af1594a
+7 refactorings found in commit b27a8cff06b5298022f5b3a991ec87d78af1594a
 1 refactorings found in commit 9ae723f5ab04cfe9826c6524e10a0d4165c4b409
 No refactorings found in commit 48f5fdb8e99bcca2e60abb9138073478f9f2c781
 No refactorings found in commit d07908f71b2572dfd49c3bafe51440f08992aeb4
@@ -3616,17 +3423,7 @@ No refactorings found in commit 8ce7e1f5884bda6cbfd2c3bd38a1d95b0ab94296
 No refactorings found in commit b0cfdb180e939de189fb6fec79138012f701785a
 No refactorings found in commit 0ea29df5890af686ba67902e9f40897d9e6f2483
 No refactorings found in commit c4f9a6e12099f680de0734718be72be9ab9f263d
-Error processing commit 8628a63d955b596ba4d116091658297a7e53c3c2
-java.lang.StringIndexOutOfBoundsException: String index out of range: 49
-        at java.lang.String.substring(String.java:1963)
-        at gr.uom.java.xmi.diff.MovedClassToAnotherSourceFolder.getRenamePattern(MovedClassToAnotherSourceFolder.java:16)
-        at gr.uom.java.xmi.diff.UMLModelDiff.getMoveClassRefactorings(UMLModelDiff.java:671)
-        at gr.uom.java.xmi.diff.UMLModelDiff.getRefactorings(UMLModelDiff.java:722)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detectRefactorings(GitHistoryRefactoringMinerImpl.java:123)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detect(GitHistoryRefactoringMinerImpl.java:82)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detectAll(GitHistoryRefactoringMinerImpl.java:230)
-        at org.refactoringminer.RefactoringMiner.detectAll(RefactoringMiner.java:63)
-        at org.refactoringminer.RefactoringMiner.main(RefactoringMiner.java:33)
+2 refactorings found in commit 8628a63d955b596ba4d116091658297a7e53c3c2
 No refactorings found in commit d0d62b53c2bab74a02d0fab6317c468269bf8877
 1 refactorings found in commit c48a5c2c79c93d053125ce67f220fe107de44e7a
 No refactorings found in commit f27e421c89d2c0391837fe1ecf7a0c0f78cebdea
@@ -3640,7 +3437,7 @@ No refactorings found in commit 362bc6ff9b72fd39c4983ccbd4f13a34c23afdd3
 No refactorings found in commit 33a183b9657fe71116214b7329746696e33f060e
 No refactorings found in commit 86e387e9a458d03af7d1d6137db98acfce3f533a
 No refactorings found in commit 6f2c2a7d1d86296e87198da601f9c13aead03506
-10 refactorings found in commit da0f93feb54b384f397665e7795fcd575f059f2a
+6 refactorings found in commit da0f93feb54b384f397665e7795fcd575f059f2a
 No refactorings found in commit a1a8c29c63e2b34779ace210d03803d8410d6c02
 6 refactorings found in commit 88a4f61917fdd3df838c75cd94ecf91e3f72f66b
 No refactorings found in commit 3808960bd999f5a3594558077dd351b627b58254
@@ -3694,10 +3491,10 @@ No refactorings found in commit fcb4a33e3a15611925ea547697f29a792310286d
 No refactorings found in commit 5e46e9278c72ece503fbacc21da356868bc5ee0e
 4 refactorings found in commit cf044dda80db3e951197dc5e94b65376994d41c7
 No refactorings found in commit 8690d029f028e455f73daf282fd575825831eb94
-1 refactorings found in commit e3ec1499273f84d793b385b260422ec90097252e
+No refactorings found in commit e3ec1499273f84d793b385b260422ec90097252e
 No refactorings found in commit f81291006dce6f4c15d0131979448872c9b7dfcb
 No refactorings found in commit 568a1d6f871b14d035808e113b30f81fb8993cd3
-1 refactorings found in commit d5983b0d8c8c978e0509a0ed6f8aa3660c80c863
+No refactorings found in commit d5983b0d8c8c978e0509a0ed6f8aa3660c80c863
 1 refactorings found in commit 539e5fed634c1c522115367432966639af928e05
 No refactorings found in commit 58f4e96a00dc9808510ea029222795594d889347
 1 refactorings found in commit 1646eb9813c3b4f6e0e52f26c39f7591d0205aab
@@ -3722,7 +3519,7 @@ No refactorings found in commit 669ba5ef094cbf4f17871608e01a35c3b5fe361a
 25 refactorings found in commit 4576a1e3ae6643113714d22a7efe6ace9ca2bfbc
 No refactorings found in commit 2d678d6b3255ad9ff9c7fa013ba39f5124ff5279
 No refactorings found in commit 67e4090b578770b80113ee6ab3b83f43f3043dc0
-2 refactorings found in commit dcc1889909506442a064a578405da4fe55ba5144
+4 refactorings found in commit dcc1889909506442a064a578405da4fe55ba5144
 1 refactorings found in commit ae3d9760c903ddf8d5c2a2f2168c7555e9c3e983
 No refactorings found in commit 2b9470eed0483df88f3aa77811f3fc6b4541d437
 No refactorings found in commit 49a44be4416a9a87dce2fdd6a63df3e394ac26cc
@@ -3823,10 +3620,10 @@ No refactorings found in commit 6e9f4a6f29cdfbbbd4aebdbe90705908112c5cae
 11 refactorings found in commit 017dc13db1ebf30907a7cb05b42b619a765803fd
 No refactorings found in commit b6e9223fed08d43d78241020b39f8b01d9507aa9
 No refactorings found in commit 4d54080b3ec57559b0c1d842fcb885a23340f3c5
-No refactorings found in commit 15ab6c6326927cdb3fc0d3f81cf90335aa4f9f28
+1 refactorings found in commit 15ab6c6326927cdb3fc0d3f81cf90335aa4f9f28
 No refactorings found in commit 876710fa2206ab71be14a27e21eda80039bac095
 No refactorings found in commit 70c342d4d105a6675db1db0d2de8feadf9795ee2
-5 refactorings found in commit 72bdf6c2be5671079e7959683a051523177c554e
+7 refactorings found in commit 72bdf6c2be5671079e7959683a051523177c554e
 3 refactorings found in commit e4f1be2daa87bdbd1c212d7de905c87ac3004667
 No refactorings found in commit 09825ca25ad14739a27213e341a9f8b9fa59ae95
 No refactorings found in commit 7d59175bb6969b3e43e373de06a315d8e0f4f95d
@@ -3849,7 +3646,7 @@ No refactorings found in commit a310184efa1af80857929b5a23aa0fb5adfa364f
 No refactorings found in commit 72c4fd84d47f5505013c514f9e55b1bb3d40cbff
 No refactorings found in commit 61b51e1cf9ac14307e79719dcb7a9de47fe08271
 No refactorings found in commit 846006cb6a5276d82dfd889a45284ea320fc43e8
-5 refactorings found in commit b7ec6f3e4c7c13bfc447a30c7e351433db29736b
+6 refactorings found in commit b7ec6f3e4c7c13bfc447a30c7e351433db29736b
 No refactorings found in commit 798e72a121a7565de04abd648ff88c02465957a3
 2 refactorings found in commit 66dfb6fd3781685943e7118464925b1bd87bd606
 5 refactorings found in commit 1dac21c3a60fdcb447a8ac89ce6fde9647b020e5
@@ -3914,7 +3711,7 @@ No refactorings found in commit 66c5db02a3602c3d9c571f8d12938398e061e6eb
 No refactorings found in commit bf887e71d9949c815e6e521d85d4c17c60d03560
 No refactorings found in commit 63024cc8e92e8d93fdbcc0eeb3f6e787b5e48cd2
 No refactorings found in commit eb2fc383161f3f77a2df45997b7eea24cc3a70c1
-No refactorings found in commit 97d0c7144961367887dfb7cb1bc54e062002d851
+1 refactorings found in commit 97d0c7144961367887dfb7cb1bc54e062002d851
 No refactorings found in commit f37718124ae2dc6ab9c7c12c68e4cb17e802cf1e
 2 refactorings found in commit cef8adfdaebc62faa9fa2baeaa190fd0de94d296
 No refactorings found in commit c1444e2cdd7a69e35b7518ecc2148ed5596c2020
@@ -3980,7 +3777,7 @@ No refactorings found in commit 4240e34c376b670ad44df0ce19af55d47eda3329
 No refactorings found in commit 147e1bfe107eed1dcabca36fa7a27847cd4d9d7d
 No refactorings found in commit 0af6fbea16c2ed7f1aee6154a06713bee3794c1b
 No refactorings found in commit d1bdfb5234c94c4c99fbd1eba6ea7f3adde80387
-No refactorings found in commit fe9c63560d12e51a9ca7318639d9fa3a79da90f2
+2 refactorings found in commit fe9c63560d12e51a9ca7318639d9fa3a79da90f2
 No refactorings found in commit 53a353916b1bf91653c8df6907e630b3751582e1
 No refactorings found in commit 94f258f90c16c326979cc8efdab1eefb53cae893
 No refactorings found in commit d98924b39db3405cdf32eb4856f3b3c5b20b5734
@@ -3992,12 +3789,12 @@ No refactorings found in commit 0d2e13392bb352a14b9f5e2a3168202e7b6cc6fe
 No refactorings found in commit 78f8591937a7e44f253d907183b09c644d31f6c3
 1 refactorings found in commit b3b7ac888c0d66601440651fd755b3dc97f37b3b
 No refactorings found in commit 877706d2e17df91e5bb4a82b2d48faf0ecbfd4bd
-No refactorings found in commit 8692cad3282d0d8e72170bfa8720bb57ea98dd95
+1 refactorings found in commit 8692cad3282d0d8e72170bfa8720bb57ea98dd95
 15 refactorings found in commit a8b3f44a2fd25918d25d0237c27d2c77080f67e5
 No refactorings found in commit 61ea026ea9077be61114d4185f98a64dbe798a2e
-No refactorings found in commit 4639d467053417321836b30a43903a7f501ba103
+2 refactorings found in commit 4639d467053417321836b30a43903a7f501ba103
 No refactorings found in commit e1abedf15e2b82d14795903e5f5c26fbeaea141a
-1 refactorings found in commit 64d5a0386305c6bbd47955b5f1e9b770930f7c29
+2 refactorings found in commit 64d5a0386305c6bbd47955b5f1e9b770930f7c29
 No refactorings found in commit 309e1a2da75e769bd2ff5bb9ec747e55bc2ac581
 No refactorings found in commit 5caca8bd71742fa71c395169de20e0e9c178726d
 No refactorings found in commit 33d958284c2a6345eeb315eaa22c753b715e568f
@@ -4037,7 +3834,7 @@ No refactorings found in commit 95b967858ed5e43dd9c109ad73206032b2026903
 No refactorings found in commit cf335e30a4af3bdf59db07eb3cb25accf309240a
 No refactorings found in commit 4029a3f5475633dff3603675255eeef8e2f9d912
 No refactorings found in commit b04ede30f5da9f7adf9d8fbe7483eb1c21108250
-5 refactorings found in commit d226ad2999e7f8ec87894630113929ab3c049e39
+6 refactorings found in commit d226ad2999e7f8ec87894630113929ab3c049e39
 No refactorings found in commit 455c71ae714a78691a6fef52805949bac002c4e3
 No refactorings found in commit d3979102f879b60792238426a3f59a259a6875f2
 No refactorings found in commit 8bab22bdca7b6178b1d2802e7c780eba9e1593aa
@@ -4049,7 +3846,7 @@ No refactorings found in commit a0f281a9f7f8e7657ee6cadaec78c7e9db71437c
 No refactorings found in commit a929225e1345ba4563240b4efb90cb934510d35a
 8 refactorings found in commit d4e7c9d4af2a3b6f7e169d7d8c518748f53f3e42
 8 refactorings found in commit c3a340e0ec51776759874cb032ff1c468c92354f
-42 refactorings found in commit 78998f1d2034b494d7b539a229f6b14c06d09523
+46 refactorings found in commit 78998f1d2034b494d7b539a229f6b14c06d09523
 3 refactorings found in commit 72b2eacb4fb76d086be8bc82918ccaa383a7bafc
 No refactorings found in commit c5fd46e5f2fae5eeaf0e665661eadfc185582bec
 No refactorings found in commit 62fb8b257b2ab67a1b6c4ecd5807ec6da496a0e0
@@ -4059,7 +3856,7 @@ No refactorings found in commit a7340609b2399bd6c1252154844d8925d05ec997
 No refactorings found in commit d12d4e6ca56e9127964d71ed9a832047a6be676c
 No refactorings found in commit e021ca1be62bbad90c1ca288d9701d2c288c5c5b
 No refactorings found in commit 769956a808235ba55e0ea2440df38010a85880cf
-2 refactorings found in commit de699f18321b579655e79a850c686687c42454ed
+3 refactorings found in commit de699f18321b579655e79a850c686687c42454ed
 No refactorings found in commit 758c5f7319765ed5b1fb352dfd6eca7d67c57162
 No refactorings found in commit e0d9cd41a2e0fae80d6be324767f295517ba8fac
 1 refactorings found in commit 25ea6ef7eeedad91acb7e452c7b19fe60c9c5380
@@ -4107,7 +3904,7 @@ No refactorings found in commit b0a1959cf46d7fe515d2d78107d36ff6f3837531
 No refactorings found in commit 043a6bddc8424bcf869500a42c06b52402adfc8e
 1 refactorings found in commit eaa04c6c7f84d4aca94ea0699bc4619aab7be37a
 1 refactorings found in commit 6243fa31e13199d016981225d3ecb8d9b88a882e
-No refactorings found in commit 19798c4bd600d05178a58391dd9aa4e6c84d78e8
+7 refactorings found in commit 19798c4bd600d05178a58391dd9aa4e6c84d78e8
 No refactorings found in commit be6939bd97e23f7bda3c9c540dd61a5824e7347f
 No refactorings found in commit 754679425313db7d7f4a524c5f83f40af10f1fdf
 No refactorings found in commit a497c42f90b4fb2898a55dab34d30cf5467935c5
@@ -4119,7 +3916,7 @@ No refactorings found in commit b86dd316bb7cc920c96909e939152daeb3bf266f
 No refactorings found in commit 1b4714c214236ae4d7a8a25bdfce3feff74e0932
 No refactorings found in commit ba4fb5bf42c062bcd38b51e6e2d4625337894f41
 No refactorings found in commit ef54cd43cbaa2b938aa3595fb415dab933503812
-1 refactorings found in commit d48bf9d2b6e122e21caf1e965a5bfb374757b50f
+2 refactorings found in commit d48bf9d2b6e122e21caf1e965a5bfb374757b50f
 No refactorings found in commit b02d83df2242da8b85d2451d81f1c75dffe0672a
 No refactorings found in commit 4101ebd609f570003aeda5af48829142bcbc9dcc
 1 refactorings found in commit cf53bc6585fa2f2f439de060cacf5643ed3a6064
@@ -4195,7 +3992,7 @@ No refactorings found in commit e04b2adce9d7e60d6d90d012e87332581477a9a8
 No refactorings found in commit 1665013fc0199603f77f2c3e199c05a7f6816b40
 No refactorings found in commit 7b6200728d93a528c0be27f075becf7c121a6446
 10 refactorings found in commit 335770683c021af22f2016261423c2afbe68497c
-No refactorings found in commit 27f540c9bfe15c16c156eeed3098feef3ddb2c10
+2 refactorings found in commit 27f540c9bfe15c16c156eeed3098feef3ddb2c10
 No refactorings found in commit 3f204ebd59d754a66b018e16dd6c291a6a4b3009
 No refactorings found in commit b8eb2a799a89c410a74b2f9943e184d57d76365b
 12 refactorings found in commit 525c93059c32f92da575177d0ec6c79d4b77f6fa
@@ -4226,17 +4023,7 @@ No refactorings found in commit b4e0135927abdb55cd969ca4d18524c810b93e58
 No refactorings found in commit 784b5a6d825d6bf03bfe0fcbddb9392d598a2c75
 No refactorings found in commit f79a0c0ee3c3a4f08e54e4870ffac7c815c5f649
 No refactorings found in commit e3184522c61368c923e86457c29c011d9899cffc
-Error processing commit 9cf6ea22537a8e5c1f1bd0de8bb5b045d8d45e25
-java.lang.StringIndexOutOfBoundsException: String index out of range: 45
-        at java.lang.String.substring(String.java:1963)
-        at gr.uom.java.xmi.diff.MovedClassToAnotherSourceFolder.getRenamePattern(MovedClassToAnotherSourceFolder.java:16)
-        at gr.uom.java.xmi.diff.UMLModelDiff.getMoveClassRefactorings(UMLModelDiff.java:671)
-        at gr.uom.java.xmi.diff.UMLModelDiff.getRefactorings(UMLModelDiff.java:722)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detectRefactorings(GitHistoryRefactoringMinerImpl.java:123)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detect(GitHistoryRefactoringMinerImpl.java:82)
-        at org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detectAll(GitHistoryRefactoringMinerImpl.java:230)
-        at org.refactoringminer.RefactoringMiner.detectAll(RefactoringMiner.java:63)
-        at org.refactoringminer.RefactoringMiner.main(RefactoringMiner.java:33)
+1 refactorings found in commit 9cf6ea22537a8e5c1f1bd0de8bb5b045d8d45e25
 No refactorings found in commit c1667fe02458364d4935c16aeae0b609a54dc2b0
 No refactorings found in commit 42aac4bb4d651db52934edc8b7c3b93770e744a8
 2 refactorings found in commit dfa48a82f838dff79b7758af71783b75761acc09
@@ -4255,7 +4042,7 @@ No refactorings found in commit fdbe1bdfb89fb5b270853a0770031d038a717d8d
 No refactorings found in commit 19ee1fefd70d8b02afdf494879e0d3efa863ba3f
 No refactorings found in commit 9dc17848a510a4d5ddcb2080463c754c0ead2a13
 No refactorings found in commit 683f1768b7944c2e14b8b2aabff28cf542a55087
-No refactorings found in commit 43965e2db3902c6421d066bc2023a1a69fbf6745
+1 refactorings found in commit 43965e2db3902c6421d066bc2023a1a69fbf6745
 No refactorings found in commit 09a32798ebaac7c4d50b115369da79dad92f6dee
 No refactorings found in commit 5801c104551fc78da6a97f7c4a2959aaf6a541bc
 No refactorings found in commit 6f00a28f3ee9a6a939209c17edae2e5b1f603e87
@@ -4297,22 +4084,22 @@ No refactorings found in commit d8e92f9d8de8d04bc0fd2c879d32f6171eb62c63
 No refactorings found in commit 2c18c4880309e342200c62fed03e91057c14eba8
 No refactorings found in commit 779188929a18d1958af6c51e6d842a8c7edc62a2
 No refactorings found in commit 2675cbef0fe4db90011c2db084d7376a6bed02ad
-No refactorings found in commit 6973039ea9b2983ff7c752351614bd40a2f7d8af
-No refactorings found in commit b47d6543f2b53f00b8f7c42a0734dca4ae56b8f1
+1 refactorings found in commit 6973039ea9b2983ff7c752351614bd40a2f7d8af
+2 refactorings found in commit b47d6543f2b53f00b8f7c42a0734dca4ae56b8f1
 No refactorings found in commit 9c7ef6c5f34fda36dec8a97b12352a2d7aca7098
 No refactorings found in commit dd457fa63a2118d78c6d6c12527475b164e87627
 No refactorings found in commit 2745a8f6a028eeb92b11b5a473b1b3017d21b911
 No refactorings found in commit e3fa46a9c7fe673cad97bc9c2eab81cd62367280
 No refactorings found in commit 9f3fba5298eb6ac4f4a3cdd9bcbec1371685ad13
 No refactorings found in commit f811eacebb34aa97f725394f51adaa6c8bc770de
-4 refactorings found in commit 55ea01d4bdd65664ea943bf68bda30a5792795a3
+5 refactorings found in commit 55ea01d4bdd65664ea943bf68bda30a5792795a3
 No refactorings found in commit 82afbe6aef71058699433d60c1b4695ccd735606
 No refactorings found in commit 6c062ca19e3336643bc821fe5f3c0c3a0f4e607c
 No refactorings found in commit d97a894f513e450e8ac2ce12d605fe6f4c1a1c82
 No refactorings found in commit fe16518c17d7a51abe0940e240d439727b9cde88
 2 refactorings found in commit e4f2bed4fd3b435b9e56894b86f6f4b145725e7d
 2 refactorings found in commit fa3581339cc74d021874d5272967fa2099c53b61
-6 refactorings found in commit cfeaa4e6f30637bf5bbccc9ff414670acf140bcb
+7 refactorings found in commit cfeaa4e6f30637bf5bbccc9ff414670acf140bcb
 No refactorings found in commit 6aadd2d8ffba78f46d571b8199c6106fdd662228
 2 refactorings found in commit 0bb096672323c5e1bb15db2a2b7b3781d14ff4e8
 No refactorings found in commit 5195a4310eb959cca6643dafeeed4e779f83f556
@@ -4366,7 +4153,7 @@ No refactorings found in commit 3c8f262d2f1959927051bcb7864200f6f0b55316
 No refactorings found in commit 0b7eafcea859a5a5271e3284fd704016d43cd4fc
 No refactorings found in commit 8b62e9bd2fc4b750d7d2edaa6079301fb030cc41
 No refactorings found in commit 1297da235982d6cb1b88dfc2df95efa708c13ed0
-1 refactorings found in commit e479614eaabc25f243ebcb8754a29ca6c561e59a
+3 refactorings found in commit e479614eaabc25f243ebcb8754a29ca6c561e59a
 No refactorings found in commit 0d2137f19ee04e77bbd3ee6fa285a64a023748e7
 No refactorings found in commit feb53db0e6d0a0ad240c21bffa8cec728185db4b
 No refactorings found in commit 414821e5baf744ac28c80e69636943800d1bcf91
@@ -4412,7 +4199,7 @@ No refactorings found in commit 2b7f03e88185ce07f83adc2ed7fbbd965443460f
 No refactorings found in commit bd3580585b20eb7b2829db01b8d8520d09a8d10d
 No refactorings found in commit ffa78dc1758525d6856ae325c3b9b031be0f2a10
 No refactorings found in commit 2d2cefa4bf41f629142993d85933b6e8ba8e2a8f
-No refactorings found in commit a06ce1fd810fce84478a6fd722e69613a053350a
+4 refactorings found in commit a06ce1fd810fce84478a6fd722e69613a053350a
 No refactorings found in commit e97cd1122fe54c5776bb3d9a59a97f91ea148bd6
 No refactorings found in commit 34e75575137bfefedadee5d9d8f8b0a13751788e
 No refactorings found in commit 414735b8c36fec2224a2da843ccbfc9beabf71eb
@@ -4435,7 +4222,7 @@ No refactorings found in commit c996f8ccd5d45f5e6e1292ac9b08ba6f7f39eff5
 No refactorings found in commit 419f28732b6c644be835236006b4534fff1d69dc
 4 refactorings found in commit 5a305a25ae7b222a8954ce980c466d7701732081
 No refactorings found in commit 25a1b10010009230c6d47efb60911cf9cd63539f
-No refactorings found in commit ac018698466492c086524c5c0ef92866f0c1c15d
+1 refactorings found in commit ac018698466492c086524c5c0ef92866f0c1c15d
 1 refactorings found in commit 88c360a3362ce53cd9c5bda3b768cbc065ddb117
 No refactorings found in commit 77c84e9e79cdb24b84958113f8ca2e471a69f5fb
 No refactorings found in commit a1a43e64ead82e97b2886497db8ee47e029b190e
@@ -4526,7 +4313,7 @@ No refactorings found in commit cd2a749cd4e6a1030d4cc2f15b6560939f88471a
 No refactorings found in commit 026e5debf1ad089610dc9460817bc9cc3ff6bec9
 No refactorings found in commit 5a172a792a4134e21145fca5c0ce4d5814ac41ed
 No refactorings found in commit ebe870329593d5a291b499d1264a1e9119c83445
-3 refactorings found in commit daa3a5d944e1426e5f006ce4d83ab84cfe4f835a
+8 refactorings found in commit daa3a5d944e1426e5f006ce4d83ab84cfe4f835a
 No refactorings found in commit cc8632120ca24d8cc837b21b5dccafa5009dbab9
 No refactorings found in commit d848933f207e9c602783e5fde23766e05dd5635d
 No refactorings found in commit 9da4eba141e45858d8702b870334b5862bd231a7
@@ -4592,18 +4379,18 @@ No refactorings found in commit 0f6218ec918bbad1455ce62ce445a4204a8d99d7
 No refactorings found in commit 1d896e5e967ac4842950f24027c06fc03e8e2d3c
 No refactorings found in commit 506740b32802d763dad41aff0e12de4a2e590b64
 No refactorings found in commit 9f27df367f7c7f0bd56682eabce83fa0d6a121a1
-34 refactorings found in commit b5a3fabb7529d37416c20bd396c45b76f3efb5de
+36 refactorings found in commit b5a3fabb7529d37416c20bd396c45b76f3efb5de
 No refactorings found in commit ea9cb32d6cc4de7d4b516120d066428fa79268c7
 No refactorings found in commit c44644b6d8056cdfe523a48cfd1b73585d11c24d
 No refactorings found in commit 7fcdee3918c3d0a6dbed42be9864bf3598d3d273
 No refactorings found in commit af9296951559dfdc51d826cc0e026a23cb005b89
-No refactorings found in commit 674471df168405dd2851f338355a7f264f2cbb81
+2 refactorings found in commit 674471df168405dd2851f338355a7f264f2cbb81
 No refactorings found in commit 77d37f2a88e529ad4ac9ccf003ade6436973a0b4
 No refactorings found in commit ea4fbe920cf034da92c4860f4f4b36a55a2bff4e
 No refactorings found in commit 7e8f3e6f15cec2546d13894a90af62c8fe01b1fb
 No refactorings found in commit 4a4c4f3c7c97efefd3e0100c932957d2c773608d
 No refactorings found in commit 2f6b1ca3181e7fd04c30f4e949612279abf0e640
-2 refactorings found in commit 6bd3b381d15d61ca040d284587a03be96fcfc855
+4 refactorings found in commit 6bd3b381d15d61ca040d284587a03be96fcfc855
 No refactorings found in commit fca98463d40a41e8c76de83c25977ed315214f2a
 No refactorings found in commit 53c32286be8fcddaa350593053a2092fb6203028
 No refactorings found in commit 41bf1d2f21e0e5f5276ebd1eab643983e792f336
@@ -4614,7 +4401,7 @@ No refactorings found in commit 39ebdeefdefad93ef016addc4e60caa1ff1286f7
 No refactorings found in commit 539736e316e5f141e52e51b5e4d12fc372fdd77c
 No refactorings found in commit e93772ae605aabfeb95efc86ad7c1ff465e8f433
 No refactorings found in commit 5bfb12d09101951c668ba8cbc82d6eee10aa49c8
-No refactorings found in commit 6517c26dd606aa3a5bcb4707e355a92eeabe6766
+1 refactorings found in commit 6517c26dd606aa3a5bcb4707e355a92eeabe6766
 No refactorings found in commit 79e2c3ed493d7e0c74400e0e772414b24f6b3dba
 No refactorings found in commit 060d1594aa33ddc4a7090fe563be5621d725473e
 No refactorings found in commit 0334f06ca5cee352528d72ebf28e8122ee24c0fa
@@ -4628,7 +4415,7 @@ No refactorings found in commit 9ae1749d151b40a02d692fd389c9d570081d53c1
 8 refactorings found in commit d9747e5c6da6772947144419beba993956685aeb
 No refactorings found in commit 1c1495299ff272aa8eb1e55803dcf3f6eb45dda1
 No refactorings found in commit cd72bcac9f6005f82bad1eddab6e04ad6148c672
-1 refactorings found in commit da58ba479d6a06cd7bfa6c44856d746604c10a8b
+2 refactorings found in commit da58ba479d6a06cd7bfa6c44856d746604c10a8b
 No refactorings found in commit 73a89d940082855cfa44c6483d815f9747c9fff5
 No refactorings found in commit 90cb002c40ebb06ddab2ea32411e3262c55b6a30
 No refactorings found in commit 493bae4ee29143a102323c664b02c83fd9bd8c1d
@@ -4637,11 +4424,11 @@ No refactorings found in commit 5d8559ade07404353a7adf6d2ebdebc88590eceb
 No refactorings found in commit d0e35e7022d501a14138e6b47556ed816d50daaf
 No refactorings found in commit 1a28fbe93ee336cd2dc1e5466c3b1de9cce262c1
 No refactorings found in commit afb2e977fb4e759d21f0fc4b11d3425d5d84beb6
-No refactorings found in commit 9cdb683e00c4b8a486094d44521572ce41c39c77
+1 refactorings found in commit 9cdb683e00c4b8a486094d44521572ce41c39c77
 No refactorings found in commit 40cb44a47ab3d00c170255e83b55dab77cc287f9
 No refactorings found in commit 2673f28612c38ce53ecf6262445f3d609efb4394
-No refactorings found in commit 67eff7ce5730a17b5c592a68868c69970ca9ac18
-No refactorings found in commit cc6b6419a9400ec3b49e34b3d3bd35d43a4a4a74
+1 refactorings found in commit 67eff7ce5730a17b5c592a68868c69970ca9ac18
+1 refactorings found in commit cc6b6419a9400ec3b49e34b3d3bd35d43a4a4a74
 No refactorings found in commit 1f48db7994826bb05c6d110489a39cb78b950746
 No refactorings found in commit afff1c57a01874b578bc8b27c39fded4ae46ab66
 No refactorings found in commit edc6a6e0ecb7a3817b515c3050992b9546b33053
@@ -4693,10 +4480,10 @@ No refactorings found in commit c786e113b0966141e3b34a0abc4f7d48a5bfc5b8
 No refactorings found in commit d9240931cf84bd007e1af1e8655d12ded12ca9ae
 No refactorings found in commit 0b674fbe01bc34da73ffd41178725124712b1084
 No refactorings found in commit a2d20dabf96c2b5cf4e3237b1035451a9ab3b978
-3 refactorings found in commit 51372775ca7e5aef953f8ca667da6b06c0c9e667
+7 refactorings found in commit 51372775ca7e5aef953f8ca667da6b06c0c9e667
 No refactorings found in commit 0ab62700ca6edb512da1db470589cad995afa7c6
-No refactorings found in commit d4c2d508a407e4011e1fa87937fa71287c2acff9
-No refactorings found in commit 31b3e0fa167dc56af6b6144361db3d03382ee5d5
+1 refactorings found in commit d4c2d508a407e4011e1fa87937fa71287c2acff9
+2 refactorings found in commit 31b3e0fa167dc56af6b6144361db3d03382ee5d5
 No refactorings found in commit 548365130aa9d1230eb2c21e2915857c40a2cd9f
 No refactorings found in commit 1a3e005442fc76b9b1428eb21fd94a8bc4af81fe
 No refactorings found in commit a79e7b7ea24ba8285a858d1ef06d52165b86969b
@@ -4728,24 +4515,24 @@ No refactorings found in commit 49e996888f586ecf25d29917c93a3f32d73e70de
 No refactorings found in commit 594ab38b16d5a4bd66c2b4405c05c59af65f6e23
 No refactorings found in commit d232553cbf0a34ea30277600106f3f9d91992a80
 No refactorings found in commit 6d897e664b78f0771224f78b38238eb11b3c1704
-No refactorings found in commit 718c04ceebe6525e1b569879ea8e943edb23a919
+5 refactorings found in commit 718c04ceebe6525e1b569879ea8e943edb23a919
 No refactorings found in commit 532437ae461224fe679000b903b53657da3080e8
 No refactorings found in commit 50509bf42b795faf3e21e4deb4d1a0c6e5b0381e
 No refactorings found in commit 38e829ef35a09e705c95c639da6410a157b90fdc
 No refactorings found in commit f1630a0199f96fb179c1279e9db1b32311262509
-1 refactorings found in commit 6a057f33b1e8cc2d717997cf82979eeb57a6f491
+2 refactorings found in commit 6a057f33b1e8cc2d717997cf82979eeb57a6f491
 No refactorings found in commit 14905fae11672ad54eee5fdaf2bddee28abccc7a
 1 refactorings found in commit 29a33c3407035423a79ead55f14692647ccead0f
 No refactorings found in commit 40ed303abc75817d344c7cd736c828a846c88f74
 4 refactorings found in commit 330c8680c938e54abf6606b9a9af9db4943c8911
 No refactorings found in commit df9e4d7ef5d74b5d76a2daef792450a056dc9651
 No refactorings found in commit 9b30521a3ff47c28641ae58d4ab3457562438c63
-1 refactorings found in commit a661e0e3c921d46c55406520be04d9c9bb0aa574
+2 refactorings found in commit a661e0e3c921d46c55406520be04d9c9bb0aa574
 No refactorings found in commit 96182a2bf2a716f3c521a3381c7caa4129029ec2
 3 refactorings found in commit bf9c5b3c917a261d0f026932acb8e6ee4240480b
 No refactorings found in commit 19ba450c086de761e31e6991a3c6c80d2b77d418
 No refactorings found in commit 57ed00a134839fb50b2bce7f0224121e6a0c3351
-No refactorings found in commit 024b4f8f614debf5c20da774bd438534d03cdd4f
+1 refactorings found in commit 024b4f8f614debf5c20da774bd438534d03cdd4f
 No refactorings found in commit b3e9b08887fbf46d05acb301d710e7bd6877396c
 No refactorings found in commit 920991ece1c696baf941937bcb091ea0b2eb8e80
 No refactorings found in commit 0d1d3cbd8b9053548a7d480a4a80b8173c618c7d
@@ -4764,7 +4551,7 @@ No refactorings found in commit 57411aa1c297b90aa20b51d36411a7310529d93a
 No refactorings found in commit 27d58fc2007fe0d8e9b0239b7a03d4bf1e80a5c8
 2 refactorings found in commit 2b2022c80abd3f7b7ed6bf8ec70bdc323d5a0a7a
 No refactorings found in commit b1bdeb92d68848c26aab5cbaedce50327886854e
-2 refactorings found in commit c77a992a523e6f62892ca235c013a5297c73fc4b
+3 refactorings found in commit c77a992a523e6f62892ca235c013a5297c73fc4b
 No refactorings found in commit 85ad446ccfb81b6289be24f4795aedd22e813554
 No refactorings found in commit d9223b24fbb1709a9eb20545e2a67cf43ccd5563
 No refactorings found in commit 9a915901af244200f119a1f4b36bb4b743c4be06
@@ -4812,13 +4599,13 @@ No refactorings found in commit c8121c168d60caf2da7c790f1a0ee065817b62c9
 No refactorings found in commit b36e9a3a5cd6f795b7d559509891b1c8eda17f64
 No refactorings found in commit 46cc39ed2381e71b9d9a899483b1b1ab4a3bea20
 No refactorings found in commit 1cf09ba2a8b8f0d14b3c218b66af54f43dd5cccd
-3 refactorings found in commit db9ecdb2392f5a7f4bc300be063a5c970644b1a5
+5 refactorings found in commit db9ecdb2392f5a7f4bc300be063a5c970644b1a5
 No refactorings found in commit b44cf0d081c159ae6cdcf40918a4e5cad3d26335
 No refactorings found in commit ae11d34b59939df59223c6a7968abaeacbc70ce6
 No refactorings found in commit 65e423c0d74361a4977e304ed36e7b115cce9326
 No refactorings found in commit b67ecea6312ebbcfc095b8933ee198a0fc0b15da
 No refactorings found in commit ce7c3954175b84d5987835af0f39164fa04befff
-2 refactorings found in commit 193adf82bca63fca388cde2271717c32568619c3
+3 refactorings found in commit 193adf82bca63fca388cde2271717c32568619c3
 No refactorings found in commit c76666a9b32d24022c7a5ff77a045616a1f07e74
 No refactorings found in commit 5635d4850b84af660266bef10effaee7a5410f56
 No refactorings found in commit 98fbb50879fe84463b96c607f439fe50f88bb5b6
@@ -4826,7 +4613,7 @@ No refactorings found in commit 6e6f7c4e1e7fca3543d8e4ebeb0be45bb276dd7e
 No refactorings found in commit ef5300200052893ae3ec2cb06327f73ef7456e08
 No refactorings found in commit e8bbe6eba606d8661ec691249f2eedd921b2c48e
 No refactorings found in commit 44e50693d7873bfe4e8928e7a1051172af7e82e8
-No refactorings found in commit f972513e2b8608115dfb84301e03a0ccc62c5fbd
+1 refactorings found in commit f972513e2b8608115dfb84301e03a0ccc62c5fbd
 No refactorings found in commit e641ca0598564fea42547903f8108006ba7244ae
 No refactorings found in commit e7ec50034af4b641034c3a7200be7cd71ecf5088
 No refactorings found in commit 7335ef2a6519ed765e2fe7f5b89dc94b9ce93cf3
@@ -4908,7 +4695,7 @@ No refactorings found in commit cbc3d119a5882d9aa5dd4b09faa214078869858b
 No refactorings found in commit f214e0a285ee153f04ba84867550a43b0afea3d4
 No refactorings found in commit c1566e58518a8adcf3d2814d17618268def45820
 No refactorings found in commit f7594ee89cd7f919ab96bac7456238e94cc40c2f
-3 refactorings found in commit 697c349f2909de380b141ea53d8ddd67ecfaec8f
+4 refactorings found in commit 697c349f2909de380b141ea53d8ddd67ecfaec8f
 No refactorings found in commit b7d0b2947a0bffd2c89639425dd5a7b6bd91d4cb
 No refactorings found in commit 8892b7bc65ff00295d87afad34cee3a8d8b08a0c
 No refactorings found in commit c879a9dc74a7931a23db9d607d37c63d712f719d
@@ -4955,8 +4742,8 @@ No refactorings found in commit 664ed536fffda8a39be92e21b7b938bf5449bff1
 No refactorings found in commit 0708c51125e216cf204c1f5903cc42b316876782
 1 refactorings found in commit c467ca73e2c23290cb3f5a37cfbcd6bd613fa07d
 No refactorings found in commit e7dd8906619f965253c73b1d19e4530178b04b74
-No refactorings found in commit 716d2072c024454e0f89e162a9458631deb53651
-3 refactorings found in commit 9dcec31b0012724e87763deca48a4b6373100db9
+1 refactorings found in commit 716d2072c024454e0f89e162a9458631deb53651
+4 refactorings found in commit 9dcec31b0012724e87763deca48a4b6373100db9
 No refactorings found in commit 925f174c54672c5436f3d83d1ad43e77a9bd49ae
 No refactorings found in commit 934c0dda3740ae8142fadef664efcc26f7537d0f
 No refactorings found in commit ecc662501780e7337bc0ca0cda627bb95de3e104
@@ -5008,15 +4795,15 @@ No refactorings found in commit 1ff8bc970dcd7bd3d0d1b94928e1f492c35fbb7f
 No refactorings found in commit 50fc18b7d2e67ce4fd51c13ecbc9dff7552897b0
 No refactorings found in commit f8b8a5d7bb8e08bb1dd5c259bae7358cfc585f13
 No refactorings found in commit 3b5c46bbbf9b0c99344ff0973807ebc9d406c8ab
-2 refactorings found in commit 11461268feeb62bf76064ec60e681d826c0a0c14
+3 refactorings found in commit 11461268feeb62bf76064ec60e681d826c0a0c14
 2 refactorings found in commit 595c1c2b1128de279db5f0ebd2ac5713e225139b
-No refactorings found in commit 87392e16b6dfbe2a16a4733a42e1611c7a0c5172
+7 refactorings found in commit 87392e16b6dfbe2a16a4733a42e1611c7a0c5172
 No refactorings found in commit 04f794a255506f6f2ef0018f6957cbee15889eae
 No refactorings found in commit f8258e92210dbd61dae5aeb010360dff577c77f7
 No refactorings found in commit 95bc7e515d37107a12b9d3e6b1f792bd15889ecb
-No refactorings found in commit e00f62fb033e312e4a63bb17a971984583c32d42
+6 refactorings found in commit e00f62fb033e312e4a63bb17a971984583c32d42
 No refactorings found in commit 2f1270d047690d6a58b5a2073bea24c062db0427
-No refactorings found in commit 90853626d29edd3516e9d83bcd9726de36494054
+3 refactorings found in commit 90853626d29edd3516e9d83bcd9726de36494054
 2 refactorings found in commit 54a1235d175827af25d7089f644549365fbb9ff9
 No refactorings found in commit 2ccdd4ecbb16184a03ed095df8a020748b3a325b
 No refactorings found in commit a304aa9860f60268bdbf33f2ff8fa428fd642f2f
@@ -5032,21 +4819,21 @@ No refactorings found in commit 33e5f14e86ee2913d11d8df5603dd9d20d70d34b
 No refactorings found in commit 72214652846664333aaa334b1f05d88e13a0c070
 No refactorings found in commit fa39351b6e31f8ed1483e75df5448e3a333cd7b1
 No refactorings found in commit 957b0958e3190caf2790d8cac15715be20a1e57a
-No refactorings found in commit 1c8e8a2e0c5683bcc0b992e631807b016d1d45a6
+3 refactorings found in commit 1c8e8a2e0c5683bcc0b992e631807b016d1d45a6
 No refactorings found in commit 81f498407142bcc91071110ef20d0ee9a5b5da98
 No refactorings found in commit 04d9bbb7682999c0d90054150aac69cbfa442781
-1 refactorings found in commit 71793635d32d50427bc4165b29b39aaabec3d743
+3 refactorings found in commit 71793635d32d50427bc4165b29b39aaabec3d743
 No refactorings found in commit 783dc6bdc2cb172dd3bacf01faba9531675c45ab
 2 refactorings found in commit 33223becff3f88fd3bb8e5734f621c780c1ba454
 No refactorings found in commit 6db36f902b1e7cf6f1c7857e5a14295e8881c732
 4 refactorings found in commit df982db26b1a356a77b0b9eaf1ba6e2bb32c9b51
 No refactorings found in commit 9b5818262decbcfcfc302ab15c5f3347dbaeecfd
 4 refactorings found in commit 5cdf7185a4eed764473b76b365f14c2737f7c0bb
-No refactorings found in commit b39ec7d76ee55ffe0165aa82ff23f2da3bd8475c
+1 refactorings found in commit b39ec7d76ee55ffe0165aa82ff23f2da3bd8475c
 4 refactorings found in commit 663def8e2c00957b8913afcb118bde494c85f987
 No refactorings found in commit 4b5ad0629a854078437e8248bbbf341165f7e4f8
 No refactorings found in commit 45358317b6b4f33ead9c4d923c3d7d3bf3e7c281
-2 refactorings found in commit c1f4c574a86d33f216564990870fb6b14ebdcc82
+3 refactorings found in commit c1f4c574a86d33f216564990870fb6b14ebdcc82
 No refactorings found in commit 0fdbd513bcfdc936228c4485caf0b7e5ff15d294
 No refactorings found in commit b0d8d832804b8366d025e02f01e5d6ea2821af81
 No refactorings found in commit e77e6ebfcf045138cf9e8b2cf9650516d09718e0
@@ -5105,14 +4892,14 @@ No refactorings found in commit 420cbb202b3d101b10ea1b4eb9f8784ede50f112
 No refactorings found in commit 4d3ce9afe9cf7c73a2955c0852c3b335828f3c3a
 No refactorings found in commit 06bbf19265938d444d07841989397369cf01d3fd
 No refactorings found in commit 37acdef2a7bbe867416c1e1208cd93a068cd5bbc
-1 refactorings found in commit 31fbff34eb181c3898691c778920db10e8ffa18b
+3 refactorings found in commit 31fbff34eb181c3898691c778920db10e8ffa18b
 No refactorings found in commit bcad6811a346b82cb38c1a6cbe5d8fc7408450b8
 2 refactorings found in commit 929a7d7483b6361f28ec19e8513ed7468f2686e8
 No refactorings found in commit 913f2908e0468550647ac32d61db4da23d7093a3
 4 refactorings found in commit fa973988fb4b4d6357eac6bcadf1f3ac4143605a
 No refactorings found in commit 9d3f34d6367e623aac467de603eba275f878e580
 4 refactorings found in commit c57578dba5d51ed62541518498550b6431b71cf6
-No refactorings found in commit 6263054087798e2bf302a2f72f231616b1c5488e
+1 refactorings found in commit 6263054087798e2bf302a2f72f231616b1c5488e
 4 refactorings found in commit 09c853477edb3a0cb0f4154b6a8c9077f877ae02
 No refactorings found in commit ae772727ce8e66289c6e883c22335d17fbdbdc43
 No refactorings found in commit d362112a31f1c283556f94f2a470eed1053dbdd6
@@ -5150,11 +4937,11 @@ No refactorings found in commit e4e5a9e479859468c26a061711beeb3712d421f8
 No refactorings found in commit d68375cd6da76a53a8074daf862d659da21f22bb
 No refactorings found in commit 58e82f3c1f630af700aa2890a1f01835969b9667
 8 refactorings found in commit 9c60f320892dcdfe2d15b5b68332c58e103fa64a
-1 refactorings found in commit 03b6cbf3e545dcb817abf364f1edea3e2b074a03
+3 refactorings found in commit 03b6cbf3e545dcb817abf364f1edea3e2b074a03
 No refactorings found in commit 183ae3d3b9bae2ce9151c4ab0702b74ecb54d1dd
 No refactorings found in commit d4a4d20fa03d9356ee122834846551cd71427c44
 4 refactorings found in commit 85d299e739fa00317d687fdd2af2ffa43a9dfc1c
-No refactorings found in commit 4174ff7dd2a1deb7e023067326e8fa2495385003
+1 refactorings found in commit 4174ff7dd2a1deb7e023067326e8fa2495385003
 4 refactorings found in commit 72a74b8096cd535da6ff3c96d7cc05d305c5e1a9
 No refactorings found in commit a0c22cc22514d0190d14d51e6bcc06ad5eed8836
 4 refactorings found in commit 80b3e457f2eb16c2082381cf198c0be7c3b096a3
@@ -5181,7 +4968,7 @@ No refactorings found in commit 2fff2739690a712e5d87263c3f1c1c192f51ae9f
 No refactorings found in commit ddec979e4d0383161654b79fce48b88f59286735
 No refactorings found in commit e6cc0bb7225757ae91994e0549589bc47077d658
 No refactorings found in commit e2527695e6f873a44d2b41c147e444fc60bfa7e3
-No refactorings found in commit a2a026a503167a5e3a0fb2f3e8856686ce1428cc
+1 refactorings found in commit a2a026a503167a5e3a0fb2f3e8856686ce1428cc
 No refactorings found in commit cc8d42c58bfa5dc671a9fb670cae5b196f9e2e53
 1 refactorings found in commit 453d9953858aa8ef9b5c0e54a3c7887e6fd36f9d
 4 refactorings found in commit a85c9cbda573fc25ac4d0f133eaf6ed779611ad6
@@ -5211,7 +4998,7 @@ No refactorings found in commit 9ebd729d52a75fac14b1debfcd10a089502d7f22
 No refactorings found in commit 197cf5b9cb2adcc1a1f87226af4429fb1193991b
 No refactorings found in commit bc7240ead1a907e1218ceed9b8be343abe18ddb3
 No refactorings found in commit 7cd58457ec6657ab1948032e96d25367c54b7944
-45 refactorings found in commit 226e23b603f3f9094e77ca70ed03dad02cc11698
+58 refactorings found in commit 226e23b603f3f9094e77ca70ed03dad02cc11698
 No refactorings found in commit 4800e6d511b4d9efd6094fa0dedbf16af7bc60d7
 No refactorings found in commit a0ee0ccabce224ace40533d17dab8b7a30b57704
 5 refactorings found in commit db1c78cb79b92c94908f7e935e9e1a6c3729e901
@@ -5248,7 +5035,7 @@ No refactorings found in commit ea91739bfa3685bdd0c98e1a90c9d2389be42f37
 No refactorings found in commit ff053d279d09ff90ef2a5e186c463705167af50e
 No refactorings found in commit 17d5f4a920cb62fb895cce7f0c525bdacdac36df
 No refactorings found in commit 6dcd2ff8e5a7a46bb7818690e16f59d01526530f
-No refactorings found in commit c244ea7c6b5610997ebed45a11ba180772c0096a
+1 refactorings found in commit c244ea7c6b5610997ebed45a11ba180772c0096a
 No refactorings found in commit dc104022acbb9e2bc1f2716f0702cd85663eaf25
 1 refactorings found in commit 8c7962a3f7674a0b3aa9703ae7b12b4b3fda03bc
 No refactorings found in commit cb083e23c87b815fc8346147fc1ead90c269c412
@@ -5258,9 +5045,9 @@ No refactorings found in commit 2fdedb0e98a1163bc34fb884e52df5c8a4dd28b3
 No refactorings found in commit 97ccb915582f2a0b92cc29fb1f258cf0e13be7cd
 No refactorings found in commit 1bb2d7c883b21b7c4a16edaae447e768ba5fb047
 2 refactorings found in commit f553c8f0497ae11de1b66e0bc12af89bbb8b9cf5
-No refactorings found in commit 8306f357b31e3cb0db5568025e63b8d361ce9743
+1 refactorings found in commit 8306f357b31e3cb0db5568025e63b8d361ce9743
 No refactorings found in commit f8197a54004b1b0c997ef705370fe52ec033baf1
-No refactorings found in commit 514776050ef88a4fdf23e2efa776893cf00e6096
+1 refactorings found in commit 514776050ef88a4fdf23e2efa776893cf00e6096
 No refactorings found in commit 2228486d4a3557cb0e5ffc5926bb41fbc9a2b8f3
 1 refactorings found in commit 3e39bf59c807bd1ece9b0b76f7c071915468cf08
 No refactorings found in commit 4c5d2fe273f0562f4c46fec8c95fc9671d24301f
@@ -5304,7 +5091,7 @@ No refactorings found in commit f921036f4f5d4d18fd93917b59a7cc54eeffbe7d
 No refactorings found in commit 4a6c23cac65b50769c4f7a289aa1e456f23eb510
 No refactorings found in commit 02740211b07ecaadc6428ee5d9e29b8bdb14df9b
 No refactorings found in commit b6ba166e723a7ec888d19059c433b487c082d8e1
-5 refactorings found in commit a19854cceb9353a5eafcff737ef1b25a3c021648
+6 refactorings found in commit a19854cceb9353a5eafcff737ef1b25a3c021648
 1 refactorings found in commit 3052a5305efc230836481eb036717fce990b7ed7
 No refactorings found in commit c5eb1c570a7d9708d51c1420be5d9314cbd6cf94
 1 refactorings found in commit 93d6e3f67a4e218933950c22ee03f63f4fc18b20
@@ -5320,7 +5107,7 @@ No refactorings found in commit 1a0d627c19d246d6667065ec9a389075cc2ca051
 No refactorings found in commit 62fd1e6eda38346f8a02481767953d0e52907767
 No refactorings found in commit b7bbd201557feeaa79e129c5284234e15687a71d
 No refactorings found in commit bb6166986e993a66172f73142057ed9dbed93aaf
-No refactorings found in commit 6c83190bdc457d5e39e95d1cacf0f8c016778c9f
+1 refactorings found in commit 6c83190bdc457d5e39e95d1cacf0f8c016778c9f
 No refactorings found in commit b4738d8cd6440a0d2710d2d176c98b7cd5dfe6ad
 1 refactorings found in commit f0284f3fbaf43992afb5d66d9dc60784f70fa493
 No refactorings found in commit 30f53b76eecd399deff96e41bc932253406d19dc
@@ -5330,9 +5117,9 @@ No refactorings found in commit 2057015cd64bbf5e98283513589ca41686f2030c
 No refactorings found in commit 2ea5de304b19e47be4fb798cf26c53f36677be94
 No refactorings found in commit 55b0827420ab29cafc6d0080703f02266e26a06f
 2 refactorings found in commit 5aaeb7308a3618c2f8a372c1035ac3b0d411f4a5
-No refactorings found in commit 7fef26916994c488de0b515f5e3f930e846eaa4f
+1 refactorings found in commit 7fef26916994c488de0b515f5e3f930e846eaa4f
 No refactorings found in commit 1e91b46d1e28b0c4899afa8ac00504b1a35ae4b5
-No refactorings found in commit c55dddfcfbc1a78e36bf6394fc871ca4048f8e52
+1 refactorings found in commit c55dddfcfbc1a78e36bf6394fc871ca4048f8e52
 No refactorings found in commit bb6ab6215b3e7ea90f4afab30f8c5a0ea7f7b890
 1 refactorings found in commit 85fd5db568d23ef7d0f595b87cdcdb6c9f5ba229
 No refactorings found in commit 2df4404ba6e0c39aae3b5dd7c994893972046299
@@ -5343,7 +5130,7 @@ No refactorings found in commit 57b27f6c9c952a96aed157935873d54dd814bd4e
 No refactorings found in commit 418be41d9c4d49fb6bc0c4aefa1596cb410a54b2
 No refactorings found in commit 9b2b856661948c6bec5bfee2c8191d203c8cf191
 No refactorings found in commit ffd0759d5aa5446bec5d3a915d434ff6250983bf
-4 refactorings found in commit de2dfa5178ca696786183e0795279ea058540a92
+1 refactorings found in commit de2dfa5178ca696786183e0795279ea058540a92
 No refactorings found in commit c565c1e1810b2ce3483a1f65b2eaa9f38e8d57c1
 No refactorings found in commit cd4d7beb86665560fa4f47f44ae5ec27f0d27523
 No refactorings found in commit 0c8f855ff76c2445e80af0fa1eb19c1214ed5637
@@ -5392,11 +5179,11 @@ No refactorings found in commit 78f441d1b9d5af878180dab5efbc807e70fec2cf
 No refactorings found in commit 919123ba349f6c701343030ef4bca1a98759f535
 No refactorings found in commit 27e649a6356a57be2afa15dad6925f96a0fe8f1f
 No refactorings found in commit c745cf2e9bb7d8d8cd3778fdb695094aab0c690d
-2 refactorings found in commit 714ec1b7d0cbbbd062aa22f9f5e1a3dd399429d1
+5 refactorings found in commit 714ec1b7d0cbbbd062aa22f9f5e1a3dd399429d1
 2 refactorings found in commit 93eddd516d3ff392147656c9759e934612c8b349
 4 refactorings found in commit 854ddca8d3aa6c228ecc6d9a2a92c9d08688fd39
 No refactorings found in commit 96aca9fb7c370a4d439c17e4f21ee4599e510644
-8 refactorings found in commit 7c9070a3a226a013d2f42cc035837b26272a7ec9
+10 refactorings found in commit 7c9070a3a226a013d2f42cc035837b26272a7ec9
 No refactorings found in commit 41e2a1d3a2129d57756a3fc1cb5a178e9923beb4
 No refactorings found in commit f0b6ada3cfd230051e337e779de3870bee4321c4
 No refactorings found in commit 8c935d81d985697d4a2282a020f27a210ba2247e
@@ -5412,9 +5199,9 @@ No refactorings found in commit a5375cb90cddc215b68c2bf489056148666a3d81
 No refactorings found in commit 6da1ecf3d9f723a538cf6c56c526a4744a14180c
 No refactorings found in commit 4f6b40fe6b49aac6879ab829362c4d75e0c22480
 No refactorings found in commit cd5d4527c536f34b8fbcc47713f171a93d3f3f0d
-8 refactorings found in commit b0c30e70ec9475ec2bac9d3359d8a248757d80a3
+9 refactorings found in commit b0c30e70ec9475ec2bac9d3359d8a248757d80a3
 No refactorings found in commit baf956aa60134deb067e28a582f5a952528550f7
-No refactorings found in commit 1014588879d98727f665a25b58db75d1494ccc61
+2 refactorings found in commit 1014588879d98727f665a25b58db75d1494ccc61
 1 refactorings found in commit 7944711495f5e37700ca4129bb11435cae149933
 1 refactorings found in commit ef60eda31cfb56e769e078fe0d377bd36077ac5c
 No refactorings found in commit 84950189c6ddbf00ca69e36a5e7e5a999452bbbc
@@ -5423,7 +5210,7 @@ No refactorings found in commit 7dc0bafa12a3794757574c4eda8454da56bb688e
 No refactorings found in commit 9c6cfa333feb6452ff8dac32cde13e488d6538a3
 No refactorings found in commit c3158b72f9c317a1df97ae8e65ed83fa68eb32da
 No refactorings found in commit 48e3cc3d382781cece8d4c457aea04a64a83dcae
-6 refactorings found in commit 7a7ad7b368bcd7dcec6543c3467d1dfd69d7fb14
+11 refactorings found in commit 7a7ad7b368bcd7dcec6543c3467d1dfd69d7fb14
 No refactorings found in commit b7822cc67831dd03fb4051e9dfd90244295a8b71
 No refactorings found in commit c9d5aff1ff9eff3c2d5e3bd03fa8ce38ded8b73b
 No refactorings found in commit 6ef3de5c3df15cc3caed5b8ae68e85f92a856de3
@@ -5456,7 +5243,7 @@ No refactorings found in commit 8481866d6a538e66c9e643043e50db785d2ed9ef
 No refactorings found in commit 18c69a0b1375798515d33ca7350fc24777ac083e
 No refactorings found in commit 4f97c2ccd0aa8fb070ea6508e7f191089eaa3097
 No refactorings found in commit 02ba4a560538e28424af85aacf65cf9210046873
-No refactorings found in commit 759298a2bc45704887ecf8f11745dafaf63801e1
+1 refactorings found in commit 759298a2bc45704887ecf8f11745dafaf63801e1
 No refactorings found in commit cf52efcc5bf0a38566ede3bfd8a455fffbb08218
 No refactorings found in commit d63b7e8cab06f0548a9f486568aa19bc4ced74b9
 No refactorings found in commit 217bc2707f4a660e39e0e8e2c2f4baec23a75bc3
@@ -5464,7 +5251,7 @@ No refactorings found in commit 56cba00c7daec96490630eb45d7f0be53503000f
 No refactorings found in commit 686769e99dee31079d762f930a8505ca7e1c1fd1
 No refactorings found in commit b0d5516b03203713c77a566a3d62141623204201
 No refactorings found in commit 00eb2fd02c1848e476a3d59b8d73bf30b014e52d
-No refactorings found in commit 5e7f4ab84f38469cb5cfef31e5357a1a697bc6bb
+1 refactorings found in commit 5e7f4ab84f38469cb5cfef31e5357a1a697bc6bb
 No refactorings found in commit ea227f8a981e3758aab2213fb9574404766f2b1e
 No refactorings found in commit ece3508dd6147816e15e2c14740832ef4beee290
 No refactorings found in commit d1263934d3b1b5561aebe329769e16e9d35f9940
@@ -5472,7 +5259,7 @@ No refactorings found in commit d1263934d3b1b5561aebe329769e16e9d35f9940
 No refactorings found in commit 73a63d007fcc7445198db70266dd671de9709b3a
 No refactorings found in commit a292a07cfc019f7a7a93dbece66b689188b5f6d1
 No refactorings found in commit a0a9ef1b2c341761e44a50e552735df87d6c1f7b
-13 refactorings found in commit 2e54ddc841f5be0107f8b8961768b11a9c07fa8b
+9 refactorings found in commit 2e54ddc841f5be0107f8b8961768b11a9c07fa8b
 No refactorings found in commit 5de9fb3d7094222b5375aa8e39bb1b74aa4daee7
 No refactorings found in commit 973227f23af5cdd24226f742f121897557f06645
 1 refactorings found in commit 0e7f6cec04dd77ba1ae91f43a35d3cf202aba796
@@ -5492,7 +5279,7 @@ No refactorings found in commit 671d78b701d0f310b86524f2299f701abd04447c
 No refactorings found in commit 0e9b7b26842daec14c722c8e7b910391faffb0f2
 No refactorings found in commit fd5037e2f4253a19d423aae97d56917aeb72f80f
 1 refactorings found in commit 23c5dd64f9064d43e7627d06a0cab517dc8fccc3
-No refactorings found in commit fd6d988518296cc22e08f49ea2aec9d40a10bd8d
+3 refactorings found in commit fd6d988518296cc22e08f49ea2aec9d40a10bd8d
 No refactorings found in commit 9eb3faa607b1f9715e87c7c85aee7ed6d68b96e6
 No refactorings found in commit c4f3a1d0c45b8d24b6ddd629d183c4a7fb986a56
 No refactorings found in commit 641f28196da729f5570fbb3e0dd7e93bd3906e8f
@@ -5510,14 +5297,14 @@ No refactorings found in commit 371445d1d74d0f994a13e40a63dca5d263fe3759
 No refactorings found in commit 729b5218900ed57b2fd12b3e11c666ef0eb5f1f7
 No refactorings found in commit 2916432e9040da6f7d5c1fea108a1231d4a09fa6
 No refactorings found in commit f06e545485077db34f03f585a87796f88190a57e
-1 refactorings found in commit e53f998d0d14b04792e7fae56f2097349a70b409
+2 refactorings found in commit e53f998d0d14b04792e7fae56f2097349a70b409
 No refactorings found in commit 8a49637a14f8344420ab23268bcbd831ff99a562
 No refactorings found in commit ec712af5f0d35673f28addc6f6e039988fba2f35
 No refactorings found in commit 350330b1f5bc91c22a1c598faa97bbee78f01dfe
 No refactorings found in commit 62bc16552426bddd5306d4ba2018e1780846bdde
-No refactorings found in commit 9c9351d5e21d621ecbe3a601ab72ac0a33953248
-1 refactorings found in commit f1fc00a1570fd2614246c4bcc53bb779a946121c
-2 refactorings found in commit 524e05de832691eaf7128c5f3553d8f34759c535
+1 refactorings found in commit 9c9351d5e21d621ecbe3a601ab72ac0a33953248
+2 refactorings found in commit f1fc00a1570fd2614246c4bcc53bb779a946121c
+3 refactorings found in commit 524e05de832691eaf7128c5f3553d8f34759c535
 No refactorings found in commit ef39c9933460d412fcc25af66cb6ee4020d06c78
 1 refactorings found in commit 6ce5db30bea21ad43353302a390b4b1c84bad036
 No refactorings found in commit be4c05ad2d3b6bd4bb967cc0f63555fe6d63c57f
@@ -5529,19 +5316,19 @@ No refactorings found in commit f5622db1c59c484151d5027da10d25cb525d3d88
 No refactorings found in commit 9b7fa8c7a056f129b606645186d3c2801b4ab1ca
 No refactorings found in commit 60147a272f36933fa3fe32a444baa221332e7010
 7 refactorings found in commit 57bfaaed1cc7229380cb5481a903bc5409c13f71
-2 refactorings found in commit 746fe1774c3226797274312dca7cdf1919fa09a3
+3 refactorings found in commit 746fe1774c3226797274312dca7cdf1919fa09a3
 1 refactorings found in commit 821c313abee02c577e0928d8779520cd517f5428
 No refactorings found in commit 4d6ec4a16f05ea818d689a93454b5334dd3dc803
 No refactorings found in commit a99098bc9f2b62da076c43fa3c0a89f37fcc491b
 No refactorings found in commit ccad39e3b3dbadfa2904f773b71e8dc13acb073a
 No refactorings found in commit e1bbbde55068c59366568c297f60aa8c5d10e99c
 No refactorings found in commit 3ffe8425f31e7bd10f5821bf0a5bec783b74fc1f
-No refactorings found in commit 424c7709ae7048b464f7df60dbc378cbf50028f9
+1 refactorings found in commit 424c7709ae7048b464f7df60dbc378cbf50028f9
 No refactorings found in commit cddb1ed3289437740e9dd522dfb08984e3f756fc
 No refactorings found in commit dc1bcbd06a02baabdfe8fd5aac354611e8243271
-No refactorings found in commit 42369da868ea3fa8907b5f99f38ec63398f4c792
+1 refactorings found in commit 42369da868ea3fa8907b5f99f38ec63398f4c792
 No refactorings found in commit cd4927cdb992bb395882942647c74d310a58a103
-2 refactorings found in commit d752fe77ec3d03eb06e620e5a502e045cab870e7
+3 refactorings found in commit d752fe77ec3d03eb06e620e5a502e045cab870e7
 No refactorings found in commit df215fc026a9c94112c877efd7ad2bec7ba2b314
 No refactorings found in commit bfee47f7dc8ce526db3a495b5dfc8d7c26ad67af
 No refactorings found in commit 21295e67da5070b7e226c65d2d873af2250d527f
@@ -5580,17 +5367,17 @@ No refactorings found in commit d696c4d236b0c7bc6b625baa2bd5d29cf707422d
 No refactorings found in commit 90b5676dca4fb783d5d37c1477760d3d586c7bb1
 No refactorings found in commit ae5d1dde0918241fc6f7904e032c05d818f5f49b
 No refactorings found in commit 3a6163c555351c51f096fdeb489d6fbe881f3835
-No refactorings found in commit f6447e7094b94a7ea3595233138637c6f35d6811
+1 refactorings found in commit f6447e7094b94a7ea3595233138637c6f35d6811
 No refactorings found in commit 05e5c2bc809e8eaa129b15f739b041ca1831d071
 No refactorings found in commit 9979b5294e6f63f45ef477bda518ccbcfb7d98f9
 No refactorings found in commit aad8586745a8bb7136253e821c12da7503bc8384
-3 refactorings found in commit 8e9bf9a7391dcb3e7a0e1be7c5a0a3522691bf84
+2 refactorings found in commit 8e9bf9a7391dcb3e7a0e1be7c5a0a3522691bf84
 No refactorings found in commit ffe552af836fb4efa36474a639425f0d058c8bb9
 No refactorings found in commit 7f07c602f8c14a072f1ac3f5aa3923fad482cf0e
 No refactorings found in commit 37ffdd72fbf849ba6abd295b61075f5856968ac6
 No refactorings found in commit c3d3e7c690ab1b3fb08a148855fbcd2129597d61
 No refactorings found in commit 67a7df448737dac677e04c32acddbcc231be32c9
-1 refactorings found in commit 167d452d674cf490a000532c88e43ee95ca9c25f
+2 refactorings found in commit 167d452d674cf490a000532c88e43ee95ca9c25f
 1 refactorings found in commit 7724bd2428ae8bc0d014545b33cd00fb28b26ed5
 No refactorings found in commit 2bcca44555acf2d288393bd2e30396853682fc8b
 No refactorings found in commit dd2509965fc93649efdc3217e04ba34bfc1fde85
@@ -5604,7 +5391,7 @@ No refactorings found in commit 9054203652382dbad7b6b75a5a397f1be71e4564
 No refactorings found in commit dc58d2a8015f063f0801d0847d2466f694b92e44
 No refactorings found in commit 87283a97f9fe2a79458559c52c4db1c2e53375d0
 No refactorings found in commit e86cc290febd2dbe3572b9361fca7360931b90ab
-1 refactorings found in commit 3133aac7cb4e0140504c413aa0df37f91c54eab6
+2 refactorings found in commit 3133aac7cb4e0140504c413aa0df37f91c54eab6
 No refactorings found in commit 1ebefa3b9c57775860f29ec1ea4fc7beb335d22c
 No refactorings found in commit a838368db4c82a04d28daf1c08edaad95d54c352
 No refactorings found in commit b78ec441514b0d9f0dd097cff144c982c506811e
@@ -5614,7 +5401,7 @@ No refactorings found in commit 76ed6985d88053153e187a217a18e89d0d231e2a
 1 refactorings found in commit 1aad210ae02fa2b647cfcc7590ed7616e16ad513
 No refactorings found in commit a9834d20cae41544e88cbd60ae9ef70729cc2b1d
 No refactorings found in commit bace2a4416af7de4dbba54a6804efcf31d60d250
-1 refactorings found in commit 8a0ed3b96bc8197f0dde4b21b33dfd0e87bde261
+2 refactorings found in commit 8a0ed3b96bc8197f0dde4b21b33dfd0e87bde261
 No refactorings found in commit 828e78138e3bdd081e13a3feadce491da4f38918
 No refactorings found in commit ec08b04f98c072212058814bc0617606c1afd9a7
 No refactorings found in commit 5dedba216ff544ffa1439d44437d89cf2434cdb1
@@ -5634,11 +5421,11 @@ No refactorings found in commit 255e5f0b33cb6a64ca45e998ad1fceca121746f2
 No refactorings found in commit ed0165cc81aa0536428ccb63f0508dce2c1d58b8
 No refactorings found in commit fcdca0d1ba16cbcc3c1ff9163bdfac9ad63fe10c
 No refactorings found in commit 7e97b0966a410ddca987fb82e00200379e1de305
-1 refactorings found in commit c16add062a7fde9de8fdfa3d24fd0e680fc92ad5
+2 refactorings found in commit c16add062a7fde9de8fdfa3d24fd0e680fc92ad5
 1 refactorings found in commit c5081d8c281cbeb02306a6d35789351c627f890d
 1 refactorings found in commit 4acb3eee83ec8c1ad2757f3f15e98667da8d01f7
 2 refactorings found in commit 628a293299976f357d54f0d57b0cc0a572cb5bf9
-1 refactorings found in commit d1eb4546bdc56d1dde1dcbd9d9e94535b72978f3
+2 refactorings found in commit d1eb4546bdc56d1dde1dcbd9d9e94535b72978f3
 No refactorings found in commit 308222fdbf5597d2750ccce48b157f1a2182cbac
 No refactorings found in commit a23e5b20aa821345f5934fa4be864eac96b96263
 No refactorings found in commit f58831cd64ea2c9a44558a7fc8c66dd004d22606
@@ -5660,10 +5447,10 @@ No refactorings found in commit e27818266a482b0bc85338e09d23cf09324718b7
 No refactorings found in commit 2a037f5160f9d78f5949cfbb8a1bffab7c43ece1
 No refactorings found in commit 64a91eff4c14c1f06d39e2f3281fb8e076b7a0b8
 1 refactorings found in commit 6e9a7bd31d290ee55c597050ce3cb94312b747cf
-2 refactorings found in commit b4c54fdb71948f1f6d348bd59c0ee76665c1a792
+3 refactorings found in commit b4c54fdb71948f1f6d348bd59c0ee76665c1a792
 No refactorings found in commit 978b12c485b9febc1d4b21dab4316d71f09dec80
 No refactorings found in commit cfed69220eecf7623fd779ed5d8749699615d3fe
-4 refactorings found in commit 7b531f0ce6a91c2718c28a1fb8d2092eee68b3e5
+6 refactorings found in commit 7b531f0ce6a91c2718c28a1fb8d2092eee68b3e5
 No refactorings found in commit 3cc4fb96c1debdf633070acd15bf3257fee32727
 2 refactorings found in commit 9bfbe37a4f41a0209e73be32ff1bce57136da8f0
 No refactorings found in commit 34222efc2757fd2df26bbc63fb4add7c3930e461
@@ -5676,7 +5463,7 @@ No refactorings found in commit f479bc8a2178a3b5f7e46a05c6f85f115a0bda93
 No refactorings found in commit 3788b264ff487c08c566b27fbf3d2ffd5e5628b0
 No refactorings found in commit 1353eed9055384a369f8d59e2a73fd1b266b9d84
 No refactorings found in commit 1b7b58052b06696a19d2a5ffcf8cc2a6d67cb0df
-No refactorings found in commit f04a800ac9552e390ee5056ee705fd97d07effb6
+3 refactorings found in commit f04a800ac9552e390ee5056ee705fd97d07effb6
 No refactorings found in commit 34ae3b72cebef27ba79e48c7bd2478aaec1d4949
 No refactorings found in commit 4ad6cc93f2998b7a69f2abbd703a5eb0056d19d7
 No refactorings found in commit 9adc48b9ea8d457060a0b05bebea7da26f6abf91
@@ -5690,9 +5477,9 @@ No refactorings found in commit cef741bdffc2542a1fa2631f8ef1297a895f5dcd
 No refactorings found in commit 8fcd71639e66947a5fc650fdee621f11bd868a3f
 No refactorings found in commit 796c71a24af63e6c87e5aee080e60ee3aa23292c
 No refactorings found in commit f225eba3d6ca7bfd046e278ba6c0f30771f5b347
-3 refactorings found in commit c8513d0d80595a675438921671e452f97d626f9b
+5 refactorings found in commit c8513d0d80595a675438921671e452f97d626f9b
 No refactorings found in commit 7b40f74b96bcc91715457175658678bc87ec20be
-1 refactorings found in commit 2937fca5cd58158ae159c1fab930524edda83856
+3 refactorings found in commit 2937fca5cd58158ae159c1fab930524edda83856
 No refactorings found in commit f924f8be61b73dc3da467d106f079e44c8377414
 No refactorings found in commit 0fe9e100e20a0df95742fecc01ce16d61bb24390
 No refactorings found in commit 74ba48f5e58c9772d8cb239b555571d8067dac76
@@ -5728,7 +5515,7 @@ No refactorings found in commit f75becbe370cbe15ccb4506e67cbe5845ae068f7
 No refactorings found in commit 4d875ac538fcc48bb1a87b704c265200a4e9876c
 No refactorings found in commit 9d8b2c308e101ff607953fb4ca6a346eccc85e68
 No refactorings found in commit b744723331f50a8bd5323b377fe64d3b9d5a1b80
-3 refactorings found in commit 4a61383b0cfdeee6cda84eeba332c65c8d0f9f1f
+4 refactorings found in commit 4a61383b0cfdeee6cda84eeba332c65c8d0f9f1f
 No refactorings found in commit 8ff5b3e538f6d0c48f394b94c6ecfc8fa00fc988
 No refactorings found in commit 19a558bfec10492c88db59fa986b32ee938c8738
 No refactorings found in commit cf6efee2847e87a64e54640a9d229462dc4aad4e
@@ -5747,14 +5534,14 @@ No refactorings found in commit 800d72afaa91b3eed6d9f1be720eb412ccae7335
 No refactorings found in commit e0e6d3c79f14614f72114dc0024ed2afdc4d1982
 1 refactorings found in commit 9c2395e61f5447838beac6321cee7d3f101ebfce
 No refactorings found in commit 430762f4d5f0678d7580b10510fefc581efb2ca3
-No refactorings found in commit 6e96338fb56dd64334ccb93bf39e1f0fa9b5a170
+1 refactorings found in commit 6e96338fb56dd64334ccb93bf39e1f0fa9b5a170
 No refactorings found in commit 4ea3b0ffd0685097e73f4a0b2078c4a8b4069460
 No refactorings found in commit 70ccda8cde9eb0301ec91d438ba2a610c0e01595
 No refactorings found in commit a97728901e59767e55fd7b4a2f4ae100fd2ca752
 No refactorings found in commit 850386ee87c857ca9931f46cc8cc556996455138
 No refactorings found in commit fcef9867ec8aab0fb5c513521fa727c9c062ab26
 No refactorings found in commit df762d4ce6cea70c7142398ec216e063c29e233c
-2 refactorings found in commit eb495127b263f65d9e4308c96f5699465b802548
+3 refactorings found in commit eb495127b263f65d9e4308c96f5699465b802548
 No refactorings found in commit 2e9389104aa72e86e68c6bbfe72993bcf811608d
 No refactorings found in commit 6344492fb1005da060cf1b072b21296d6f1af75f
 1 refactorings found in commit 84d3367a379ac5b02bcb7df19d5eff7ddc0fd7cc
@@ -5788,8 +5575,8 @@ No refactorings found in commit 5ba5027e5085db584b72bdb21dec4924aad41cd0
 No refactorings found in commit 2c9fa6a01010e34e2b0e3c89b4e470ab4f2b87f6
 No refactorings found in commit 2499509ada6e437823c0b5af0171b43e01446ed4
 No refactorings found in commit b5cc62b50e5bdf720dffdb6ee01501582ca264f2
-No refactorings found in commit b04e623e403777d89693a0883040e29c34eba0cb
-No refactorings found in commit 4c6a5ef5c807240a404196c000493721f28a8eb3
+3 refactorings found in commit b04e623e403777d89693a0883040e29c34eba0cb
+2 refactorings found in commit 4c6a5ef5c807240a404196c000493721f28a8eb3
 No refactorings found in commit fa90697197d7144a4f5c9a5bd9fdacfe1819ac06
 1 refactorings found in commit a05e2fd90494758b07818c77d4ca552135939174
 2 refactorings found in commit 477a9b90e1e71c12cebe0a741c47cd50c161ca57
@@ -5804,7 +5591,7 @@ No refactorings found in commit ec5a017524453a46b6622bd600eb08de1391b191
 No refactorings found in commit 5202fd7a499b7fcdb33eafc909cce62dbcdec3e4
 No refactorings found in commit ab113fea22ab6a68c564662fb08cd58bdd6fa4fa
 No refactorings found in commit 4a0dd47f3647cd3fdec4eb2df6ebe4fa7928854d
-No refactorings found in commit 91774ece756f52443fbba79a8dce65503a8d24a1
+13 refactorings found in commit 91774ece756f52443fbba79a8dce65503a8d24a1
 No refactorings found in commit c180419d3a55d1f0009582b8fbf397768f098e8d
 No refactorings found in commit 218030388f0068567105e2b7063c7d013e422787
 No refactorings found in commit becf8c0266993bc6ffaaf2d624a43ab12c43c4dc
@@ -5818,29 +5605,29 @@ No refactorings found in commit 77130d2d8cc0e095aa0cfb22ee0f93e0e69c8c3a
 5 refactorings found in commit 5742f310526bb3ac31751e392231af8de878e09b
 No refactorings found in commit 149bdeb11d4a08116a20aad44920a22b7edd3747
 1 refactorings found in commit 4cad6d1485a8a375546893898243bf21b5c1c09e
-1 refactorings found in commit 1cd3d2e61784503345bf1d4fd632311bc7bf2be3
+No refactorings found in commit 1cd3d2e61784503345bf1d4fd632311bc7bf2be3
 No refactorings found in commit a04e03042b242677effcec333933ef4bde4f9ff2
 No refactorings found in commit 184feb8e2b9576888acaccf9976fa8d578b99346
 No refactorings found in commit 5a97c3428a50e6fef19aeeca3158c0032c617f7a
 No refactorings found in commit e243d2aed26503d0a2613990a462773598008082
 No refactorings found in commit 357c71a96a3203a72324c96eac381e0719125de4
-No refactorings found in commit ac8b5e38ae34eb5f7463734f484ce5e50b56111c
+10 refactorings found in commit ac8b5e38ae34eb5f7463734f484ce5e50b56111c
 No refactorings found in commit 00b5f89e87ace110a3d060b67334b084fbf66e60
 No refactorings found in commit d1bc7d22cc8250d222d9d1da0c41fba4070eda60
 No refactorings found in commit f024fd8ebf54e37987c293a33d6694ce5a40da54
 No refactorings found in commit 1e087d811921a2737ac674f1d013a1181710f798
 2 refactorings found in commit 2a5d5481fc66294b728f87676c5657639a001d9b
-1 refactorings found in commit 3fd347537cd4244e9ce6ccd5e878b9fd761f65bb
-No refactorings found in commit 2bdfde779578e37ad6656bdd3f91eb2829df4660
+7 refactorings found in commit 3fd347537cd4244e9ce6ccd5e878b9fd761f65bb
+1 refactorings found in commit 2bdfde779578e37ad6656bdd3f91eb2829df4660
 No refactorings found in commit 426af122003f14851a997fb885aabf802fc02312
 1 refactorings found in commit 0e3c0f36df187e7319b13bf7985d9fcf82bb7c69
 No refactorings found in commit 373758474041fa0d4b16a4155363093e6b016690
 5 refactorings found in commit a06fead42f13c43289064b4d1f01dfb7a3a81a3e
-2 refactorings found in commit 800cf141cfb13a81e57e47375f522e76ab6d0119
+3 refactorings found in commit 800cf141cfb13a81e57e47375f522e76ab6d0119
 1 refactorings found in commit fa4240311ddab4a4bbfb317927f6286b145c254e
 No refactorings found in commit f32730e8a30b3f0b1fa8af5c11a63a808d33e8d5
 No refactorings found in commit 686fdd8ee2841ede23add4d6eb36fc186b314ebb
-4 refactorings found in commit 1b8f1ce06df5c1eb09b94368736c4e55f0c48de1
+7 refactorings found in commit 1b8f1ce06df5c1eb09b94368736c4e55f0c48de1
 No refactorings found in commit 2080f93e39ba2cf32686913163d0cec988944be7
 No refactorings found in commit 6e10b7d2d21608029b4beb14d04383c87ad7d0d5
 1 refactorings found in commit 7400fdff984533c320730b7613cde94b3eb42262
@@ -5851,21 +5638,21 @@ No refactorings found in commit 19131413c56e471f12ce3742447da480e1f53775
 No refactorings found in commit 6584041f8d8f8f691b3d585f969ec33bf4dfaa62
 No refactorings found in commit 782216f214f9c9cb5676ef1e71f04ca06d98e49d
 No refactorings found in commit 2b879ce8c387a27db8ebdc0cde5fd45c65ff6856
-1 refactorings found in commit ee27f3d75aa4299f26cc9d76de138e2094046f81
-No refactorings found in commit 42d17c1c4dfd7904b52478ca6badadedda006e85
-8 refactorings found in commit 53c0dbbbdd231c7deb0c393eeb66ece4265b20c0
-4 refactorings found in commit 895e273ec565e2977da103b071c08da1c50b4db3
-1 refactorings found in commit eb3925fb0e9896f319b6371b170c445e6ba96f97
-No refactorings found in commit c9f92be3b1699d9119459f87317f99f58fb09fd6
+3 refactorings found in commit ee27f3d75aa4299f26cc9d76de138e2094046f81
+5 refactorings found in commit 42d17c1c4dfd7904b52478ca6badadedda006e85
+9 refactorings found in commit 53c0dbbbdd231c7deb0c393eeb66ece4265b20c0
+6 refactorings found in commit 895e273ec565e2977da103b071c08da1c50b4db3
+2 refactorings found in commit eb3925fb0e9896f319b6371b170c445e6ba96f97
+1 refactorings found in commit c9f92be3b1699d9119459f87317f99f58fb09fd6
 No refactorings found in commit 9254032a037ca803396b33547a6cb3c18cbfc60f
 No refactorings found in commit 7f8eea622ef6913089027078bc5a82f85cb462c5
 No refactorings found in commit 2f22feaf46c68dc43c14a81ed88ea23c35ab1aaf
-1 refactorings found in commit a0727bbda0db3404f04b40b3e6e64c1678e122b7
+2 refactorings found in commit a0727bbda0db3404f04b40b3e6e64c1678e122b7
 No refactorings found in commit 6106a9f6ddc0790b5512658e4a26a669e5eab429
 No refactorings found in commit 039d3c0af39e357ad3e3f60b65f0e2ceffd3ee55
 No refactorings found in commit b30114fc26a6b5e04ed69a577331ecadc772a800
-5 refactorings found in commit c00ef532c96255a472e919141ba1dd802799dbab
-5 refactorings found in commit 2e48d26ff571d2a01d9d0f79dbd14806cb97d309
+10 refactorings found in commit c00ef532c96255a472e919141ba1dd802799dbab
+6 refactorings found in commit 2e48d26ff571d2a01d9d0f79dbd14806cb97d309
 No refactorings found in commit ade4f1470280f656b36dcbf0f7f1376ae0283697
 No refactorings found in commit 01625edeae56ad37178e4ed568b77ae55e9333a2
 1 refactorings found in commit 7bee5f637eea95c8b4947af22555a31a17873566
@@ -5893,7 +5680,7 @@ No refactorings found in commit 7cda135e70f99b77230e229ff4dd6c175a014d01
 No refactorings found in commit b27187d120795750080718be04fab167f8dd1c26
 1 refactorings found in commit a9c3c08670b4888ed3b0176fc24c17f76457f980
 1 refactorings found in commit 0bda9085984e74292065c147d5bf98f740f98e61
-1 refactorings found in commit 09b4633741d022a8f74d6ad7c5ca430fe8fb0a80
+4 refactorings found in commit 09b4633741d022a8f74d6ad7c5ca430fe8fb0a80
 No refactorings found in commit 52a134d5c0699b2ae504088189c25195140f925a
 No refactorings found in commit f5bcc39c75bba494ee1025dc4d1dc33486868375
 No refactorings found in commit 5db4ad448c7eeb557de51933dc0c596a45c6b924
@@ -5909,7 +5696,7 @@ No refactorings found in commit 0d5c627ebc94d5ccada9b2e19219e0e75e076bff
 No refactorings found in commit 1ee5b0580097a781d9d87b387d7aaa99a5b1bf9f
 1 refactorings found in commit 15123d8d5aec74d296ce51b52310b817f1b16bec
 No refactorings found in commit 979cd6e3a46f9a580e670e664c15f95d6379d081
-2 refactorings found in commit 6c52dfacbd2f0fe03d3528c07a597cb1734c4744
+5 refactorings found in commit 6c52dfacbd2f0fe03d3528c07a597cb1734c4744
 1 refactorings found in commit 120da93492ee79afa065a6d2f512a0fd6aad526f
 No refactorings found in commit 092b3213ea830aa5889fab78b5840a800eb59aa6
 No refactorings found in commit d597252bf16a6578900d0c64d3360054029d260f
@@ -5941,17 +5728,17 @@ No refactorings found in commit c1fed77c54d6b03174b5af54536f2ecdd8b9d0ab
 No refactorings found in commit a910ebae4419b9f235a1d73a5d2a1bb830804b16
 No refactorings found in commit 89d3f723334873cacf398ae6bb52fdc70be754c8
 No refactorings found in commit 6ab8c1e4d6f7fd283f90275d493fdcfd3dfffdf9
-No refactorings found in commit 81b4925a5e7e0be788d59974eb7ff3d1a57bf9d0
+2 refactorings found in commit 81b4925a5e7e0be788d59974eb7ff3d1a57bf9d0
 No refactorings found in commit cc15245e4d6ed4a50cd5df4e770fa317c1ade6a9
 1 refactorings found in commit 82d51cb08dd9e6c482ad0427238902f31bf9b1ce
 No refactorings found in commit 2102bcc0b020d0e77f80e30bd82fdd2411e45a4a
 No refactorings found in commit a634bf5cb9b5431724f7be050ad98c58f040e364
-No refactorings found in commit 81d63f1dccdfbabde94e8cdadce86147c956b2a8
+2 refactorings found in commit 81d63f1dccdfbabde94e8cdadce86147c956b2a8
 No refactorings found in commit 1f02eeaa2a417ddc4e61dc1134c2b070fc5171e3
 7 refactorings found in commit 9ea4563680aacf7ad94830355aad6d2a5a824639
 No refactorings found in commit 809554dd443544b297f50d5f2c5db44f0bbf6c83
 No refactorings found in commit 25a64f5d4ff5c6b93ede00f8d419bacb39ef3732
-No refactorings found in commit 0e97dc8605e77aa93f3061d93065980d2b8b2d6f
+2 refactorings found in commit 0e97dc8605e77aa93f3061d93065980d2b8b2d6f
 1 refactorings found in commit 05593115393981650ba08e2c1f773be0089c94e3
 No refactorings found in commit ce42d596c179b2468044a72cc763429d13dd24a6
 No refactorings found in commit 9c3ff77d8f76b23bb58a58bcc993d55c08d34130
@@ -5978,11 +5765,11 @@ No refactorings found in commit 4bd671cdb7c134cab13785ee6bf4bc5530348a69
 1 refactorings found in commit 83ccbf07c034f8944807b8e71e430dd11ee98231
 4 refactorings found in commit 4f9dcf0a8e15abdea35866ff1d02cfb2fb35a8d6
 No refactorings found in commit 1c56b98059d7b7e3fc825f9655b9a4aa21309254
-1 refactorings found in commit db6c43e65f71f365fe83b35b6f8b741e83550632
-No refactorings found in commit 2030aeb65b98c3ece84baac182114a198671fdc6
+2 refactorings found in commit db6c43e65f71f365fe83b35b6f8b741e83550632
+5 refactorings found in commit 2030aeb65b98c3ece84baac182114a198671fdc6
 No refactorings found in commit 4bb514dc0969917f6d9bf496b49d56ed83db6bba
 No refactorings found in commit 8a13a58c04e0cb5a7ad1adef0358cf59eeb8cf7e
-3 refactorings found in commit d1d71b62ffe439c5274705548b57b21f5fadf181
+2 refactorings found in commit d1d71b62ffe439c5274705548b57b21f5fadf181
 No refactorings found in commit f4104354b4c1493eb52e723452a75c66b9adf036
 No refactorings found in commit b717b7cc4edd9cdabbc84f1329223926fd06a17b
 No refactorings found in commit 5f3ca56a525abc1999e8c2e7e521e73f7e18ed8f
@@ -6004,7 +5791,7 @@ No refactorings found in commit a5c1d774ec7246e59789286604342035f9bf417f
 No refactorings found in commit 08aa91739eef1e3f620ad479f75a8223d100a8eb
 No refactorings found in commit 554df1148d0ca5132195078ffe3e2735ee9af58e
 No refactorings found in commit 82ccad7146e0d734edc33273df9cd1b56546f718
-1 refactorings found in commit 80cb34833ca1b4698ea4de4746884fe6ceacfc26
+No refactorings found in commit 80cb34833ca1b4698ea4de4746884fe6ceacfc26
 No refactorings found in commit 730ebd57afc3b8f71bf360a24b47b7df57415368
 No refactorings found in commit 87b25ea4d7be9d2d09c51ddd3e93a03d6e7f7e03
 1 refactorings found in commit c17010d956c3109cd810d904efd7c7efd8e3f84d
@@ -6064,13 +5851,13 @@ No refactorings found in commit 899e7afea6670a5f1606d8b58a5b08df3a135628
 No refactorings found in commit e04d2cd2e5e329dcd58d0e856b8b81243bbea9f6
 No refactorings found in commit 52600ea3abf3d2d7931e5f5779e8d5c396b5ae15
 1 refactorings found in commit 0f9fef533742679e8dfab63a4140b8e312c92c41
-2 refactorings found in commit ff141b5afbb8c46509cebe44369a969a2bb1ceae
-7 refactorings found in commit 1a217c46ea6b2273a7775d6118382f4a6797f00c
+4 refactorings found in commit ff141b5afbb8c46509cebe44369a969a2bb1ceae
+8 refactorings found in commit 1a217c46ea6b2273a7775d6118382f4a6797f00c
 4 refactorings found in commit a47c533ec99b31001adbb36d50721293ade043a2
 No refactorings found in commit c905b21ffce8b2f906698151047ced9d498b5f57
-3 refactorings found in commit 99573ad02b6249f0e72bdf2b42067c6127c96602
+4 refactorings found in commit 99573ad02b6249f0e72bdf2b42067c6127c96602
 No refactorings found in commit 82fe27e433ec97ed692ef33f8b5089e36191d6d7
-1 refactorings found in commit 0f8409bf7d39748c4e25685d0eb3c25784b31120
+2 refactorings found in commit 0f8409bf7d39748c4e25685d0eb3c25784b31120
 No refactorings found in commit 72edb72fd51157e779d9b35ebe4f834f3fe58232
 No refactorings found in commit 71c8dffe40c6a735581c9ed355d787e70bb54b9c
 No refactorings found in commit f06b24bea298e3a3297050e9cb27aa4576ab3496
@@ -6106,7 +5893,7 @@ No refactorings found in commit a4a6fcf5692d7438708ac6a7cdf3fcf0c1b19b48
 1 refactorings found in commit cfafcc57b75a79270fd22ccdb9ba9895b8bb68e6
 No refactorings found in commit 6633f5b9a01c7325392158a030243c7488b857ac
 No refactorings found in commit ba8559ab5057184c512291f7a8d79b4089b79f09
-1 refactorings found in commit 82995423dca0726f46e29700032b64fb354fdbf9
+No refactorings found in commit 82995423dca0726f46e29700032b64fb354fdbf9
 1 refactorings found in commit 9543f1f067443d87b2d3923cbbed76b0dc26199e
 No refactorings found in commit 1a12a44cb1c0bb6258e00573100984da3c0fad16
 No refactorings found in commit 60b3ea14dc6a47be5104e65eb524f2f5a26ff45a
@@ -6134,8 +5921,8 @@ No refactorings found in commit ca5d33bb9a15634dfb8ce2cd927798e0f69e51b8
 7 refactorings found in commit ca3e353165d21c794ff867b3b0bd63d56b69bed7
 2 refactorings found in commit e088098c50108d0e0de76f97dd568a49a1ee433f
 4 refactorings found in commit 62e0386a9d231d34de6a05a46ea98f6a2f61fac6
-No refactorings found in commit 134248ac94b927ee8e0723edfde0e075766bcf43
-2 refactorings found in commit 6f9026a18322a16e1e15b0663e9d1e09d9af083f
+1 refactorings found in commit 134248ac94b927ee8e0723edfde0e075766bcf43
+4 refactorings found in commit 6f9026a18322a16e1e15b0663e9d1e09d9af083f
 No refactorings found in commit 88fe235abc89422ac34f3a061b90833473b48f83
 2 refactorings found in commit c9d4d73b48d4b77cb8d168798bd0245dc48fe7f1
 No refactorings found in commit 611dd456b65933af32a0d75a97635d1069663db1
@@ -6177,17 +5964,17 @@ No refactorings found in commit ae6082ccec9c54144e4bb7c1e29b5e90fc46f469
 No refactorings found in commit 311e86fe254815df5ecd99ea1aa9193a9eda3c27
 No refactorings found in commit 3a3b0cb17518b4f5f22c540848fa11d27c2ec1cf
 No refactorings found in commit ab9969a393ac840eb89ebd8886c0ad000bc5d29f
-1 refactorings found in commit cf73a09b62b2a06b3654776aa514183fe63e758e
-No refactorings found in commit 625f4e126dfc2fc290a55a1c250798b11f47ee48
-No refactorings found in commit c257a33969bc7fa331b80a55ccdf85085f2cca34
-No refactorings found in commit b97de291f1370b0d9bc79e0cdad893ff19e52abd
+6 refactorings found in commit cf73a09b62b2a06b3654776aa514183fe63e758e
+1 refactorings found in commit 625f4e126dfc2fc290a55a1c250798b11f47ee48
+1 refactorings found in commit c257a33969bc7fa331b80a55ccdf85085f2cca34
+1 refactorings found in commit b97de291f1370b0d9bc79e0cdad893ff19e52abd
 1 refactorings found in commit 6af58dce947f52a5811ad6cc501f24bea5b05b88
 No refactorings found in commit 79d73136800dd3d05941337bc9334aa65a44a78a
 1 refactorings found in commit 3d0def73d4b9d0f311ebbcbe0303f5f583efaa26
 2 refactorings found in commit e2371cec0172a2b876c4327b659b2d2a43277607
 No refactorings found in commit 31de9bbf62c2c1f29657666531cf1bcde742de12
 No refactorings found in commit 2a5442477d18e68f386477d73ef1a4881816c9a1
-No refactorings found in commit b19a5af156493548caccd8674f0a22f1786afcbb
+3 refactorings found in commit b19a5af156493548caccd8674f0a22f1786afcbb
 No refactorings found in commit 8c81ec9e427ce97daf9ef74cfdb058eadaa24860
 No refactorings found in commit 83f2c36c0eed373516ad6ca9d2350f6f04cfb06a
 No refactorings found in commit 4557807f001706bf1e383b13dbe4a359e4318846
@@ -6218,9 +6005,9 @@ No refactorings found in commit 380e14bff01bf55d1f7197ff8f0c233dcdfe339f
 No refactorings found in commit 62292a5e5a2bb1336dfb2bf1758ae25695a75dd0
 4 refactorings found in commit 14c76d379adce6ed0bc9d6d55584500b33b4d0bc
 No refactorings found in commit 5a1c890c10b3c3eaec8b42a7991a386a8e2f56b9
-1 refactorings found in commit c82d342eae7955fdd0de9d7d69dd7d916f7bcf80
+2 refactorings found in commit c82d342eae7955fdd0de9d7d69dd7d916f7bcf80
 No refactorings found in commit c7a1377cf6a4bd3cbc47ff7122e495bbf3771455
-6 refactorings found in commit e07fbcf6a409ff5d6e9007825a5c1be860d8ed1c
+1 refactorings found in commit e07fbcf6a409ff5d6e9007825a5c1be860d8ed1c
 No refactorings found in commit b85141738d8e281d179f7e99f33fc5305cbba1d2
 1 refactorings found in commit cc7775d6d8041fb5caa4dedfdec690753d3b6539
 No refactorings found in commit f6e6b977179e2e0b5179ab71b56f73bd7ae88475
@@ -6248,7 +6035,7 @@ No refactorings found in commit 0693cca566f54abc3587fd85b6e72adcd8e40f60
 No refactorings found in commit 1559d22e2f7340677c085e85dc3f0b722c31e710
 No refactorings found in commit 7c23ee9dde48d6679878d2bbb47359d00a5a3f68
 1 refactorings found in commit aaf7a64711136945f161659e2119d22848c5325d
-1 refactorings found in commit 2b9f237c9435cce051668aaab0ac3153aad78557
+2 refactorings found in commit 2b9f237c9435cce051668aaab0ac3153aad78557
 No refactorings found in commit a7a0328b2df6ed04f924ec4f9d04ec5c54762f67
 No refactorings found in commit 098c1070d6b2e4640f7923b4e73acaeeee8916be
 No refactorings found in commit 98ad7671b5cf138b8d4f35bf371e2cb10b84a84b
@@ -6341,7 +6128,7 @@ No refactorings found in commit 09ad6e1402f5c1413f6d5f8d0d826df4a6a527c0
 No refactorings found in commit 0b4957e84e3bbca619e1dd5c3e7e456aa3a7728b
 5 refactorings found in commit e68379871e02004c35ff242923889686c4892243
 No refactorings found in commit 4610d3e1ba91962785ddfa99baf5ce90a0c7a83b
-3 refactorings found in commit b51efabeb5f3bccdc2ced589d37d215c3b1819cd
+5 refactorings found in commit b51efabeb5f3bccdc2ced589d37d215c3b1819cd
 1 refactorings found in commit 0fd0f229701e88254f36be3ed2b1f61dc508ba47
 No refactorings found in commit 6f8e29db09a47b25c6015295066b0b5d7494250f
 No refactorings found in commit 3201a925ca4dcb2d69664441b8dbd1409a764f3e
@@ -6359,17 +6146,17 @@ No refactorings found in commit a2e7741d7524e2f7b985d3cf3909a66e56bedff0
 No refactorings found in commit 7175867d2d18bba2d75490dca07ea330f622151c
 No refactorings found in commit a63560bb9fb2db5398df1475cf84779bd129e49e
 No refactorings found in commit 2cf72a18ee58f2e79a26e775bae39cf482b1b366
-21 refactorings found in commit 044e6a3312027286260d68584bec5e8f8f4bf6d1
+28 refactorings found in commit 044e6a3312027286260d68584bec5e8f8f4bf6d1
 No refactorings found in commit 6d68242ff7cf8f63d0f7715a25a8a9ce4713f584
 No refactorings found in commit d323485b54d314ae5397bc4b8984520d2d3b2019
 No refactorings found in commit 9722a641271389fd9f79c2f30b6780d7f4e09c6e
 No refactorings found in commit f5af87c8581753b87c4a0d3d9d31876fe02ea02e
-2 refactorings found in commit a7eeabc8de3684f04d10d94a42255432446bb3e9
+4 refactorings found in commit a7eeabc8de3684f04d10d94a42255432446bb3e9
 1 refactorings found in commit 52995a5194a0923030ea4db0049beb5b3c0e0528
 No refactorings found in commit dee468a15411b39aca57deca3cd7e794a28f89e3
 3 refactorings found in commit de6dbe897fba36d6d343521b3d8fb60794bbcbab
 3 refactorings found in commit a7464803266148b7359e30ae99814c8b946d3d8e
-1 refactorings found in commit 5fc81e081e9b2c90d1a9ebc27db1956afdf356ee
+2 refactorings found in commit 5fc81e081e9b2c90d1a9ebc27db1956afdf356ee
 No refactorings found in commit 9d86ea24a09a361f8658f57b9b265a86c066abde
 No refactorings found in commit 5d1e5062ecf55165efdce596dba51cf6a920109d
 2 refactorings found in commit 829521b212b2a84adb156b2dc802c71c0d151e9d
@@ -6384,7 +6171,7 @@ No refactorings found in commit acd6f0432ed080c39fc1b1f44d0b63b6a3316829
 3 refactorings found in commit b0692e8ef3eeda3121a442b8971804b51ad53a6f
 6 refactorings found in commit af424e266b573ce23bfa8fb382269f3a354ee133
 No refactorings found in commit 6ffd867e1194423d612101c6a092f2a6a604a06d
-1 refactorings found in commit 8b409e07a60175ca5cce62808baf56f0168c8943
+2 refactorings found in commit 8b409e07a60175ca5cce62808baf56f0168c8943
 No refactorings found in commit 279ccd2a5526eb6e904b07cd93b6c2a95d9fadbc
 2 refactorings found in commit 66f6623c28829f5c50b8e7fe2763d763bf1b0dc0
 No refactorings found in commit 1515377c48050f1c3325e93047d8da148c755ca8
@@ -6395,7 +6182,7 @@ No refactorings found in commit 3572f7ecd53bb0b82d7fdb19bf13d04803ea6d5f
 No refactorings found in commit 9ca6724a17a7e829af232cdf414769cbfe131d84
 No refactorings found in commit a57fec094aa39dc386532804b1c0e12a9ade0cd1
 1 refactorings found in commit 59bd37ec1040f08cd3ecb866137964a0feb47b1f
-No refactorings found in commit f5990cb42b0b507e9c20c081012c94b3348acadb
+1 refactorings found in commit f5990cb42b0b507e9c20c081012c94b3348acadb
 No refactorings found in commit 343a7432298a07be428ba3fb42434ed43606cbce
 3 refactorings found in commit 94f9a60da1d8126b5c18639bce98fdcb85c7dfc6
 No refactorings found in commit 8555b95268f16e7d3156f775c953ecfb61cc6674
@@ -6415,7 +6202,7 @@ No refactorings found in commit 26e6d6eb86a25436932587237d147b384bbc3a6f
 1 refactorings found in commit cb1c8cb3e270db5bd4e4b8c09ffbb0118b6a468c
 No refactorings found in commit fbb5402bf25349ada1a4b5a2c959c04abba541c3
 No refactorings found in commit c1dce2cd5963c36d1182021193b2ba50fb9815ac
-4 refactorings found in commit f50f4eb6a6ad2b2267d36990b81e435fe8715517
+6 refactorings found in commit f50f4eb6a6ad2b2267d36990b81e435fe8715517
 No refactorings found in commit 2bde87bef2a973d1c9b3fabe6c59db5f7ebc1fcd
 No refactorings found in commit 2035877d58b78a2757d6f2990e713616284a50c3
 1 refactorings found in commit 7cbbf265f9989a8254103ae6684a21805bd0e1fa
@@ -6425,7 +6212,7 @@ No refactorings found in commit 780300b8b3a4c23e26c46ba678a270d0b08d9069
 1 refactorings found in commit ecaeb5e87165d650a390cefc177d860226353458
 3 refactorings found in commit bcfc7d9aaf5e27924e77a90953c0e6327ffaf288
 No refactorings found in commit 71a230ef91dac7ec3a954389ca8001d53814a3e0
-3 refactorings found in commit dbd5616f5a7f2dca7d835a9090d713c720c91ab0
+4 refactorings found in commit dbd5616f5a7f2dca7d835a9090d713c720c91ab0
 No refactorings found in commit 676bc5d1601f3e657fa417b66c01f4f67da9ada1
 No refactorings found in commit 2b7304c32da6d44ca99e8631a2481e0a3d9fa9df
 No refactorings found in commit 09eaa5b8e146e676d84228e48076ea554c8ef431
@@ -6482,5 +6269,5 @@ No refactorings found in commit 35fbbd7822410d63ef12e8804ddedc9a2236363d
 No refactorings found in commit 16e74dcca4856c27af3f6cd5ca3bb3d187f6bfd2
 No refactorings found in commit 45c0260fc51bc1bb32d9bd96673785834f327bd1
 No refactorings found in commit 3ac30cd89f8165d9e991bf5fce2ebc2bb365b71b
-Finish mining, result is saved to file: tutorials/all_refactorings.csv
-Total count: [Commits: 6404, Errors: 8, Refactorings: 3665]
+Finish mining, result is saved to file: Repository/tutorials/all_refactorings_master.csv
+Total count: [Commits: 6271, Errors: 0, Refactorings: 4159]
