@@ -16,3 +16,4 @@ class RefactoringsEnum(Enum):
   RenameMethod = 9
   ExtractAndMoveMethod = 10
   ChangePackage = 11
+  OtherRefactoring = 12

@@ -13,6 +13,7 @@ class CommitRefactorings():
     self.__RenameMethod = 0
     self.__ExtractAndMoveMethod = 0
     self.__ChangePackage = 0
+    self.__OtherRefactoring = 0
     self.__Total = 0
   
   def __eq__(self, other):
@@ -52,6 +53,9 @@ class CommitRefactorings():
   def addChangePackage(self):
     self.__ChangePackage += 1
     self.__addTotal()
+  def addOtherRefactoring(self):
+    self.__OtherRefactoring += 1
+    self.__addTotal()
   def __addTotal(self):
     self.__Total += 1
   
@@ -79,3 +83,5 @@ class CommitRefactorings():
     return self.__ExtractAndMoveMethod
   def getChangePackage(self):
     return self.__ChangePackage
+  def getOtherRefactoring(self):
+    return self.__OtherRefactoring

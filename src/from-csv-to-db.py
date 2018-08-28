@@ -25,7 +25,8 @@ def create_db(PATH, PROJECT_NAME):
         rename_class INTEGER,
         rename_method INTEGER,
         extract_and_move_method INTEGER,
-        change_package INTEGER
+        change_package INTEGER,
+        other INTEGER
       )
     ''')
 
@@ -39,8 +40,8 @@ def create_db(PATH, PROJECT_NAME):
 
 def insert(commit, conn, REPO_PATH):
   cursor = conn.cursor()
-  rowsRefactorings = (commit.sha, commit.getTotal(), commit.getExtractedMethod(), commit.getInlineMethod(), commit.getMoveMethodOrAttribute(), commit.getPullUpMethodOrAttribute(), commit.getPushDownMethodOrAttribute(), commit.getExtractSuperclassOrInterface(), commit.getMoveClass(), commit.getRenameClass(), commit.getRenameMethod(), commit.getExtractAndMoveMethod(), commit.getChangePackage())
-  sqlInsertRefactorings = 'INSERT INTO refactorings VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)'
+  rowsRefactorings = (commit.sha, commit.getTotal(), commit.getExtractedMethod(), commit.getInlineMethod(), commit.getMoveMethodOrAttribute(), commit.getPullUpMethodOrAttribute(), commit.getPushDownMethodOrAttribute(), commit.getExtractSuperclassOrInterface(), commit.getMoveClass(), commit.getRenameClass(), commit.getRenameMethod(), commit.getExtractAndMoveMethod(), commit.getChangePackage(), commit.getOtherRefactoring())
+  sqlInsertRefactorings = 'INSERT INTO refactorings VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)'
   
   commitMessage = ''
   with cd(REPO_PATH):
@@ -75,8 +76,11 @@ def main(argv):
 
       refactoringId = 0
       changePackageTypes = ['MoveSourceFolder', 'RenamePackage']
+      otherTypes = ['RenameVariable', 'RenameParameter', 'MoveAndRenameClass', 'ExtractVariable', 'ParameterizeVariable']
       if refType in changePackageTypes:
         refactoringId = RefactoringsEnum['ChangePackage'].value
+      elif refType in otherTypes:
+        refactoringId = RefactoringsEnum['OtherRefactoring'].value
       else:
         refactoringId = RefactoringsEnum[refType].value
       
@@ -92,6 +96,7 @@ def main(argv):
         9: currentCommit.addRenameMethod,
         10: currentCommit.addExtractAndMoveMethod,
         11: currentCommit.addChangePackage,
+        12: currentCommit.addOtherRefactoring,
       }
       
       switchOptions[refactoringId]()
