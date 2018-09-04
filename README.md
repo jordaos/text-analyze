@@ -46,3 +46,11 @@ TABELA 1: Estrutura do armazenamento de refatorações.
 - Commits com refatorações: `SELECT S.sha, S.Positive, S.Negative, R.total FROM sentiment S INNER JOIN refactorings R  ON S.sha = R.sha WHERE (S.Positive > 1 OR S.Negative < -1)`
 - Commits sem refatorações: `SELECT S.sha, S.Positive, S.Negative FROM sentiment S LEFT JOIN refactorings R  ON S.sha = R.sha WHERE R.sha is null and (S.Positive > 1 OR S.Negative < -1)`
 - *Ambos retornam apensa os commits com algum sentimento (pos > 1 OR neg < -1).
+
+## Compute refactorings
+
+Pega os commits com refatorações a partir de `all_refactorings.csv` e joga numa tabela
+
+## Get all commits
+
+Pega todos os commits do projeto e joga na tabela commits
