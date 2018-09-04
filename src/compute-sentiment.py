@@ -46,11 +46,16 @@ def put_in_sqlite(conn, PATH):
   for linha in commits:
     commit_analysis = file_explanation.readline()
     arr_analysis = re.split(r'\t+', commit_analysis)
+    
+    try:
+      arr_analysis_3 = arr_analysis[3]
+    except IndexError:
+      arr_analysis_3 = 'none'
 
     cursor.execute("""
         INSERT INTO sentiment (sha, Positive, Negative, Text, Explanation)
         VALUES (?, ?, ?, ?, ?)
-      """, (linha[0], arr_analysis[0], arr_analysis[1], linha[1], arr_analysis[3]))
+      """, (linha[0], arr_analysis[0], arr_analysis[1], linha[1], arr_analysis_3))
   os.remove(file_explanation_path)
 
 
