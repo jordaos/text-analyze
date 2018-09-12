@@ -54,3 +54,30 @@ Pega os commits com refatorações a partir de `all_refactorings.csv` e joga num
 ## Get all commits
 
 Pega todos os commits do projeto e joga na tabela commits
+
+- SELECT COUNT(*) FROM Sentiment S WHERE (S.Positive + S.Negative) = 0
+- SELECT COUNT(*) FROM Sentiment S INNER JOIN findings F on F.sha = S.sha WHERE F.new > 0
+- SELECT COUNT(*) FROM Sentiment S INNER JOIN refactorings R on R.sha = S.sha
+
+- Findings (descarta os commits com sentimento neutro e que não tiveram findings)
+```sql
+SELECT S.sha, S.Positive, S.Negative, (S.Positive + S.Negative) as Final, F.new FROM sentiment S 
+INNER JOIN Findings F ON S.sha = F.sha 
+WHERE (S.Positive + S.Negative) <> 0 AND
+F.new > 0;
+```
+
+- Refactorings (descarta os commits com sentimento neutro e que não tiveram refatorações)
+```sql
+SELECT S.sha, S.Positive, S.Negative, (S.Positive + S.Negative) as Final, R.total FROM sentiment S 
+INNER JOIN Refactorings R ON S.sha = R.sha 
+WHERE (S.Positive + S.Negative) <> 0 AND
+R.total > 0;
+```
+
+- Get all data
+```sql
+SELECT S.sha, S.Positive, S.Negative, (S.Positive + S.Negative) as Final, F.new, R.total FROM sentiment S 
+LEFT JOIN Findings F ON S.sha = F.sha 
+LEFT JOIN Refactorings R ON S.sha = R.sha ;
+```
