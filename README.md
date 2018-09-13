@@ -81,3 +81,6 @@ SELECT S.sha, S.Positive, S.Negative, (S.Positive + S.Negative) as Final, F.new,
 LEFT JOIN Findings F ON S.sha = F.sha 
 LEFT JOIN Refactorings R ON S.sha = R.sha ;
 ```
+
+# all-in-one
+pega todos os projetos dentro de `data` e transforma em apenas um banco.

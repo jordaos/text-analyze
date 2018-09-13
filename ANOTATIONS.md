@@ -1,0 +1,1 @@
+Exclui os comentários com {1, -1} da análise
