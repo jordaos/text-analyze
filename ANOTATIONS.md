@@ -21,6 +21,8 @@ do valor zero.
 
 - No total, temos __35232__ commits com sentimento neutro {1, -1}
 - __11980__ commits com algum sentimento (Positivo > 1 ou Negativo < -1)
+- __2271__ commits com Refatorações e sentimento (sem {1, -1})
+- __9709__ commits sem Refatorações e sentimento (sem {1, -1})
 
 # R commands
 
@@ -41,7 +43,7 @@ t.test(scores)
 ```sql
 SELECT (S.Positive + S.Negative) as Final FROM sentiment S 
 INNER JOIN Refactorings R ON S.sha = R.sha 
-WHERE S.Positive <> 1 AND S.Negative <> -1 AND
+WHERE S.Positive <> 1 OR S.Negative <> -1 AND
 R.total > 0;
 ```
 
@@ -50,13 +52,13 @@ R.total > 0;
 SELECT (S.Positive + S.Negative) as Final FROM Sentiment S 
 LEFT JOIN refactorings R ON S.sha = R.sha 
 WHERE R.sha IS NULL AND 
-(S.Positive <> 1 AND S.Negative <> -1)
+(S.Positive <> 1 OR S.Negative <> -1)
 ```
 
 - Todos (descarta {1, -1})
 ```sql
 SELECT (S.Positive + S.Negative) as Final FROM Sentiment S 
-WHERE (S.Positive <> 1 AND S.Negative <> -1)
+WHERE (S.Positive <> 1 OR S.Negative <> -1)
 ```
 
 # Tests outputs
@@ -89,4 +91,64 @@ alternative hypothesis: true mean is not equal to 0
 sample estimates:
  mean of x
 -0.1948247
+```
+
+## With Refactorings
+
+- Wilcoxon
+
+```
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 851420, p-value = 0.0002434
+alternative hypothesis: true location is not equal to 0
+```
+
+- T.test
+```
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -3.7291, df = 2270, p-value = 0.0001968
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.12631530 -0.03925053
+sample estimates:
+  mean of x
+-0.08278292
+```
+
+## Without refactorings
+
+- Wilcoxon
+```
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 14623000, p-value < 2.2e-16
+alternative hypothesis: true location is not equal to 0
+```
+
+- T.test
+```
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -20.573, df = 9708, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.2420920 -0.1999721
+sample estimates:
+mean of x
+-0.221032
+
 ```
