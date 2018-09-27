@@ -108,6 +108,6 @@ def main(argv):
 
 if __name__ == "__main__":
   if len(sys.argv) <= 1:
-    print 'Give parameter (project name)'
+    print('Give parameter (project name)')
     sys.exit()
   main(sys.argv)
