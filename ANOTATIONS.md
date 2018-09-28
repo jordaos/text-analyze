@@ -1,5 +1,5 @@
 Exclui os comentários com {1, -1} da análise
-
+Excluimos commits de merge (mensagens sem sentimentos)
 # Perguntas
 
 ## 1)
@@ -60,6 +60,17 @@ WHERE R.sha IS NULL AND
 SELECT (S.Positive + S.Negative) as Final FROM Sentiment S 
 WHERE (S.Positive <> 1 OR S.Negative <> -1)
 ```
+- Retorna as médias de (insertion_lines/new_findings) para cada score final
+```sql
+SELECT (S.Positive + S.Negative) as Final, AVG(C.insertions / F.new) FROM findings F 
+INNER JOIN commits C ON C.sha = F.sha
+INNER JOIN sentiment S ON S.sha = F.sha
+WHERE F.new > 0 AND 
+C.insertions IS NOT NULL AND
+(S.Positive <> 1 OR S.Negative <> -1) 
+GROUP BY Final;
+```
+
 
 # Tests outputs
 

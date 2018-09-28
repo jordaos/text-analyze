@@ -16,7 +16,9 @@ def create_db(conn):
     CREATE TABLE IF NOT EXISTS `commits` (
       `sha` TEXT, 
       `message` TEXT, 
-      `date` TEXT)
+      `date` TEXT,
+      `insertions` INTEGER NULL,
+      `deletions` INTEGER NULL)
     ''')
   conn.execute('DROP TABLE IF EXISTS refactorings;')
   conn.execute('''
@@ -52,7 +54,7 @@ def extract_data(conn, conn1):
   cursor1.execute("SELECT * FROM commits;")
   commits = cursor1.fetchall()
   for linha in commits:
-    sqlInsertCommit = 'INSERT INTO commits VALUES(?, ?, ?)'
+    sqlInsertCommit = 'INSERT INTO commits VALUES(?, ?, ?, ?, ?)'
     cursor.execute(sqlInsertCommit, linha)
 
   cursor1.execute("SELECT * FROM sentiment;")
