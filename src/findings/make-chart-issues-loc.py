@@ -15,21 +15,36 @@ def dp(score):
       WHERE (S.positive + S.negative) = ? AND
       F.new > 0 AND 
       C.insertions IS NOT NULL AND
-      (S.Positive <> 1 OR S.Negative <> -1);
+      (S.Positive <> 1 OR S.Negative <> -1) AND
+      C.sha <> 'b49c1296eb569afcaee5b521ad2d0c7afd921d8f';
   '''
   cursor = conn.cursor()
   cursor.execute(sql, (score,))
   commits = cursor.fetchall()
-  print("%s - len = %s" % (score, len(commits)))
   values = [commit[0] for commit in commits]
   if len(values) == 0: return 0
   dp = statistics.pstdev(values)
   return dp
 
-def main():
+def mean(score):
+  sql = '''
+    SELECT AVG(C.insertions / F.new) FROM findings F 
+      INNER JOIN commits C ON C.sha = F.sha
+      INNER JOIN sentiment S ON S.sha = F.sha
+      WHERE (S.positive + S.negative) = ? AND
+      F.new > 0 AND 
+      C.insertions IS NOT NULL AND
+      (S.Positive <> 1 OR S.Negative <> -1) AND
+      C.sha <> 'b49c1296eb569afcaee5b521ad2d0c7afd921d8f'
+  '''
+  cursor = conn.cursor()
+  cursor.execute(sql, (score,))
+  mean = cursor.fetchone()
+  if mean[0] == None: return 0
+  return mean[0]
 
+def main():
   x = np.array([-4, -3, -2, -1, 0, 1, 2, 3, 4])
-  y = np.array([9.5, 15.5454545454545, 32.9561403508772, 38.7198203256597, 32.3438438438438, 26.6976047904192, 27.0948275862069, 6.0, 0])
 
   # DPs
   m4 = dp(-4)
@@ -37,15 +52,24 @@ def main():
   m2 = dp(-2)
   m1 = dp(-1)
   z = dp(0)
-  p1 = int(dp(1))
+  p1 = dp(1)
   p2 = dp(2)
   p3 = dp(3)
   p4 = dp(4)
 
+  # means
+  meanm4 = mean(-4)
+  meanm3 = mean(-3)
+  meanm2 = mean(-2)
+  meanm1 = mean(-1)
+  mean0 = mean(0)
+  meanp1 = mean(1)
+  meanp2 = mean(2)
+  meanp3 = mean(3)
+  meanp4 = mean(4)
+
   e = np.array([m4, m3, m2, m1, z, p1, p2, p3, p4])
-  print(x)
-  print(y)
-  print(e)
+  y = np.array([meanm4, meanm3, meanm2, meanm1, mean0, meanp1, meanp2, meanp3, meanp4])
 
   plt.errorbar(x, y, e, linestyle='None', marker='^')
   plt.show()
