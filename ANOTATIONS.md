@@ -21,8 +21,12 @@ do valor zero.
 
 - No total, temos __35232__ commits com sentimento neutro {1, -1}
 - __11980__ commits com algum sentimento (Positivo > 1 ou Negativo < -1)
-- __2271__ commits com Refatorações e sentimento (sem {1, -1})
-- __9709__ commits sem Refatorações e sentimento (sem {1, -1})
+- Refatorações
+  - __2271__ commits com Refatorações e com sentimento (não é {1, -1})
+  - __9709__ commits sem Refatorações e com sentimento (não é {1, -1})
+- Findings
+  - __12765__ commits com no mínimo 1 finding (F.new > 1) e com sentimento (não é {1, -1})
+  - __5446__ commits com no mínimo 1 issue resolvido(resolved) OU não resolvido(unresolved) e com sentimento (não é {1, -1})
 
 # R commands
 
