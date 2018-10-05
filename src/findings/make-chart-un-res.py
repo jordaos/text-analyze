@@ -20,9 +20,10 @@ def dp(score):
   cursor.execute(sql, (score,))
   commits = cursor.fetchall()
   values = [commit[0] for commit in commits]
-  if len(values) == 0: return 0
-  dp = statistics.pstdev(values)
-  return dp
+  if len(values) <= 1: return 0
+  dp = statistics.stdev(values)
+  dpma = (dp / (len(values) ** 0.5)) # desvio padrão da média amostral
+  return dpma
 
 def mean(score):
   sql = '''
