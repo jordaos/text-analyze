@@ -9,7 +9,7 @@ conn = sqlite3.connect('data/all.sqlite')
 
 def dp(score):
   sql = '''
-    SELECT (F.unresolved / (cast((F.unresolved + F.resolved) as FLOAT))) FROM findings F 
+    SELECT (F.resolved / (cast((F.unresolved + F.resolved) as FLOAT))) FROM findings F 
       INNER JOIN sentiment S ON S.sha = F.sha
       WHERE (S.positive + S.negative) = ? AND
       (F.unresolved + F.resolved) > 0 AND
@@ -22,12 +22,12 @@ def dp(score):
   values = [commit[0] for commit in commits]
   if len(values) <= 1: return 0
   dp = statistics.stdev(values)
-  dpma = (dp / (len(values) ** 0.5)) # desvio padrão da média amostral
+  dpma = (dp / (len(values) ** 0.5)) # desvio padrao da media amostral
   return dpma
 
 def mean(score):
   sql = '''
-    SELECT AVG(F.unresolved / (cast((F.unresolved + F.resolved) as FLOAT))) FROM findings F
+    SELECT AVG(F.resolved / (cast((F.unresolved + F.resolved) as FLOAT))) FROM findings F
       INNER JOIN sentiment S ON S.sha = F.sha
       WHERE (S.positive + S.negative) = ? AND
       (F.unresolved + F.resolved) > 0 AND 
@@ -67,6 +67,12 @@ def main():
 
   e = np.array([m4, m3, m2, m1, z, p1, p2, p3, p4])
   y = np.array([meanm4, meanm3, meanm2, meanm1, mean0, meanp1, meanp2, meanp3, meanp4])
+
+  print("e")
+  print(e)
+  print("-----------")
+  print("y")
+  print(y)
 
   plt.errorbar(x, y, e, linestyle='None', marker='^')
   plt.show()
