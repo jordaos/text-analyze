@@ -1,4 +1,10 @@
-SELECT IFNULL(F.new, 0) as new, IFNULL(F.resolved, 0) as resolved, IFNULL(F.unresolved, 0) as unresolved, IFNULL(C.insertions, 0) as insertions, (S.positive + S.negative) as score From commits C, sentiment S
+SELECT IFNULL(F.new, 0) as new, 
+IFNULL(F.resolved, 0) as resolved, 
+IFNULL(F.unresolved, 0) as unresolved, 
+IFNULL(C.insertions, 0) as insertions,
+IFNULL(C.total_changed, 0) as total_changed,
+(S.positive + S.negative) as score,
+C.project as project FROM commits C, sentiment S
 LEFT JOIN findings F USING(sha)
 WHERE 
 C.sha = S.sha AND

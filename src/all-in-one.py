@@ -18,7 +18,9 @@ def create_db(conn):
       `message` TEXT, 
       `date` TEXT,
       `insertions` INTEGER NULL,
-      `deletions` INTEGER NULL)
+      `deletions` INTEGER NULL,
+      `total_changed` INTEGER NULL,
+      `project` TEXT)
     ''')
   conn.execute('DROP TABLE IF EXISTS refactorings;')
   conn.execute('''
@@ -48,15 +50,15 @@ def create_db(conn):
       `resolved` INTEGER)
     ''')
 
-def extract_data(conn, conn1):
+def extract_data(conn, conn1, project_name):
   cursor = conn.cursor()
   cursor1 = conn1.cursor()
-  cursor1.execute("SELECT * FROM commits;")
+  cursor1.execute("SELECT C.*, (insertions + deletions) as total_changed FROM commits C;")
   commits = cursor1.fetchall()
   for linha in commits:
-    sqlInsertCommit = 'INSERT INTO commits VALUES(?, ?, ?, ?, ?)'
+    sqlInsertCommit = 'INSERT INTO commits VALUES(?, ?, ?, ?, ?, ?, ?)'
+    linha = linha + (project_name,)
     cursor.execute(sqlInsertCommit, linha)
-
   cursor1.execute("SELECT * FROM sentiment;")
   sentiments = cursor1.fetchall()
   for linha in sentiments:
@@ -78,7 +80,6 @@ def extract_data(conn, conn1):
   cursor.close()
   cursor1.close()
 
-
 def insert_data(conn):
   data = './data'
   projects = [project for project in os.listdir(data) if os.path.isdir(os.path.join(data, project))]
@@ -86,7 +87,7 @@ def insert_data(conn):
     PATH = 'data/%s' % project
     conn1 = sqlite3.connect('%s/DB/%s.sqlite' % (PATH, project))
     conn1.text_factory = str
-    extract_data(conn, conn1)
+    extract_data(conn, conn1, project)
 
 
 conn = sqlite3.connect('data/all.sqlite')
