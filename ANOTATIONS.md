@@ -99,6 +99,26 @@ C.insertions IS NOT NULL AND
 GROUP BY Final;
 ```
 
+- Calcular as porcentagens commits com e sem refatorações por projeto
+```sql
+SELECT C1.project, R2.with_refactoring, (R2.with_refactoring * 1.0 / (R1.without_refactoring + R2.with_refactoring)) AS percentage,
+R1.without_refactoring, (R1.without_refactoring * 1.0 / (R1.without_refactoring + R2.with_refactoring)) AS percentage
+FROM commits C1,
+(SELECT C.project AS project, COUNT(*) AS without_refactoring FROM commits C 
+INNER JOIN sentiment S ON S.sha = C.sha
+LEFT JOIN refactorings R ON R.sha = C.sha
+WHERE R.sha IS NULL 
+AND (S.positive <> 1 OR S.negative <> -1) 
+GROUP BY C.project) AS R1, 
+(SELECT C.project AS project, COUNT(*) AS with_refactoring FROM commits C 
+INNER JOIN sentiment S ON S.sha = C.sha
+INNER JOIN refactorings R ON R.sha = C.sha
+WHERE (S.positive <> 1 OR S.negative <> -1) 
+GROUP BY C.project) AS R2
+WHERE R1.project = C1.project AND
+R2.project = C1.project
+GROUP BY C1.project
+```
 
 # Tests outputs
 

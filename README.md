@@ -67,12 +67,18 @@ WHERE (S.Positive + S.Negative) <> 0 AND
 F.new > 0;
 ```
 
-- Refactorings (descarta os commits com sentimento neutro e que não tiveram refatorações)
+- Scores commits com
 ```sql
-SELECT S.sha, S.Positive, S.Negative, (S.Positive + S.Negative) as Final, R.total FROM sentiment S 
-INNER JOIN Refactorings R ON S.sha = R.sha 
-WHERE (S.Positive + S.Negative) <> 0 AND
-R.total > 0;
+
+```
+
+- Scores commits Sem refatorações
+```sql
+SELECT (S.positive + S.negative) AS score FROM sentiment S
+INNER JOIN commits C ON C.sha = S.sha
+LEFT JOIN refactorings R ON R.sha = S.sha
+WHERE (S.positive <> 1 OR S.negative <> -1)
+AND R.sha IS NULL
 ```
 
 - Get all data
