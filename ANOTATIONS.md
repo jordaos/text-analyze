@@ -57,9 +57,13 @@ do valor zero.
 *OBS: Remover a linha de títulos (se tiver) quando for passar os dados para o R. Deixar apenas os valores!
 
 ```R
-list = list(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r)
-scores = unlist(list)
+library(foreach)
+dat <- read.csv("/home/jordao/Projects/text-analyze/CSV/refactorings/with/all.csv", header=FALSE)
+scores = c()
+foreach(elem = dat, .packages="foreach") %do% (scores <- c(scores, elem))
+
 length(scores)
+mean(scores)
 
 wilcox.test(scores)
 t.test(scores)
