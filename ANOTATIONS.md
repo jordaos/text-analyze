@@ -71,6 +71,8 @@ t.test(scores)
 
 # SQL`s
 
+## Refatorações
+
 - Com refatorações (descarta {1, -1})
 ```sql
 SELECT (S.Positive + S.Negative) as Final FROM sentiment S 
@@ -124,9 +126,31 @@ R2.project = C1.project
 GROUP BY C1.project
 ```
 
+## Findings
+
+Com findings são os commits com no mínimo um novo issue (F.new > 0). Também serão descartados os commits sem sentimentos (1, -1).
+
+- _Commits_ com _findings_
+```SQL
+SELECT S.sha, (S.positive + S.negative) as Final FROM sentiment S
+INNER JOIN findings F ON F.sha = S.sha
+WHERE F.new > 0
+AND (S.Positive > 1 OR S.Negative < -1);
+```
+
+- _Commits_ sem _findings_
+```SQL
+SELECT S.sha, (S.positive + S.negative) as Final FROM sentiment S
+LEFT JOIN findings F ON F.sha = S.sha
+WHERE F.new = 0 OR F.sha IS NULL
+AND (S.Positive > 1 OR S.Negative < -1);
+```
+
 # Tests outputs
 
-## All data
+## Refactorings
+
+### All data
 
 - Wilcoxon
 ```
@@ -156,7 +180,7 @@ sample estimates:
 -0.1948247
 ```
 
-## With Refactorings
+### With Refactorings
 
 - Wilcoxon
 
@@ -186,7 +210,7 @@ sample estimates:
 -0.08278292
 ```
 
-## Without refactorings
+### Without refactorings
 
 - Wilcoxon
 ```
@@ -214,4 +238,63 @@ sample estimates:
 mean of x
 -0.221032
 
+```
+
+## Findings
+
+## With Findings
+
+```
+> length(scores)
+[1] 4819
+> mean(scores)
+[1] -0.08300477
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 3893900, p-value = 5.665e-08
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -5.4759, df = 4818, p-value = 4.574e-08
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.11272173 -0.05328782
+sample estimates:
+  mean of x
+-0.08300477
+```
+
+### Whithout Findings
+```
+> length(scores)
+[1] 14102
+> mean(scores)
+[1] -0.1371437
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 7674600, p-value < 2.2e-16
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -21.255, df = 14101, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.1497911 -0.1244962
+sample estimates:
+ mean of x
+-0.1371437
 ```
