@@ -142,7 +142,7 @@ AND (S.Positive > 1 OR S.Negative < -1);
 ```SQL
 SELECT S.sha, (S.positive + S.negative) as Final FROM sentiment S
 LEFT JOIN findings F ON F.sha = S.sha
-WHERE F.new = 0 OR F.sha IS NULL
+WHERE (F.new = 0 OR F.sha IS NULL)
 AND (S.Positive > 1 OR S.Negative < -1);
 ```
 
@@ -242,7 +242,36 @@ mean of x
 
 ## Findings
 
-## With Findings
+### ALL Data
+
+```
+> length(scores)
+[1] 11980
+> mean(scores)
+[1] -0.1948247
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 22556000, p-value < 2.2e-16
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -20.12, df = 11979, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.2138049 -0.1758446
+sample estimates:
+ mean of x
+-0.1948247
+```
+
+### With Findings
 
 ```
 > length(scores)
@@ -274,9 +303,9 @@ sample estimates:
 ### Whithout Findings
 ```
 > length(scores)
-[1] 14102
+[1] 7163
 > mean(scores)
-[1] -0.1371437
+[1] -0.2699986
 > wilcox.test(scores)
 
         Wilcoxon signed rank test with continuity correction
@@ -290,11 +319,11 @@ alternative hypothesis: true location is not equal to 0
         One Sample t-test
 
 data:  scores
-t = -21.255, df = 14101, p-value < 2.2e-16
+t = -21.592, df = 7162, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- -0.1497911 -0.1244962
+ -0.2945114 -0.2454858
 sample estimates:
  mean of x
--0.1371437
+-0.2699986
 ```
