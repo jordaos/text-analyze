@@ -58,8 +58,8 @@ do valor zero.
 
 ```R
 library(foreach)
-dat <- read.csv("/home/jordao/Projects/text-analyze/CSV/refactorings/with/all.csv", header=FALSE)
 scores = c()
+dat <- read.csv("/home/jordao/Projects/text-analyze/CSV/refactorings/with/all.csv", header=FALSE)
 foreach(elem = dat, .packages="foreach") %do% (scores <- c(scores, elem))
 
 length(scores)
@@ -132,7 +132,7 @@ Com findings são os commits com no mínimo um novo issue (F.new > 0). Também s
 
 - _Commits_ com _findings_
 ```SQL
-SELECT S.sha, (S.positive + S.negative) as Final FROM sentiment S
+SELECT (S.positive + S.negative) as Final FROM sentiment S
 INNER JOIN findings F ON F.sha = S.sha
 WHERE F.new > 0
 AND (S.Positive > 1 OR S.Negative < -1);
@@ -140,7 +140,7 @@ AND (S.Positive > 1 OR S.Negative < -1);
 
 - _Commits_ sem _findings_
 ```SQL
-SELECT S.sha, (S.positive + S.negative) as Final FROM sentiment S
+SELECT (S.positive + S.negative) as Final FROM sentiment S
 LEFT JOIN findings F ON F.sha = S.sha
 WHERE (F.new = 0 OR F.sha IS NULL)
 AND (S.Positive > 1 OR S.Negative < -1);
@@ -242,8 +242,8 @@ mean of x
 
 ## Findings
 
-### ALL Data
-
+### ALL Projects
+- All data
 ```
 > length(scores)
 [1] 11980
@@ -271,7 +271,7 @@ sample estimates:
 -0.1948247
 ```
 
-### With Findings
+- With Findings
 
 ```
 > length(scores)
@@ -300,7 +300,7 @@ sample estimates:
 -0.08300477
 ```
 
-### Whithout Findings
+- Whithout Findings
 ```
 > length(scores)
 [1] 7163
@@ -327,3 +327,468 @@ sample estimates:
  mean of x
 -0.2699986
 ```
+
+### DROPWIZARD
+
+- With findings
+```
+> length(scores)
+[1] 132
+> mean(scores)
+[1] -0.25
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 2862, p-value = 0.01866
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -2.5458, df = 131, p-value = 0.01206
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.4442625 -0.0557375
+sample estimates:
+mean of x
+    -0.25
+```
+
+- Without findings
+```
+> length(scores)
+[1] 505
+> mean(scores)
+[1] -0.3762376
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 35700, p-value = 6.466e-13
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -7.657, df = 504, p-value = 9.794e-14
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.4727754 -0.2796998
+sample estimates:
+ mean of x
+-0.3762376
+```
+
+### GUAVA
+
+- With findings
+```
+> length(scores)
+[1] 720
+> mean(scores)
+[1] -0.3458333
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 61672, p-value < 2.2e-16
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -8.8035, df = 719, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.4229578 -0.2687089
+sample estimates:
+ mean of x
+-0.3458333
+```
+
+- Without findings
+```
+> length(scores)
+[1] 759
+> mean(scores)
+[1] -0.3386034
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 71026, p-value < 2.2e-16
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -8.98, df = 758, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.4126249 -0.2645820
+sample estimates:
+ mean of x
+-0.3386034
+```
+
+### JAVA-TRON
+
+- With findings
+```
+> length(scores)
+[1] 59
+> mean(scores)
+[1] -0.01694915
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 672, p-value = 0.8682
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -0.12115, df = 58, p-value = 0.904
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.2970054  0.2631071
+sample estimates:
+  mean of x
+-0.01694915
+```
+
+- Without findings
+```
+> length(scores)
+[1] 456
+> mean(scores)
+[1] -0.372807
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 31160, p-value = 3.197e-12
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -7.1977, df = 455, p-value = 2.547e-12
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.4745952 -0.2710189
+sample estimates:
+mean of x
+-0.372807
+```
+
+### KAFKA
+
+- With findings
+```
+> length(scores)
+[1] 702
+> mean(scores)
+[1] -0.3717949
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 54762, p-value < 2.2e-16
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -10.246, df = 701, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.4430384 -0.3005513
+sample estimates:
+ mean of x
+-0.3717949
+```
+
+- Without findings
+```
+> length(scores)
+[1] 1422
+> mean(scores)
+[1] -0.5576653
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 168020, p-value < 2.2e-16
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -23.893, df = 1421, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.6034499 -0.5118806
+sample estimates:
+ mean of x
+-0.5576653
+```
+
+### MOCKITO
+
+- With findings
+```
+> length(scores)
+[1] 915
+> mean(scores)
+[1] 0.4601093
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 226370, p-value < 2.2e-16
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = 16.05, df = 914, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 0.4038478 0.5163708
+sample estimates:
+mean of x
+0.4601093
+```
+
+- Without findings
+```
+> length(scores)
+[1] 1278
+> mean(scores)
+[1] 0.286385
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 423240, p-value < 2.2e-16
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = 10.19, df = 1277, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 0.2312463 0.3415237
+sample estimates:
+mean of x
+ 0.286385
+```
+
+### NETTY
+
+- With findings
+```
+> length(scores)
+[1] 1521
+> mean(scores)
+[1] -0.2952005
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 297270, p-value < 2.2e-16
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -10.853, df = 1520, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.3485541 -0.2418470
+sample estimates:
+ mean of x
+-0.2952005
+```
+
+- Without findings
+```
+> length(scores)
+[1] 1549
+> mean(scores)
+[1] -0.4983861
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 263510, p-value < 2.2e-16
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -18.799, df = 1548, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.5503866 -0.4463855
+sample estimates:
+ mean of x
+-0.4983861
+```
+
+### RXJAVA
+
+- With findings
+```
+> length(scores)
+[1] 548
+> mean(scores)
+[1] 0.4379562
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 81326, p-value < 2.2e-16
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = 12.006, df = 547, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 0.3663001 0.5096123
+sample estimates:
+mean of x
+0.4379562
+```
+
+- Without findings
+```
+> length(scores)
+[1] 812
+> mean(scores)
+[1] -0.01477833
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 136280, p-value = 0.765
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -0.40899, df = 811, p-value = 0.6827
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.08570551  0.05614886
+sample estimates:
+  mean of x
+-0.01477833
+```
+
+### TUTORIALS
+
+- With findings
+```
+> length(scores)
+[1] 222
+> mean(scores)
+[1] -0.3063063
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 6847.5, p-value = 2.778e-05
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -4.3155, df = 221, p-value = 2.403e-05
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.4461875 -0.1664252
+sample estimates:
+ mean of x
+-0.3063063
+```
+
+- Without findings
+```
+> length(scores)
+[1] 382
+> mean(scores)
+[1] -0.2774869
+> wilcox.test(scores)
+
+        Wilcoxon signed rank test with continuity correction
+
+data:  scores
+V = 23060, p-value = 1.126e-06
+alternative hypothesis: true location is not equal to 0
+
+> t.test(scores)
+
+        One Sample t-test
+
+data:  scores
+t = -5.0664, df = 381, p-value = 6.332e-07
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ -0.3851758 -0.1697980
+sample estimates:
+ mean of x
+-0.2774869
+```
+
