@@ -153,7 +153,7 @@ AND (S.Positive > 1 OR S.Negative < -1);
 ### All data
 
 - Wilcoxon
-```
+```R
 > wilcox.test(scores)
 
         Wilcoxon signed rank test with continuity correction
@@ -165,7 +165,7 @@ alternative hypothesis: true location is not equal to 0
 
 - T.test
 
-```
+```R
 > t.test(scores)
 
         One Sample t-test
@@ -184,7 +184,7 @@ sample estimates:
 
 - Wilcoxon
 
-```
+```R
 > wilcox.test(scores)
 
         Wilcoxon signed rank test with continuity correction
@@ -195,7 +195,7 @@ alternative hypothesis: true location is not equal to 0
 ```
 
 - T.test
-```
+```R
 > t.test(scores)
 
         One Sample t-test
@@ -213,7 +213,7 @@ sample estimates:
 ### Without refactorings
 
 - Wilcoxon
-```
+```R
 > wilcox.test(scores)
 
         Wilcoxon signed rank test with continuity correction
@@ -224,7 +224,7 @@ alternative hypothesis: true location is not equal to 0
 ```
 
 - T.test
-```
+```R
 > t.test(scores)
 
         One Sample t-test
@@ -244,7 +244,7 @@ mean of x
 
 ### ALL Projects
 - All data
-```
+```R
 > length(scores)
 [1] 11980
 > mean(scores)
@@ -273,7 +273,7 @@ sample estimates:
 
 - With Findings
 
-```
+```R
 > length(scores)
 [1] 4819
 > mean(scores)
@@ -301,7 +301,7 @@ sample estimates:
 ```
 
 - Whithout Findings
-```
+```R
 > length(scores)
 [1] 7163
 > mean(scores)
@@ -331,7 +331,7 @@ sample estimates:
 ### DROPWIZARD
 
 - With findings
-```
+```R
 > length(scores)
 [1] 132
 > mean(scores)
@@ -359,7 +359,7 @@ mean of x
 ```
 
 - Without findings
-```
+```R
 > length(scores)
 [1] 505
 > mean(scores)
@@ -389,7 +389,7 @@ sample estimates:
 ### GUAVA
 
 - With findings
-```
+```R
 > length(scores)
 [1] 720
 > mean(scores)
@@ -417,7 +417,7 @@ sample estimates:
 ```
 
 - Without findings
-```
+```R
 > length(scores)
 [1] 759
 > mean(scores)
@@ -447,7 +447,7 @@ sample estimates:
 ### JAVA-TRON
 
 - With findings
-```
+```R
 > length(scores)
 [1] 59
 > mean(scores)
@@ -475,7 +475,7 @@ sample estimates:
 ```
 
 - Without findings
-```
+```R
 > length(scores)
 [1] 456
 > mean(scores)
@@ -505,7 +505,7 @@ mean of x
 ### KAFKA
 
 - With findings
-```
+```R
 > length(scores)
 [1] 702
 > mean(scores)
@@ -533,7 +533,7 @@ sample estimates:
 ```
 
 - Without findings
-```
+```R
 > length(scores)
 [1] 1422
 > mean(scores)
@@ -563,7 +563,7 @@ sample estimates:
 ### MOCKITO
 
 - With findings
-```
+```R
 > length(scores)
 [1] 915
 > mean(scores)
@@ -591,7 +591,7 @@ mean of x
 ```
 
 - Without findings
-```
+```R
 > length(scores)
 [1] 1278
 > mean(scores)
@@ -621,7 +621,7 @@ mean of x
 ### NETTY
 
 - With findings
-```
+```R
 > length(scores)
 [1] 1521
 > mean(scores)
@@ -679,7 +679,7 @@ sample estimates:
 ### RXJAVA
 
 - With findings
-```
+```R
 > length(scores)
 [1] 548
 > mean(scores)
@@ -707,7 +707,7 @@ mean of x
 ```
 
 - Without findings
-```
+```R
 > length(scores)
 [1] 812
 > mean(scores)
@@ -737,7 +737,7 @@ sample estimates:
 ### TUTORIALS
 
 - With findings
-```
+```R
 > length(scores)
 [1] 222
 > mean(scores)
@@ -765,7 +765,7 @@ sample estimates:
 ```
 
 - Without findings
-```
+```R
 > length(scores)
 [1] 382
 > mean(scores)
